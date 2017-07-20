@@ -1412,3 +1412,7 @@ button.btn-addCustom {
 .box-card .card-bottom .fa-calendar {color: #c10000; }
 
 .note-editable p{line-height: 0px; color: #555;}
+
+.margin-fix{
+    margin-top:5px;
+}

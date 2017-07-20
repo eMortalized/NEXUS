@@ -335,8 +335,7 @@
     </div>
 
     <!-- Col 3 -->
-    <div class="col-md-4">
-
+    <div class="col-md-12">
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
@@ -345,6 +344,9 @@
             
         </div>
         </div>
+    </div>
+    <div class="col-md-4">
+
         
         <div class="arrayFields field-grandchild" ng-show="grandchild">  
             
@@ -446,7 +448,7 @@
     
     <div class="col-md-4">
         
-        <div class="arrayFields" ng-show="grandchild"> 
+        <div class="arrayFields margin-fix" ng-show="grandchild"> 
              <!-- Array Head -->
             <div class="row arrayHead">
                 <div class="col-xs-2">
@@ -482,7 +484,7 @@
     
     <div class="col-md-4">
         
-        <div class="form-group" ng-show="grandchild">
+        <div class="form-group " ng-show="grandchild">
             <div class="row">
             <div class="col-sm-12">
                 <label class="custom-display" for="grandparenting">Grandparenting is... <label for="grandparenting_upload" class="custom-file-upload">
