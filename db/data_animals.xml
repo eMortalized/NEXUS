@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <database name="emortalized_db">
+        <!-- Table data_animals -->
+        <table name="data_animals">
+            <column name="Animals">Aardvark    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Aardwolf    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Albatross    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Alligator    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Alpaca    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Amphibian    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Anaconda    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Angelfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Anglerfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ant    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Anteater    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Antelope    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Antlion    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ape    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Aphid    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Armadillo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Asp    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ass (donkey)   </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Baboon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Badger    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bandicoot    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Barnacle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Barracuda    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Basilisk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bass    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bat, fruit  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bat, vampire  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bear    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bear, grizzly  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bear, polar  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Beaver    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bedbug    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bee    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Beetle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Beetle, dung  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bird    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bird, blue  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bison    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Blackbird    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Boa    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Boa, water  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Boar (wild pig)  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bobcat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bobolink    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bonobo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Booby    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bovid    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Buffalo, african   </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Buffalo, american (bison)  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Buffalo, cape  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Buffalo, water  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Bug    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Butterfly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Buzzard    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Camel    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Canid    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Capybara    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cardinal    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Caribou    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Carp    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cat, saber-toothed  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Caterpillar    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Catfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Catshark    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cattle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Centipede    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cephalopod    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chameleon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cheetah    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chickadee    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chicken    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chimpanzee    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chinchilla    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Chipmunk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cicada    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Clam    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Clownfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cobra    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cockroach    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cod    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Condor    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Constrictor    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Coral    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cougar    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cow    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Coyote    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crab    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crab, arrow  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crab, hermit  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crane    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crane, whooping  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crawdad    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crayfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cricket    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crocodile    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Crow    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Cuckoo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Damselfly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Deer    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Devil, tasmanian  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dingo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dinosaur    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dog    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dog, prairie  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dolphin    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Donkey    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dormouse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dove    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dragon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dragon, komodo  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Dragonfly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Duck    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Eagle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Eagle, bald  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Earthworm    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Earwig    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Echidna    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Eel    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Egret    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Elephant    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Elephant, african  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Elk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Emu    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ermine    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Falcon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Falcon, peregrine  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ferret    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Finch    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Finch, zebra  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Firefly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fish, x-ray  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Flamingo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Flea    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fly, crane  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Flyingfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fox    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Fox, arctic  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Frog    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Frog, tree  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Galliform    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gamefowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gazelle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gecko    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gerbil    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gibbon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Giraffe    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Glider, sugar  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Goat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Goat, mountain  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Goldfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Goose    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gopher    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gorilla    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Grasshopper    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Grouse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Guan    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Guanaco    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Guineafowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Gull    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Guppy    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Haddock    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Halibut    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hamster    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hare    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Harrier    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hawk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hedgehog    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Heron    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Heron, great blue </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Herring    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hippopotamus    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hookworm    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hornet    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Horse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hoverfly    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hummingbird    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hybrid, panthera  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Hyena    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Iguana    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Impala    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Insect, scale  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jackal    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jaguar    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jay    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jay, blue  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jellyfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jellyfish, box  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Jellyfish, irukandji  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Junglefowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Kangaroo    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Kingfisher    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Kite    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Kiwi    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Koala    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Koi    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Krill    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ladybug    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lamprey    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Landfowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lark    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leech    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lemming    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lemur    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leopard    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leopard, african  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leopard, arabian  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leopard, snow  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Leopon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Limpet    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lion    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lion, sea  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lizard    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lizard, monitor  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Llama    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lobster    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Locust    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Loon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Louse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lungfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Lynx    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Macaw    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mackerel    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Magpie    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mammal    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Manatee    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mandrill    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mantis, praying  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Marlin    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Marmoset    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Marmot    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Marsupial    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Marten    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mastodon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Meadowlark    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Meerkat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mink    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Minnow    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mite    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mockingbird    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mole    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mole, star-nosed  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mollusk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mongoose    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Monkey    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Monkey, spider  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Monster, gila  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Moose    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mosquito    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Moth    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mouse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mouse, kangaroo  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Mule    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Muskox    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Narwhal    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Newt    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Nightingale    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ocelot    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Octopus    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Opossum    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Orangutan    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Orca    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ostrich    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Otter    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Owl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ox    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Panda    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Panda, giant  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Panda, red  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Panther    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Panther, black  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Parakeet    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Parrot    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Parrotfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Partridge    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Peacock    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Peafowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pelican    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Penguin    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Perch    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Perch, yellow  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pheasant    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pig    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pig, guinea  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pigeon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pike    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pinniped    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Piranha    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Planarian    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Platypus    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Pony    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Porcupine    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Porpoise    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Portuguese man o' war </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Possum    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Prawn    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Primate    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ptarmigan    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Puffin    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Puma    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Python    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Quail    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Quail, new world </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Quail, old world </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Quelea    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Quokka    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rabbit    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Raccoon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rat, kangaroo  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rattlesnake    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Raven    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ray (batoidea)   </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ray (rajiformes)   </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Ray, manta  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Reindeer    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Reptile    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rhinoceros    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Roadrunner    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Robin, american  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rodent    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rook    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Rooster    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Roundworm    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sailfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Salamander    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Salmon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Salmon, sockeye  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sawfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Scallop    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Scorpion    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Seahorse    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Seal, elephant  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shark    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shark, great white </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shark, ground  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shark, hammerhead  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shark, tiger  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sheep    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shrew    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Shrimp    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Silkworm    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Silverfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Skink    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Skunk    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sloth    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sloth, ground  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Slug    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Slug, sea  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Smelt    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Snail    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Snail, land  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Snail, sea  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Snake    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Snipe    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sole    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sparrow    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Spider    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Spider, black widow </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Spider, trapdoor  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Spoonbill    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Squid    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Squid, giant  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Squid, vampire  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Squirrel    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Starfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Stingray    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Stoat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Stork    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Sturgeon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Swallow    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Swan    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Swift    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Swordfish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Swordtail    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tahr    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Takin    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tapir    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tarantula    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tarsier    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Termite    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tern    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Thrush    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tick    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tiger    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tiglon    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Toad    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tortoise    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Toucan    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Trout    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Trout, rainbow  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Trout, steelhead  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Tuna    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Turkey    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Turtle    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Urial    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Vicuna    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Viper    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Vole    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Vulture    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wallaby    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Walrus    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Warbler    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wasp    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Weasel    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, beaked  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, blue  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, humpback  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, pilot  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, right  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whale, sperm  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whippet    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Whitefish    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wildcat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wildebeest    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wildfowl    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wolf    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wolf, arctic  </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wolverine    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wombat    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Woodpecker    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Worm    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Wren    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Xerinae    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Yak    </column>
+        </table>
+        <table name="data_animals">
+            <column name="Animals">Zebra    </column>
+        </table>
+    </database>

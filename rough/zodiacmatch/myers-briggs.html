@@ -1,0 +1,57 @@
+<script>
+function myersbriggs(a,b)
+{
+    
+    red="Uh-Oh, Think This One Through";
+    yellow="It could Work, But Not Ideal";
+    lightgreen="One Sided Match";
+    darkgreen="It's Got a Good Chance";
+    blue="Often Listed as an Ideal Match";
+    
+    var astromatcharray=new Array();
+    astromatcharray[0]=["","INFP","ENFP","INFJ","ENFJ","INTJ","ENTJ","INTP","ENTP","ISFP","ESFP","ISTP","ESTP","ISFJ","ESFJ","ISTJ","ESTJ"];
+    astromatcharray[1]=["INFP",darkgreen,darkgreen,darkgreen,blue,darkgreen,blue,darkgreen,darkgreen,red,red,red,red,red,red,red,red];
+    astromatcharray[2]=["ENFP",darkgreen,darkgreen,blue,darkgreen,blue,darkgreen,darkgreen,darkgreen,red,red,red,red,red,red,red,red];
+    astromatcharray[3]=["INFJ",darkgreen,blue,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,blue,red,red,red,red,red,red,red,red];
+    astromatcharray[4]=["ENFJ",blue,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,blue,red,red,red,red,red,red,red];
+    astromatcharray[5]=["INTJ",darkgreen,blue,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,blue,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow];
+    astromatcharray[6]=["ENTJ",blue,darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,blue,darkgreen,lightgreen,lightgreen,lightgreen,lightgreen,lightgreen,lightgreen,lightgreen,lightgreen];
+    astromatcharray[7]=["INTP",darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,blue,darkgreen,darkgreen,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,blue];
+    astromatcharray[8]=["ENTP",darkgreen,darkgreen,blue,darkgreen,blue,darkgreen,darkgreen,darkgreen,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow];
+    astromatcharray[9]=["ISFP",red,red,red,blue,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow,lightgreen,blue,lightgreen,blue];
+    astromatcharray[10]=["ESFP",red,red,red,red,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow,blue,lightgreen,blue,lightgreen];
+    astromatcharray[11]=["ISTP",red,red,red,red,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow,lightgreen,blue,lightgreen,blue];
+    astromatcharray[12]=["ESTP",red,red,red,red,lightgreen,lightgreen,lightgreen,lightgreen,yellow,yellow,yellow,yellow,blue,lightgreen,blue,lightgreen];
+    astromatcharray[13]=["ISFJ",red,red,red,red,yellow,lightgreen,yellow,yellow,lightgreen,blue,lightgreen,blue,darkgreen,darkgreen,darkgreen,darkgreen];
+    astromatcharray[14]=["ESFJ",red,red,red,red,yellow,lightgreen,yellow,yellow,blue,lightgreen,blue,lightgreen,darkgreen,darkgreen,darkgreen,darkgreen];
+    astromatcharray[15]=["ISTJ",red,red,red,red,yellow,lightgreen,yellow,yellow,lightgreen,blue,lightgreen,blue,darkgreen,darkgreen,darkgreen,darkgreen];
+    astromatcharray[16]=["ESTJ",red,red,red,red,yellow,lightgreen,blue,yellow,blue,lightgreen,blue,lightgreen,darkgreen,darkgreen,darkgreen,darkgreen];
+    
+
+          
+    for(i=1;i<=16;i++)
+    {
+        
+        if(astromatcharray[0][i]==a)
+        {
+            break;
+        }
+    }
+    
+    for(j=1;j<=16;j++)
+    {
+            if(astromatcharray[j][0]==b)
+            {
+                
+               return astromatcharray[j][i];
+               break;
+            }
+            
+    }
+}
+var result=myersbriggs("ENTP","ISFJ"); 
+alert(result);
+    
+    
+    
+</script>

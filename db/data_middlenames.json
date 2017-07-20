@@ -1,0 +1,6 @@
+[ { "value": 1 , "text": "Amsterdam"   , "continent": "Europe"    },
+  { "value": 2 , "text": "London"      , "continent": "Europe"    },
+  { "value": 3 , "text": "Paris"       , "continent": "Europe"    },
+  { "value": 4 , "text": "Washington"  , "continent": "America"   },
+  { "value": 5 , "text": "Mexico City" , "continent": "America"   },
+]
