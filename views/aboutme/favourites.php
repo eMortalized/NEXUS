@@ -288,7 +288,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="cityNarrative">City narrative <label for="cityNarrative_upload" class="custom-file-upload">
@@ -299,7 +299,7 @@
                     <input type="text" class="form-control" id="cityNarrative" name="cityNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
             <div class="row">
@@ -314,7 +314,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="spotNarrative">Spot narrative <label for="spotNarrative_upload" class="custom-file-upload">
@@ -325,7 +325,7 @@
                     <input type="text" class="form-control" id="spotNarrative" name="spotNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
             <div class="row">
@@ -340,7 +340,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="momentNarrative">Moment narrative <label for="momentNarrative_upload" class="custom-file-upload">
@@ -351,7 +351,7 @@
                     <input type="text" class="form-control" id="momentNarrative" name="momentNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
             <div class="row">
@@ -376,12 +376,12 @@
                         </label><input type="file" id="restaurantAddress_upload" name="restaurantAddress_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter exact address."><i class="fa fa-info-circle"></i></a></label>
                 </div>
                 <div class="col-sm-12 noPadding">
-                    <textarea class="form-control" id="restaurantAddress" name="restaurantAddress" maxlength="150"></textarea>
+                    <input type="text" class="form-control" id="restaurantAddress" name="restaurantAddress" maxlength="150" />
                 </div>
             </div>
         </div>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="restaurantNarrative">Restaurant narrative <label for="restaurantNarrative_upload" class="custom-file-upload">
@@ -392,7 +392,7 @@
                     <input type="text" class="form-control" id="restaurantNarrative" name="restaurantNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
             <div class="row">
@@ -413,7 +413,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="personNarrative">Person narrative <label for="personNarrative_upload" class="custom-file-upload">
@@ -424,7 +424,7 @@
                     <input type="text" class="form-control" id="personNarrative" name="personNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
             <div class="row">
@@ -445,7 +445,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="friendNarrative">Friend narrative <label for="friendNarrative_upload" class="custom-file-upload">
@@ -456,10 +456,10 @@
                     <input type="text" class="form-control" id="friendNarrative" name="friendNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="arrayFields">
-            <!-- Array Head -->
+<!--        <div class="arrayFields">
+             Array Head 
             <div class="row arrayHead">
                 <div class="col-xs-2">
                     <switch name="pet" ng-model="pet"></switch>
@@ -468,9 +468,9 @@
                     <span ng-hide="pet" class="fixPlace">Pet</span>
                 </div>
             </div>
-            <!-- Array Head -->
+             Array Head 
 
-            <!-- Array Body -->
+             Array Body 
             <div class="arrayBody" ng-show="pet">
                 <div class="form-group">
                     <div class="row">
@@ -489,12 +489,13 @@
                                 }
                                 ?>  
                             </select>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="form-group">
+                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="petNarrative">Pet narrative <label for="petNarrative_upload" class="custom-file-upload">
@@ -503,16 +504,17 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <textarea class="form-control" id="petNarrative" name="petNarrative"></textarea>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
                 </div>
+                
+                        
                 <div class="form-group resultform sortable">
 
 
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -533,7 +535,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="celebrityNarrative">Celebrity narrative <label for="celebrityNarrative_upload" class="custom-file-upload">
@@ -544,7 +546,7 @@
                     <input type="text" class="form-control" id="celebrityNarrative" name="celebrityNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="arrayFields">
 
@@ -635,7 +637,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="beverageNarrative">Beverage narrative <label for="beverageNarrative_upload" class="custom-file-upload">
@@ -646,7 +648,7 @@
                     <input type="text" class="form-control" id="beverageNarrative" name="beverageNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -749,7 +751,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="colourNarrative">Colour narrative <label for="colourNarrative_upload" class="custom-file-upload">
@@ -760,7 +762,7 @@
                     <input type="text" class="form-control" id="colourNarrative" name="colourNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -775,7 +777,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="authorNarrative">Author narrative <label for="authorNarrative_upload" class="custom-file-upload">
@@ -786,7 +788,7 @@
                     <input type="text" class="form-control" id="authorNarrative" name="authorNarrative" maxlength="1000"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="arrayFields">  
             <!-- Array Head -->
@@ -819,12 +821,14 @@
                                     <i class="fa fa-search"></i>
                                 </div>
                             </div>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="bookNarrative">Books narrative <label for="bookNarrative_upload" class="custom-file-upload">
@@ -833,10 +837,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="bookNarrative" name="bookNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 
@@ -857,7 +860,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="poemNarrative">Poem narrative <label for="poemNarrative_upload" class="custom-file-upload">
@@ -868,7 +871,7 @@
                     <input type="text" class="form-control" id="poemNarrative" name="poemNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -883,7 +886,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="poetNarrative">Poet narrative <label for="poetNarrativen_upload" class="custom-file-upload">
@@ -894,7 +897,7 @@
                     <input type="text" class="form-control" id="poetNarrative" name="poetNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -912,7 +915,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="philosopherNarrative">Philosopher narrative <label for="philosopherNarrative_upload" class="custom-file-upload">
@@ -923,7 +926,7 @@
                     <input type="text" class="form-control" id="philosopherNarrative" name="philosopherNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -938,7 +941,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="philosophyNarrative">Philosophy narrative <label for="philosophyNarrative_upload" class="custom-file-upload">
@@ -949,7 +952,7 @@
                     <input type="text" class="form-control" id="philosophyNarrative" name="philosophyNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="arrayFields">
             <!-- Array Head -->
@@ -974,11 +977,13 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="expressions" name="expressions" maxlength="50"/>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="expressionnarrative">Expressions narrative <label for="expressionnarrative_upload" class="custom-file-upload">
@@ -987,10 +992,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="expressionnarrative" name="expressionnarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 
@@ -1104,7 +1108,7 @@
             </div>
         </div>
         
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="flowerNarrative">Flower narrative <label for="flowerNarrative_upload" class="custom-file-upload">
@@ -1115,7 +1119,7 @@
                     <input type="text" class="form-control" id="flowerNarrative" name="flowerNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -1138,7 +1142,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="animalNarrative">Animal narrative <label for="animalNarrative_upload" class="custom-file-upload">
@@ -1149,7 +1153,7 @@
                     <input type="text" class="form-control" id="animalNarrative" name="animalNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -1164,7 +1168,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="clothingNarrative">Clothing narrative <label for="clothingNarrative_upload" class="custom-file-upload">
@@ -1175,7 +1179,7 @@
                     <input type="text" class="form-control" id="clothingNarrative" name="clothingNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
         <div class="form-group">
@@ -1191,7 +1195,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="jewelleryNarrative">Jewellery narrative <label for="jewelleryNarrative_upload" class="custom-file-upload">
@@ -1202,7 +1206,7 @@
                     <input type="text" class="form-control" id="jewelleryNarrative" name="jewelleryNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="arrayFields">  
             <!-- Array Head -->
@@ -1241,11 +1245,13 @@
                                     <i class="fa fa-search"></i>
                                 </div>
                             </div>
+                            
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="musicianNarrative">Musician narrative <label for="musicianNarrative_upload" class="custom-file-upload">
@@ -1254,10 +1260,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="musicianNarrative" name="musicianNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
-                        </div>
+                            </div>
                     </div>
-                </div>
+                </div>-->
 
                 <div class="form-group resultform sortable">
 
@@ -1289,11 +1294,13 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="songs" name="songs" maxlength="50"/>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="songNarrative">Song narrative <label for="songNarrative_upload" class="custom-file-upload">
@@ -1302,10 +1309,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="songNarrative" name="songNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 
@@ -1350,11 +1356,13 @@
                                     <i class="fa fa-search"></i>
                                 </div>
                             </div>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="movieNarrative">Movies narrative <label for="movieNarrative_upload" class="custom-file-upload">
@@ -1363,10 +1371,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="movieNarrative" name="movieNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
-                        </div>
+                            </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 
@@ -1413,11 +1420,13 @@
                                     <i class="fa fa-search"></i>
                                 </div>
                             </div>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="tvShowNarrative">TV show narrative <label for="tvShowNarrative_upload" class="custom-file-upload">
@@ -1426,10 +1435,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="tvShowNarrative" name="tvShowNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 
@@ -1451,7 +1459,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="gameNarrative">Game narrative <label for="gameNarrativezodiacSign_upload" class="custom-file-upload">
@@ -1462,7 +1470,7 @@
                     <input type="text" class="form-control" id="gameNarrative" name="gameNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -1477,7 +1485,7 @@
             </div>
         </div>
 
-        <div class="form-group">
+<!--        <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="GRNarrative">GR narrative <label for="GRNarrative_upload" class="custom-file-upload">
@@ -1488,7 +1496,7 @@
                     <input type="text" class="form-control" id="GRNarrative" name="GRNarrative" maxlength="100"/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="form-group">
             <div class="row">
@@ -1526,11 +1534,13 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="things" name="things" maxlength="50"/>
+                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                        
                         </div>
                     </div>
                 </div>
 
-                <div class="form-group">
+<!--                <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
                             <label class="custom-display" for="thingNarrative">Thing narrative <label for="thingNarrative_upload" class="custom-file-upload">
@@ -1539,10 +1549,9 @@
                         </div>
                         <div class="col-sm-12 noPadding">
                             <input type="text" class="form-control" id="thingNarrative" name="thingNarrative" maxlength="100"/>
-                            <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="form-group resultform sortable">
 
 

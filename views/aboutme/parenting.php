@@ -264,7 +264,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="parenting">Parenting is..  <label for="parenting_upload" class="custom-file-upload">
+                <label class="custom-display" for="parenting">Parenting is...  <label for="parenting_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="parenting_upload" name="parenting_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -277,7 +277,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="parentingGood">A Good parent..  <label for="parentingGood_upload" class="custom-file-upload">
+                <label class="custom-display" for="parentingGood">A Good parent...  <label for="parentingGood_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="parentingGood_upload" name="parentingGood_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -290,7 +290,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="parentingWish">I wish I.. <label for="parentingWish_upload" class="custom-file-upload">
+                <label class="custom-display" for="parentingWish">I wish I... <label for="parentingWish_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="parentingWish_upload" name="parentingWish_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -489,7 +489,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="grandparenting">Grandparenting is.. <label for="grandparenting_upload" class="custom-file-upload">
+                <label class="custom-display" for="grandparenting">Grandparenting is... <label for="grandparenting_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="grandparenting_upload" name="grandparenting_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -502,7 +502,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="grandparentingGood">A good grandparent.. <label for="grandparentingGood_upload" class="custom-file-upload">
+                <label class="custom-display" for="grandparentingGood">A good grandparent... <label for="grandparentingGood_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="grandparentingGood_upload" name="grandparentingGood_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -515,7 +515,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="grandparentingWish">I wish I.. <label for="grandparentingWish_upload" class="custom-file-upload">
+                <label class="custom-display" for="grandparentingWish">I wish I... <label for="grandparentingWish_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="grandparentingWish_upload" name="grandparentingWish_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>
@@ -528,7 +528,7 @@
         <div class="form-group">
             <div class="row">
             <div class="col-sm-12">
-                <label class="custom-display" for="grandparentingImportant">The most important lesson for my grandchildren is.. <label for="grandparentingImportant_upload" class="custom-file-upload">
+                <label class="custom-display" for="grandparentingImportant">The most important lesson for my grandchildren is... <label for="grandparentingImportant_upload" class="custom-file-upload">
                         <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                     </label><input type="file" id="grandparentingImportant_upload" name="grandparentingImportant_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a brief answer that completes the sentence, as would be said in the voice of the individual."><i class="fa fa-info-circle"></i></a></label>
             </div>

@@ -59,7 +59,8 @@
     $(".my-colorpicker2").colorpicker();
 
     //Timepicker
-    $(".timepicker").timepicker({
-      showInputs: false
-    });
+//    $(".timepicker").timepicker({
+//        minuteStep: 11,
+//        secondStep: 5
+//    });
   });
