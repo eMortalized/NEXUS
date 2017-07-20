@@ -85,7 +85,7 @@
                                 </label><input type="file" id="fortunes_upload" name="fortunes_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter any fortunes told by fortune tellers, with any other details which help to make the story rich.  Describe the impact of the experience."><i class="fa fa-info-circle"></i></a></label>
                         </div>
                         <div class="col-sm-12 noPadding">
-                            <textarea class="form-control" id="fortunes" name="fortunes"></textarea>
+                            <textarea class="form-control" id="fortunes" name="fortunes" required></textarea>
 
                         </div>
 
@@ -148,7 +148,7 @@
                                 </label><input type="file" id="premonitions_upload" name="premonitions_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter any premonitions experienced, with any other details which help to make the story rich.  Describe the impact of the experience."><i class="fa fa-info-circle"></i></a></label>
                         </div>
                         <div class="col-sm-12 noPadding">
-                            <textarea class="form-control" id="premonitions" name="premonitions"></textarea>
+                            <textarea class="form-control" id="premonitions" required name="premonitions"></textarea>
 
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                                 </label><input type="file" id="lifeChangingExperiences_upload" name="lifeChangingExperiences_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter any life-changing experiences, with any other details which help to make the story rich.  Describe the impact of the experience."><i class="fa fa-info-circle"></i></a></label>
                         </div>
                         <div class="col-sm-12 noPadding">
-                            <textarea class="form-control" id="lifeChangingExperiences" name="lifeChangingExperiences"></textarea>
+                            <textarea class="form-control" id="lifeChangingExperiences" required name="lifeChangingExperiences"></textarea>
 
                         </div>
                     </div>
