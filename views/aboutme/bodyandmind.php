@@ -348,7 +348,7 @@
                                     <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i></label><input type="file" id="milestones_upload" name="milestones_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter a health milestone that is significant.  Examples including getting braces, having wisdom teeth removed, undergoing surgery, being diagnosed with a disease, etc."><i class="fa fa-info-circle"></i></a></label>
                         </div>
                         <div class="col-sm-12 noPadding">
-                            <input type="text" class="form-control" id="milestones" name="milestones" maxlength="256"/>
+                            <input type="text" class="form-control" id="milestones" name="milestones" maxlength="256" required/>
                         </div>
                     </div>
                 </div>

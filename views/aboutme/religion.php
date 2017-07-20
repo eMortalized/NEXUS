@@ -99,7 +99,7 @@
                                     </label><input type="file" id="religiousCeremony_upload" name="religiousCeremony_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter any religious experiences, ceremony or ritual performed like Baptism, Bar Mitzvah, Hajj, Muran, etc."><i class="fa fa-info-circle"></i></a></label>
                             </div>
                             <div class="col-sm-12 noPadding">
-                                <input type="text" class="form-control" id="religiousCeremony" name="religiousCeremony"/>
+                                <input type="text" class="form-control" id="religiousCeremony" name="religiousCeremony" required/>
 
                             </div>
                         </div>

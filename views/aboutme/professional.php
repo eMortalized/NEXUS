@@ -261,7 +261,7 @@
                         </label><input type="file" id="credential_upload" name="credential_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter the credential or designation earned.  Enter the complete name, and include the acronym in brackets at the end if appropriate."><i class="fa fa-info-circle"></i></a> </label>
                 </div>
                 <div class="col-sm-12 noPadding">
-                    <input type="text" class="form-control" name='credential' id='credential' maxlength="70"/>
+                    <input type="text" class="form-control" name='credential' required id='credential' maxlength="70"/>
                 </div>
             </div>
         </div>
@@ -313,7 +313,7 @@
                         </label><input type="file" id="license_upload" name="license_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter the license earned.  Enter the complete name, and include the acronym in brackets at the end if appropriate."><i class="fa fa-info-circle"></i></a> </label>
                 </div>
                 <div class="col-sm-12 noPadding">
-                    <input type="text" class="form-control" name='license' id='license' maxlength="70"/>
+                    <input type="text" class="form-control" name='license' required id='license' maxlength="70"/>
                 </div>
             </div>
         </div>
@@ -373,7 +373,7 @@
                         </label><input type="file" id="certification_upload" name="certification_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter the certification earned.  Enter the complete name, and include the acronym in brackets at the end if appropriate."><i class="fa fa-info-circle"></i></a> </label>
                 </div>
                 <div class="col-sm-12 noPadding">
-                    <input type="text" class="form-control" name='certification' id='certification' maxlength="70"/>
+                    <input type="text" class="form-control" name='certification' required id='certification' maxlength="70"/>
                 </div>
             </div>
         </div>
