@@ -400,25 +400,13 @@
                                 </div>
                                 <div class="col-sm-12 noPadding">
                                     <input type="text" class="typehead form-control" id="awards" name="awards"/>
+                                     <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
+                
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <label class="custom-display" for="memoir">Memoir <label for="memoir_upload" class="custom-file-upload">
-                                            <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
-                                        </label><input type="file" id="memoir_upload" name="memoir_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter the wisdom obtained in this area that is legacy to others."><i class="fa fa-info-circle"></i></a></label>
-                                </div>
-                                <div class="col-sm-12 noPadding">
-                                    <textarea class="form-control" id="memoir" name="memoir" rows="5"></textarea>
-                                    <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-sm-12">
                         <div class="form-group resultform sortable">
 
@@ -437,6 +425,20 @@
     <!-- End of Col 1 -->
 
     <!-- Col 2 -->
+    <div class="col-sm-12">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="custom-display" for="memoir">Memoir <label for="memoir_upload" class="custom-file-upload">
+                            <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
+                        </label><input type="file" id="memoir_upload" name="memoir_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter the wisdom obtained in this area that is legacy to others."><i class="fa fa-info-circle"></i></a></label>
+                </div>
+                <div class="col-sm-12 noPadding">
+                    <textarea class="form-control" id="memoir" name="memoir" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="col-md-12 text-center">
