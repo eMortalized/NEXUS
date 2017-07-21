@@ -51,7 +51,7 @@
                         <label class="label_grid1"><img src="img/aboutme/passions_causes.jpg" class="img_grid" ><input type="radio" name="activeGrid" ng-model="activeGrid" value="causes"  class="hidden_radio"><span>Passions & Causes </span> </label>
                     </div>
                     <div class="gridsm">   
-                        <label class="label_grid1"><img src="img/aboutme/wisdom.jpg" class="img_grid" ><input type="radio" name="activeGrid" ng-model="activeGrid" value="wisdom"  class="hidden_radio"><span>Wisdom & Memoirs</span> </label>
+                        <label class="label_grid1"><img src="img/aboutme/wisdom.jpg" class="img_grid" ><input type="radio" name="activeGrid" ng-model="activeGrid" value="wisdom"  class="hidden_radio"><span>Wisdom & Stories</span> </label>
                     </div>
                     <div class="gridsm">   
                         <label class="label_grid1"><img src="img/aboutme/parenting.jpg" class="img_grid" ><input type="radio" name="activeGrid" ng-model="activeGrid" value="parenting"  class="hidden_radio"><span> Parenting </span> </label>
