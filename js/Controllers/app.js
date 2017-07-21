@@ -254,6 +254,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                     icon: 'fa fa-asterisk',
                     animation: 'opacity',
                     closeAnimation: 'opacity',
+                    columnClass: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1',
                     backgroundDismiss: true,
                     buttons: {
                         okay: {
