@@ -154,7 +154,7 @@
             </div>
             <div class="col-sm-12 noPadding bootstrap-timepicker">
                 <div class="input-group">
-                    <input type="text" class="form-control timepicker" id="timeOfArrival" name="timeOfArrival">
+                    <input type="text" class="form-control tympicker" id="timeOfArrival" name="timeOfArrival">
 
                     <div class="input-group-addon">
                         <i class="fa fa-clock-o"></i>

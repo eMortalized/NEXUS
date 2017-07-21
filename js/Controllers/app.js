@@ -180,6 +180,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
         $scope.grandchild = true;
         
         $scope.status = "Friends";
+        $scope.MBOutcome = '';
         
         $scope.clearStatusDetails = function(){
             $scope.dateEngagement = "";
@@ -240,13 +241,8 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
             var chineseM=chinese_astromatch(cz_sign.name,"Rooster"); 
             $scope.chineseAstroMatch = chineseM;
             
-            
-            var mbResult=myersbriggs("ENTP","ISFJ"); 
-            $scope.MBMatch = mbResult;
         }
         
-       
-     
        $(".zodiacfield").unbind("click");
        $(".zodiacfield").on('click',".zodiacimg",function(){
             var zodiac_sign_img_title = $(this).attr("data-title");
@@ -266,7 +262,12 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                         }
                     }
                 });
-       })
+       });
+       
+       $scope.calculateMB = function(){
+            var mbResult=myersbriggs($scope.MBOutcome,"ISFJ"); 
+            $scope.MBMatch = mbResult;
+       }
        
        
                
@@ -360,6 +361,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                         }
                     }
                 });
+                
             });
             
             
@@ -546,7 +548,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                 //Date range picker
                 $('#reservation').daterangepicker();
                 //Date range picker with time picker
-                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 1, format: 'MM/DD/YYYY h:mm A'});
                 //Date range as a button
                 $('#daterange-btn').daterangepicker(
                         {
@@ -589,12 +591,20 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                     radioClass: 'iradio_minimal-blue'
                 });
 
-
+                 $("#timeOfArrival").focus(function(){
+                     $(this).timepicker({
+                        showInputs: false,
+                        defaultTime: curtime
+                    });
+                 });
+                 
+                var curtime = new Date(new Date().getTime()).toLocaleTimeString();
                 //Timepicker
                 $(".timepicker").timepicker({
-                    showInputs: false
+                    showInputs: false,
+                    defaultTime: curtime
                 });
-
+               
             });
 
 

@@ -219,7 +219,7 @@ $(document).ready(function(){
     });
     
     $('body').on('click','.closeTimePicker',function(){
-        $('.timepicker').timepicker('hideWidget');
+        $('.tympicker').timepicker('hideWidget');
     });
     
     
