@@ -1416,3 +1416,31 @@ button.btn-addCustom {
 .margin-fix{
     margin-top:5px;
 }
+
+/*media Gallery */
+.mediaGalleryBox .col-sm-2 {padding: 5px;}
+
+.mediaGalleryBox .mg-heading:first-child {margin-top: 40px;}
+
+.mediaGalleryBox .mg-heading p{font-size: 22px; border-bottom: 2px solid #ddd; margin-bottom: 5px; padding: 0px; }
+.mediaGalleryBox .mg-heading p i {padding: 5px; background-color: #ddd; margin-right: 5px;}
+.mediaGalleryBox .mg-img { transition: 0.3s;     border: 1px solid #eee;}
+.mediaGalleryBox .mg-img:hover {    background: #eee !important; cursor: pointer; transition: 0.3s;}
+.mediaGalleryBox .mg-img img {width: 100%;}
+.mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px; }
+
+.row-images {padding: 0px 12px;}
+.recentAdditions {margin-top: 70px; background-color: #eee; padding: 15px; border-radius: 10px 0px 0px 10px; height: 500px;}
+.recentAdditions .ra-heading{font-size: 22px;  margin-bottom: 15px; padding: 0px;}
+.recentAdditions .ra-img { margin-bottom: 10px; transition: 0.3s;}
+.recentAdditions .ra-img .col-img {}
+.recentAdditions .ra-img:hover {background: #eee !important; cursor: pointer; transition: 0.3s;}
+.recentAdditions .ra-img img {width: 100%;}
+.recentAdditions .ra-img p {margin: 0px; font-size: 10px; padding: 3px 0px;}
+.recentAdditions .ra-img .ra-img-heading {font-size: 17px;}
+.recentAdditions .ra-img .ra-img-heading span {padding-bottom: 0px;}
+.recentAdditions .ra-img .ra-img-timing {font-size: 13px; color: #bbb; padding: 0px 15px 0px 0px; margin-top: 10px;}
+.recentAdditions .ra-img .ra-img-timing span {padding-bottom: 0px;}
+.borderBottom {border-bottom: 1px soild #ddd;}
+.recentAdditions .hrColor {border-top: 1px solid #bbb;}
+

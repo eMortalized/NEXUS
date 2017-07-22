@@ -10,6 +10,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/posthumous-messages', {
             templateUrl: 'views/posthumous-messages.php',
             controller: 'posthumousController'
+        }).when('/media-gallery', {
+            templateUrl: 'views/media-gallery.php',
+            controller: 'mediagalleryController'
         }).when('/Story/:id', {
             templateUrl: 'viewBlog.html'
         }).otherwise({
@@ -83,6 +86,19 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
     
     
     
+    $scope.init();
+}]);
+
+
+app.controller('mediagalleryController', ['$scope','$location', function ($scope,$location) {
+   
+    
+    angular.element(function () {
+        resizeProcessPosthumous();
+        setTimeout(function(){
+            resizeProcessPosthumous();
+        },100);
+    });
     $scope.init();
 }]);
 
