@@ -1,0 +1,54 @@
+<script>
+function chinese_astromatch(a,b)
+{
+    
+    heart="Perfect Match";
+    pie="Complementary";
+    skull="Good Match or Enemy";
+    smile="Good Friend";
+    sad="Average";
+    cross="Worst Match";
+    
+    var astromatcharray=new Array();
+    astromatcharray[0]=["","Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Sheep","Monkey","Rooster","Dog","Pig"];
+    astromatcharray[1]=["Rat",sad,heart,sad,heart,heart,smile,cross,skull,pie,cross,pie,pie];
+    astromatcharray[2]=["Ox",heart,sad,cross,pie,cross,pie,cross,cross,heart,heart,sad,skull];
+    astromatcharray[3]=["Tiger",sad,cross,cross,sad,heart,cross,heart,smile,cross,pie,pie,heart];
+    astromatcharray[4]=["Rabbit",heart,pie,sad,sad,sad,cross,sad,heart,heart,cross,heart,heart];
+    astromatcharray[5]=["Dragon",heart,cross,heart,sad,smile,heart,sad,cross,pie,pie,cross,smile];
+    astromatcharray[6]=["Snake",smile,pie,cross,cross,heart,cross,smile,cross,smile,heart,sad,cross];
+    astromatcharray[7]=["Horse",cross,cross,heart,sad,sad,smile,cross,heart,sad,cross,sad,pie];
+    astromatcharray[8]=["Sheep",skull,cross,smile,heart,cross,cross,heart,pie,pie,sad,cross,heart];
+    astromatcharray[9]=["Monkey",pie,heart,cross,heart,pie,smile,sad,pie,smile,sad,pie,cross];
+    astromatcharray[10]=["Rooster",cross,heart,pie,cross,pie,heart,cross,sad,sad,cross,cross,sad];
+    astromatcharray[11]=["Dog",pie,sad,pie,heart,cross,sad,sad,cross,pie,cross,sad,pie];
+    astromatcharray[12]=["Pig",pie,skull,heart,smile,cross,pie,heart,cross,sad,pie,smile];
+    
+
+          
+    for(i=1;i<=12;i++)
+    {
+        
+        if(astromatcharray[0][i]==a)
+        {
+            break;
+        }
+    }
+    
+    for(j=1;j<=12;j++)
+    {
+            if(astromatcharray[j][0]==b)
+            {
+                
+               return astromatcharray[j][i];
+               break;
+            }
+            
+    }
+}
+var result=chinese_astromatch("Sheep","Rooster"); 
+alert(result);
+    
+    
+    
+</script>

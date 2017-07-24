@@ -1,0 +1,195 @@
+@media screen and (min-width:769px){
+    
+}
+
+@media screen and (max-width:1200px){
+    .gridsm {
+        width:13.68%;
+    }
+    
+}
+@media screen and (max-width:990px){
+   
+    .gridsm {
+        width:16%;
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    
+}
+
+@media screen and (max-width:400px){
+    
+}
+
+@media screen and (max-width:768px){
+    .link_top {display: none;}
+    .sm-media {
+        width:1px;
+    }
+    
+    .grid-wrap {
+        margin-top:0;
+    }
+    .topnavbar {
+        padding:6px 5px 4px 0px;
+        position:fixed;
+        top:0;
+        z-index:200;
+        width:100%;
+    }
+
+    .sm-unpull {
+        float:none !important;
+        width:100%;
+    }
+    
+    .leftsec {
+        position: fixed;
+        z-index: 200;
+        width: 30%;
+        left:-50%;
+    }
+    .rightsec {
+        height:auto;
+    }
+    .user-name {
+        width:100%;
+        position:static;
+    }
+    
+    .main-content {
+        padding-top: 0;
+    }
+   .bottom-links {
+        width:100%;
+        position:static;
+    }
+    .bottom-links a {
+        font-size:.8em;
+    }
+    .bottom-links .links {
+        padding-left:2px;
+        padding-right:2px;
+    }
+    
+    .aboutmeBtn{
+        position:static;
+        margin-top:10px;
+        float:right;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    .midsec{height: auto; min-height:400px; padding-top:80px; padding-bottom: 0px;}
+    
+    .scroll {
+        overflow-y:auto;
+    }
+    
+    .mainwrap {
+        left:0;
+    }
+    
+    .boxes-posthomous {width: 100%;}
+    
+    .boxes-posthomous {
+    padding: 10px 10px;
+    display: table;
+}
+
+.container-posthomous-links .links-boxes {display: inline-block;}
+
+.mediaGalleryBox .mg-img p {display: none;}
+.mediaGalleryBox .col-sm-2 {padding: 0px;}
+}
+
+@media screen and (max-width:550px){
+    .col_select_grid1 {width: 25%;}
+    
+    .topnavbar ul li {
+        display: inline;
+        padding: 5px 7px;
+        float: left;
+        text-align: center;
+        position: relative;
+    }
+
+    .topnavbar ul li .fa {
+        display: block;
+        font-size: 16px;
+    }
+    
+    .gridsm {
+            width: 32%;
+            margin-left:0.51%;
+            margin-right: 0.51%;
+    }
+    
+    .grid-wrap {
+       padding:0;
+       background-color:transparent;
+    }
+    .container-posthomous-links .links-boxes {display: inline-block;}
+    
+    .links-msgs-p {display: none;}
+}
+
+@media screen and (min-width:769px) and (max-width:1300px){
+    .rightsec .user-name {
+        width:140%;
+        top:0;
+    }
+    .rightsec .user-country h3{
+        font-size:1.5em;
+    }
+    
+    .main-content {
+        padding-top: 63px;
+    }
+    
+    .about-text {
+        font-size:1.1em;
+    }
+    .rightsec .bottom-links {
+        width:150%;
+        bottom:55px;
+    }
+    .user-name h1 {
+        font-size: 1.6em;
+    }
+    
+    .aboutmeBtn {
+        bottom:7px;
+    }
+}
+
+@media screen and (max-width:991px){
+
+     .leftsec .navlink span, .leftsec .highlighted-text{font-size: 10px; word-wrap: break-word; }
+}
+
+@media screen and (max-width:1024px){
+    
+        .leftsec .navlink span, .leftsec .highlighted-text{font-size: 10px;}
+}
+
+@media screen and (max-width:348px){
+    .midsec{height: auto; padding-top:80px; padding-bottom: 0px;}
+}
+
+
+@media screen and (max-width:335px){
+    .col_select_grid1 {width: 50%;}
+    
+    .inputBox1 {width: 40%; float: left; padding-right:2px;}
+.inputBox2 {width: 60%; float: left; padding-left: 2px;}
+#visitModal .chosen-container-single .chosen-single span {width: 160px;}
+#visitModal .custombtn {width: 150px;}
+}
+
+@media (max-width:1824px) and (min-width:991px) {
+.inputBox1 {width: 30%; float: left; padding-right:2px;}
+.inputBox2 {width: 70%; float: left; padding-left: 2px;}
+}

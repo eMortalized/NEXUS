@@ -1,0 +1,51 @@
+<script>
+function astromatch(a,b)
+{
+    //alert();
+    cross="Favourable";
+    dash="Less Favourable";
+    bigo="Critical";
+    
+    var astromatcharray=new Array();
+    astromatcharray[0]=["","Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"];
+    astromatcharray[1]=["Aries",cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash];
+    astromatcharray[2]=["Taurus",dash,cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross];
+    astromatcharray[3]=["Gemini",cross,dash,cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo];
+    astromatcharray[4]=["Cancer",bigo,cross,dash,cross,dash,cross,bigo,cross,dash,cross,dash,cross];
+    astromatcharray[5]=["Leo",cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash,cross,bigo];
+    astromatcharray[6]=["Virgo",dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash,cross];
+    astromatcharray[7]=["Libra",cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash];
+    astromatcharray[8]=["Scorpio",dash,cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross];
+    astromatcharray[9]=["Sagittarius",cross,dash,cross,dash,cross,bigo,cross,dash,cross,dash,cross,bigo];
+    astromatcharray[10]=["Capricorn",bigo,cross,bigo,cross,bigo,cross,bigo,cross,bigo,cross,bigo,cross];
+    astromatcharray[11]=["Aquarius",cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash,cross,dash];
+    astromatcharray[12]=["Pisces",dash,cross,bigo,cross,dash,cross,dash,cross,bigo,cross,dash,cross];
+    
+
+          
+    for(i=1;i<=12;i++)
+    {
+        
+        if(astromatcharray[0][i]==a)
+        {
+            break;
+        }
+    }
+    
+    for(j=1;j<=12;j++)
+    {
+            if(astromatcharray[j][0]==b)
+            {
+                
+               return astromatcharray[j][i];
+               break;
+            }
+            
+    }
+}
+var result=astromatch("Pisces","Capricorn"); 
+alert(result);
+    
+    
+    
+</script>
