@@ -1,1 +1,0 @@
-﻿/* Uncompressed version of latest publicly available compressed fleXcroll is reserved for registered users of fleXcroll with the unlimited use license. */

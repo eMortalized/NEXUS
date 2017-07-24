@@ -1,8 +1,0 @@
-CONFUSIONS: 
-
-1. options are not showing properly,
-2. love romance and education section : bootstrap component (label),
-3. grid for stories
-4. there is one field in early details is favourite toy
-the bootstrap component which they have said is textbox but in the help content they are saying "you can upload a picture if you'd like"
-5. Scroll Bootstrap field in education section
