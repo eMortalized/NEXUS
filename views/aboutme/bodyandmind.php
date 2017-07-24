@@ -498,7 +498,7 @@
                     <label class="custom-display" for="MBOutcome">Myers-Briggs type <a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Select your Myers-Briggs Type Indicator."><i class="fa fa-info-circle"></i></a></label>
                 </div>
                 <div class="col-sm-12 noPadding">
-                    <select class="form-control chosen-select" id="MBOutcome" name="MBOutcome">
+                    <select class="form-control chosen-select" id="MBOutcome" ng-model="MBOutcome" ng-change="calculateMB()" name="MBOutcome">
                         <option> </option>
                         <option>ENFJ</option>
                         <option>ENFP</option>

@@ -10,6 +10,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/posthumous-messages', {
             templateUrl: 'views/posthumous-messages.php',
             controller: 'posthumousController'
+        }).when('/media-gallery', {
+            templateUrl: 'views/media-gallery.php',
+            controller: 'mediagalleryController'
         }).when('/Story/:id', {
             templateUrl: 'viewBlog.html'
         }).otherwise({
@@ -83,6 +86,19 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
     
     
     
+    $scope.init();
+}]);
+
+
+app.controller('mediagalleryController', ['$scope','$location', function ($scope,$location) {
+   
+    
+    angular.element(function () {
+        resizeProcessPosthumous();
+        setTimeout(function(){
+            resizeProcessPosthumous();
+        },100);
+    });
     $scope.init();
 }]);
 
@@ -170,6 +186,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
         $scope.orphanages = true;
         $scope.hobby = true;
         $scope.sport = true;
+        $scope.restaurant = true;
         $scope.measurementUnit = "metric";
       
           
@@ -180,6 +197,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
         $scope.grandchild = true;
         
         $scope.status = "Friends";
+        $scope.MBOutcome = '';
         
         $scope.clearStatusDetails = function(){
             $scope.dateEngagement = "";
@@ -240,13 +258,8 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
             var chineseM=chinese_astromatch(cz_sign.name,"Rooster"); 
             $scope.chineseAstroMatch = chineseM;
             
-            
-            var mbResult=myersbriggs("ENTP","ISFJ"); 
-            $scope.MBMatch = mbResult;
         }
         
-       
-     
        $(".zodiacfield").unbind("click");
        $(".zodiacfield").on('click',".zodiacimg",function(){
             var zodiac_sign_img_title = $(this).attr("data-title");
@@ -258,6 +271,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                     icon: 'fa fa-asterisk',
                     animation: 'opacity',
                     closeAnimation: 'opacity',
+                    columnClass: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1',
                     backgroundDismiss: true,
                     buttons: {
                         okay: {
@@ -266,7 +280,12 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                         }
                     }
                 });
-       })
+       });
+       
+       $scope.calculateMB = function(){
+            var mbResult=myersbriggs($scope.MBOutcome,"ISFJ"); 
+            $scope.MBMatch = mbResult;
+       }
        
        
                
@@ -360,6 +379,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                         }
                     }
                 });
+                
             });
             
             
@@ -546,7 +566,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                 //Date range picker
                 $('#reservation').daterangepicker();
                 //Date range picker with time picker
-                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 1, format: 'MM/DD/YYYY h:mm A'});
                 //Date range as a button
                 $('#daterange-btn').daterangepicker(
                         {
@@ -589,12 +609,20 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                     radioClass: 'iradio_minimal-blue'
                 });
 
-
+                 $("#timeOfArrival").focus(function(){
+                     $(this).timepicker({
+                        showInputs: false,
+                        defaultTime: curtime
+                    });
+                 });
+                 
+                var curtime = new Date(new Date().getTime()).toLocaleTimeString();
                 //Timepicker
                 $(".timepicker").timepicker({
-                    showInputs: false
+                    showInputs: false,
+                    defaultTime: curtime
                 });
-
+               
             });
 
 

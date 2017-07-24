@@ -100,6 +100,9 @@
 }
 
 .container-posthomous-links .links-boxes {display: inline-block;}
+
+.mediaGalleryBox .mg-img p {display: none;}
+.mediaGalleryBox .col-sm-2 {padding: 0px;}
 }
 
 @media screen and (max-width:550px){
