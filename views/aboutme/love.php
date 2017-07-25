@@ -116,7 +116,7 @@
                                         </label><input type="file" id="astroMatch_upload" name="astroMatch_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="This field describes the compatibility of your zodiac sign with that of this partner."><i class="fa fa-info-circle"></i></a></label>
                                 </div>
                                 <div class="col-sm-12 noPadding">
-                                    <input type="text" class="form-control" id="astroMatch" ng-model="astroMatch" name="astroMatch"/>
+                                    <input type="text" class="form-control" id="astroMatch" ng-model="astroMatch" name="astroMatch" readonly/>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                                         </label><input type="file" id="chineseAstroMatch_upload" name="chineseAstroMatch_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="This field describes the compatibility of your Chinese zodiac sign with that of this partner."><i class="fa fa-info-circle"></i></a></label>
                                 </div>
                                 <div class="col-sm-12 noPadding">
-                                    <input type="text" class="form-control" id="chineseAstroMatch" ng-model="chineseAstroMatch" name="chineseAstroMatch"/>
+                                    <input type="text" class="form-control" id="chineseAstroMatch" ng-model="chineseAstroMatch" name="chineseAstroMatch" readonly/>
                                 </div>
                             </div>
                         </div>
@@ -142,11 +142,15 @@
                                         </label><input type="file" id="MBMatch_upload" name="MBMatch_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="This field describes the compatibility of your Myers-Briggs personality profile with that of this partner."><i class="fa fa-info-circle"></i></a></label>
                                 </div>
                                 <div class="col-sm-12 noPadding">
-                                    <input type="text" class="form-control" id="MBMatch" ng-model="MBMatch" name="MBMatch"  ng-model="MBMatch"/>
+                                    <input type="text" class="form-control" id="MBMatch" ng-model="MBMatch" name="MBMatch"  ng-model="MBMatch" readonly/>
                                 </div>
                             </div>
 
                         </div>
+                        
+                        
+                    </div>
+                    <div class="col-sm-6">
                         
                         <div class="form-group">
                             <div class="row">
@@ -194,8 +198,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-12">

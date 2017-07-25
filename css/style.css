@@ -1009,8 +1009,8 @@ table.dataTable tbody th, table.dataTable tbody td {
 
 .arrayValuesContainer .remove {
     position: absolute;
-    top: 5px;
-    right: 7px;
+    top: 2px;
+    right: 10px;
     font-size: 1.1em;
     cursor:pointer;
     color: #c10000;
@@ -1207,7 +1207,7 @@ button.btn-addCustom {
 
 .modal-body .login-email .form-input {
     width: 100%;
-    border: 1px solid #e3e3e3; 
+    border: 1px solid #dddd; 
     border-radius: 3px;
 }
 
@@ -1425,12 +1425,35 @@ button.btn-addCustom {
 .mediaGalleryBox .mg-heading p{font-size: 22px; border-bottom: 2px solid #ddd; margin-bottom: 5px; padding: 0px; }
 .mediaGalleryBox .mg-heading p i {padding: 5px; background-color: #ddd; margin-right: 5px;}
 .mediaGalleryBox .mg-img { transition: 0.3s;     border: 1px solid #eee;}
-.mediaGalleryBox .mg-img:hover {    background: #eee !important; cursor: pointer; transition: 0.3s;}
-.mediaGalleryBox .mg-img img {width: 100%;}
+.mediaGalleryBox .mg-img:hover {    background: #c4e8de !important; cursor: pointer; transition: 0.3s;}
+.mediaGalleryBox .mg-img img {width: auto;}
 .mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px; }
+.mediaGalleryBox .mg-img a {color: #333; text-decoration: none;}
+.mediaGalleryBox .mg-img .wide {
+    
+}
+
+.mediaGalleryBox .outerContainer {
+    float:left;
+    width:auto;
+    overflow:hidden;
+}
+
+.mediaGalleryBox .outerContainer {
+    float:left;
+    width:auto;
+    margin-bottom:5px;
+    max-width:140px;
+    margin-left:4px;
+    overflow:hidden;
+}
+
+.mediaGalleryBox .outerContainer img {
+    height:88px;
+}
 
 .row-images {padding: 0px 12px;}
-.recentAdditions {margin-top: 70px; background-color: #eee; padding: 15px; border-radius: 10px 0px 0px 10px; height: 500px;}
+.recentAdditions {margin-top: 70px; background-color: #eee; padding: 15px; border-radius: 4px; height: 700px;}
 .recentAdditions .ra-heading{font-size: 22px;  margin-bottom: 15px; padding: 0px;}
 .recentAdditions .ra-img { margin-bottom: 10px; transition: 0.3s;}
 .recentAdditions .ra-img .col-img {}
@@ -1444,3 +1467,70 @@ button.btn-addCustom {
 .borderBottom {border-bottom: 1px soild #ddd;}
 .recentAdditions .hrColor {border-top: 1px solid #bbb;}
 
+/* lightbox gallery */
+.sl-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.75;
+    display: none;
+    z-index: 1050;
+}
+.sl-wrapper .sl-counter {
+    display: none;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1060;
+    color: #fff;
+    font-size: 17px;
+}
+
+.sl-wrapper .sl-close {
+    display: none;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    z-index: 1060;
+    margin-top: -14px;
+    margin-right: -14px;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    font-family: Arial, Baskerville, monospace;
+    color: #fff;
+    font-size: 30px;
+}
+.sl-wrapper .sl-navigation button {color: #fff;}
+
+@media (min-width: 50em){
+
+.sl-wrapper .sl-navigation button.sl-prev, .sl-wrapper .sl-navigation button.sl-next {
+    
+    font-size: 40px;
+}
+}
+
+
+#remainingChars {
+    color: #5d5d5d;
+    margin: 0;
+    margin-right: -37px;
+}
+
+.times {
+    color:#000 !important;
+    font-size:1.2em;
+    text-decoration:none;
+}
+.times:hover,.times:active,.times:focus {
+    text-decoration:none;
+}
+
+.remove:hover {
+    text-decoration:none;
+    color:#fff;
+}

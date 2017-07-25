@@ -157,7 +157,7 @@ $(document).ready(function(){
             }
             
         });
-        html += "<a class='remove'> <i class='fa fa-times-circle danger'></i> </a>";
+        html += "<a class='remove'>  <span class='times'>&times;</span>  </a>";
         html += "</div>";
         //If Fileds are not empty
         if(emptyFlag==false && emptyArray ==false){

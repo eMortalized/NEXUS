@@ -1,7 +1,7 @@
+<div ng-controller="homeController">
 <!-- Mid Section -->
         <div class="col-sm-8 nopadding">
             <div class="midsec back-img">
-                
             </div>
         </div>
         <!-- End of Mid Section -->
@@ -80,9 +80,9 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"> <i class="fa fa-times-circle danger"></i> </button>
+                <button type="button" class="close" data-dismiss="modal"> <span class="times">&times;</span> </button>
                 <h4 class="modal-title">Pay a Visit</h4>
-                <p class="text-center"><i class="fa fa-coffee"></i></p>
+               
                 <!--<br /><img src="../../Content/images/newsletter.png" class="center-block" width="80" />-->
             </div>
             <div class="modal-body">
@@ -93,16 +93,25 @@
                             
 
                                 <!--<span>Choose a Message</span> <p class="clearfix"></p>-->
-                                <select class="form-input chosen-select-home">
+                                <select class="form-input chosen-select-home" data-placeholder="Choose a emotions">
                                     <option> </option>
-                                    <option>Hi there. How you doing today?</option>
-                                    <option>Hello. How are you?</option>
+                                    <option>Always In My Heart</option>
+                                    <option>Cherishing You Always</option
+                                    <option>Conveying Love</option>
+                                    <option>Drawing Inspiration From You</option>
+                                    <option>Eternally Together</option>
+                                    <option>Extending My Best Wishes</option>
+                                    <option>Missing You Deeply </option>
+                                    <option> Offering My condolences</option>
+                                    <option>Remembring The Good Times </option>
+                                    <option>Sending Greetings </option>
+                                    <option>Thinking Of You </option>
+                                    <option>Your Legacy Thrives </option>
                                 </select>
-                                
                                 <span class="middle-margin">or</span> <p class="clearfix"></p>
                                 
-                                <textarea placeholder="Type in the message.." class="form-input" rows="4"></textarea>
-
+                                <textarea placeholder="Type in the message.." class="form-input form-control" rows="4" ng-model="visitMessage" ng-trim="false" maxlength="150"></textarea>
+                                <span id="remainingChars">{{150-visitMessage.length }}</span> 
 
                                 <div class="col-sm-offset-2 col-sm-8">
                                     <button type="button" class="btn custombtn" id="sendVisit">Send</button>
@@ -117,6 +126,13 @@
 
     </div>
 </div>
+</div>
+<script>
 
+         $('.chosen-select-home').chosen({
+            placeholder_text_single: "Choose a message"
+          });  
+
+    </script>
         
         

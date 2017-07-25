@@ -15,7 +15,7 @@
                     <switch name="elementarySchool" ng-model="elementarySchool"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="elementarySchool" class="fixPlace">Elementary school</span>
+                    <span ng-hide="elementarySchool" class="fixPlace">Schools</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -82,7 +82,7 @@
                     <switch name="middleSchool" ng-model="middleSchool"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="middleSchool" class="fixPlace">Middle school</span>
+                    <span ng-hide="middleSchool" class="fixPlace">Schools</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -152,7 +152,7 @@
                     <switch name="highSchool" ng-model="highSchool"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="highSchool" class="fixPlace">High school</span>
+                    <span ng-hide="highSchool" class="fixPlace">Schools</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -250,7 +250,7 @@
                     <switch name="college" ng-model="college"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="college" class="fixPlace">College, institution or program</span>
+                    <span ng-hide="college" class="fixPlace">Higher Education</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -390,7 +390,7 @@
                     <switch name="university" ng-model="university"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="university" class="fixPlace">University</span>
+                    <span ng-hide="university" class="fixPlace">Higher Education</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -775,7 +775,7 @@
                     <switch name="otherScores" ng-model="otherScores"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="otherScores" class="fixPlace">Other scores test</span>
+                    <span ng-hide="otherScores" class="fixPlace">Other Scores</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -874,7 +874,7 @@
                     <switch name="americanCollege" ng-model="americanCollege"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="americanCollege" class="fixPlace">American college</span>
+                    <span ng-hide="americanCollege" class="fixPlace">American College Scores</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -1001,7 +1001,7 @@
                     <switch name="scholasticAptitude" ng-model="scholasticAptitude"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="scholasticAptitude" class="fixPlace">Scholastic aptitude</span>
+                    <span ng-hide="scholasticAptitude" class="fixPlace">SAT Scores</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -1117,7 +1117,7 @@
                     <switch name="lawSchool" ng-model="lawSchool"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="lawSchool" class="fixPlace">Law school</span>
+                    <span ng-hide="lawSchool" class="fixPlace">LSAT Scores</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -1183,7 +1183,7 @@
                     <switch name="graduateManagement" ng-model="graduateManagement"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="graduateManagement" class="fixPlace">Graduate management</span>
+                    <span ng-hide="graduateManagement" class="fixPlace">GMAT Scores</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -1317,7 +1317,7 @@
                     <switch name="medicalCollege" ng-model="medicalCollege"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="medicalCollege" class="fixPlace">Medical College</span>
+                    <span ng-hide="medicalCollege" class="fixPlace">MCAT Scores</span>
                 </div>
             </div>
             <!-- Array Head -->

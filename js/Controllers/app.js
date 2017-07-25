@@ -16,28 +16,21 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/Story/:id', {
             templateUrl: 'viewBlog.html'
         }).otherwise({
-            templateUrl: 'views/home.html'
+            redirectTo:'/'
         });
 
     }]);
 
 app.controller('homeController', ['$scope','$location', function ($scope,$location) {
     $scope.test = "";
+    
     $scope.isActive = function (viewLocation) {
         var active = (viewLocation === $location.path());
         return active;
    };
    
-   $('.chosen-select-home').chosen({
-            placeholder_text_single: "Choose a message"
-          });  
-   
-    $('.chosen-select-home').chosen();
-    
-    
-    
     $('#sendVisit').click(function(){
-        $('#visitModal').modal('toggle');
+        $('#visitModal').modal('hide');
         swal({
             title: "Visit confirmed",
             text: "",
@@ -46,6 +39,10 @@ app.controller('homeController', ['$scope','$location', function ($scope,$locati
             animation: "pop"
             });
     });
+    
+    $scope.init = function () {
+    }
+    $scope.init();
 }]);
 
 app.controller('posthumousController', ['$scope','$location', function ($scope,$location) {
@@ -75,17 +72,11 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
     };
   
     $scope.init = function () {
-        
         //Date picker
         $('.datepicker').datepicker({
             autoclose: true
         });
-        
     }
-    
-    
-    
-    
     $scope.init();
 }]);
 
@@ -186,6 +177,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
         $scope.orphanages = true;
         $scope.hobby = true;
         $scope.sport = true;
+        $scope.restaurant = true;
         $scope.measurementUnit = "metric";
       
           

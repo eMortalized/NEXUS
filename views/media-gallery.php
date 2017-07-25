@@ -14,67 +14,59 @@
                             </div>
                         </div>
                         <div class="row row-images">
-                            <div class="col-sm-2 col-xs-3">
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media1.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image1.jpg">
+                                    <img src="img/mediagallery/thumb1.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
-
-                            <div class="col-sm-2 col-xs-3">
+                            
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media2.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image2.jpg">
+                                    <img src="img/mediagallery/thumb2.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
-
-
-                            <div class="col-sm-2 col-xs-3">
+                            
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media3.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image3.jpg">
+                                    <img src="img/mediagallery/thumb3.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
-
-                            <div class="col-sm-2 col-xs-3">
+                            
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media4.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image5.jpg">
+                                    <img src="img/mediagallery/thumb5.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
-
-                            <div class="col-sm-2 col-xs-3">
+                            
+                            
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media5.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image4.jpg">
+                                    <img src="img/mediagallery/thumb4.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
-
-                            <div class="col-sm-2 col-xs-3">
+                            
+                            
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media6.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media3.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media5.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media1.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                    <a href="img/mediagallery/image5.jpg">
+                                    <img src="img/mediagallery/thumb5.jpg" alt="" title="Some Title">
+                                    <p><b>Image heading</b></p>
+                                    </a>
                                 </div>  
                             </div>
                         </div>
@@ -89,118 +81,36 @@
                             </div>
                         </div>
                         <div class="row row-images">
-                            <div class="col-sm-2 col-xs-3">
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media3.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                     <a href="img/mediagallery/image6.jpg">
+                                    <img src="img/mediagallery/thumb6.jpg" alt="" title="Image6">
+                                    <p><b>Image heading</b></p>
+                                     </a>
                                 </div>  
                             </div>
 
-                            <div class="col-sm-2 col-xs-3">
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media4.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                     <a href="img/mediagallery/image7.jpg">
+                                    <img src="img/mediagallery/thumb7.jpg" alt="" title="Image7">
+                                    <p><b>Image heading</b></p>
+                                     </a>
                                 </div>  
                             </div>
 
-
-                            <div class="col-sm-2 col-xs-3">
+                            <div class="outerContainer">
                                 <div class="mg-img">
-                                    <img src="img/mediagallery/media5.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media6.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media2.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media3.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media4.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
+                                     <a href="img/mediagallery/image8.jpg">
+                                    <img src="img/mediagallery/image8.jpg" alt="" title="Image8">
+                                    <p><b>Image heading</b></p>
+                                     </a>
                                 </div>  
                             </div>
                         </div>
                     </div>
                     
-                    <div class="container-fluid mediaGalleryBox">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="mg-heading">
-                                    <p class=""><i class="fa fa-picture-o"></i><span>Body & Mind</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-images">
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media5.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media6.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media1.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media2.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media3.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media4.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-
-                            <div class="col-sm-2 col-xs-3">
-                                <div class="mg-img">
-                                    <img src="img/mediagallery/media5.jpg">
-                                    <p><b>Image heading</b><br>Image description</p>
-                                </div>  
-                            </div>
-                        </div>
-                    </div>
+                    
                     <br><br>
                 </div>
 
@@ -218,8 +128,8 @@
                                             </div>
                                             <div class="col-sm-7 nopadding">
                                                 <p  class="ra-img-heading">Personal Details</p>
-                                                <p class="ra-img-timing"><span><i class="fa fa-clock-o"></i><?php echo " " . date("H:i"); ?></span>
-                                                    <span class="pull-right"><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
+                                                <p class="ra-img-timing">
+                                                    <span><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
                                                 </p>
 
                                             </div>
@@ -234,8 +144,8 @@
                                             </div>
                                             <div class="col-sm-7 nopadding">
                                                 <p  class="ra-img-heading">Early Details</p>
-                                                <p class="ra-img-timing"><span><i class="fa fa-clock-o"></i><?php echo " " . date("H:i"); ?></span>
-                                                    <span class="pull-right"><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
+                                                <p class="ra-img-timing">
+                                                    <span><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
                                                 </p>
 
                                             </div>
@@ -250,8 +160,8 @@
                                             </div>
                                             <div class="col-sm-7 nopadding">
                                                 <p  class="ra-img-heading">Body & Mind</p>
-                                                <p class="ra-img-timing"><span><i class="fa fa-clock-o"></i><?php echo " " . date("H:i"); ?></span>
-                                                    <span class="pull-right"><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
+                                                <p class="ra-img-timing">
+                                                    <span><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
                                                 </p>
 
                                             </div>
@@ -266,8 +176,8 @@
                                             </div>
                                             <div class="col-sm-7 nopadding">
                                                 <p  class="ra-img-heading">Body & Mind</p>
-                                                <p class="ra-img-timing"><span><i class="fa fa-clock-o"></i><?php echo " " . date("H:i"); ?></span>
-                                                    <span class="pull-right"><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
+                                                <p class="ra-img-timing">
+                                                    <span><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
                                                 </p>
 
                                             </div>
@@ -282,8 +192,8 @@
                                             </div>
                                             <div class="col-sm-7 nopadding">
                                                 <p  class="ra-img-heading">Body & Mind</p>
-                                                <p class="ra-img-timing"><span><i class="fa fa-clock-o"></i><?php echo " " . date("H:i"); ?></span>
-                                                    <span class="pull-right"><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
+                                                <p class="ra-img-timing">
+                                                    <span><i class="fa fa-calendar"></i><?php echo " " . date("Y/m/d"); ?></span>
                                                 </p>
 
                                             </div>
@@ -327,5 +237,59 @@
 <!-- End of Right Section -->
 
 <span class="sm-media"></span>
+
+
+<script>
+	$(function(){
+		var $gallery = $('.mg-img a').simpleLightbox({
+                        animationSlide:true
+                    });
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+                        if (window.location.href.indexOf('pid') > -1) {
+                            history.pushState('#/media-gallery/open', document.title, '#/media-gallery');
+                        }
+
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
 
 

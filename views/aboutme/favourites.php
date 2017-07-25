@@ -407,7 +407,7 @@
             </div>
         </div>
         
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
                     <label class="custom-display" for="countryNarrative">Country narrative <label for="countryNarrative_upload" class="custom-file-upload">
@@ -418,7 +418,7 @@
                     <input type="text" class="form-control" id="countryNarrative" name="countryNarrative" maxlength="100" />
                 </div>
             </div>
-        </div>
+        </div>-->
         
         <div class="form-group">
             <div class="row">
@@ -993,7 +993,7 @@
                     <switch name="musician" ng-model="musician"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="musician" class="fixPlace">Musician</span>
+                    <span ng-hide="musician" class="fixPlace">Musician(s)</span>
                 </div>
             </div>
             <!-- Array Head -->
@@ -1003,7 +1003,7 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-12">
-                            <label class="custom-display" for="musician">Musician <label for="musician_upload" class="custom-file-upload">
+                            <label class="custom-display" for="musician">Musician(s)<label for="musician_upload" class="custom-file-upload">
                                     <i class="fa fa-arrow-circle-up"  data-placement="top" data-title="Upload"></i>
                                 </label><input type="file" id="musician_upload" name="musician_upload"/><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Select a favourite musician, artist, band or performer, one at a time, or type one in if your choice is not in the list.  Type any portion of the name to narrow the list."><i class="fa fa-info-circle"></i></a></label>
                         </div>
@@ -1254,8 +1254,20 @@
                 </div>
             </div>
         </div>
+<div class="arrayFields"> 
+        <!-- Array Head -->
+            <div class="row arrayHead">
+                <div class="col-xs-2">
+                    <switch name="restaurant" ng-model="restaurant"></switch>
+                </div>
+                <div class="col-xs-10 text-right">
+                    <span ng-hide="restaurant" class="fixPlace">Restaurant</span>
+                </div>
+            </div>
+            <!-- Array Head -->
 
-        
+            <!-- Array Body -->
+            <div class="arrayBody" ng-show="restaurant">
         <div class="form-group">
             <div class="row">
                 <div class="col-sm-12">
@@ -1279,9 +1291,18 @@
                 </div>
                 <div class="col-sm-12 noPadding">
                     <input type="text" class="form-control" id="restaurantAddress" name="restaurantAddress" maxlength="150" />
+                    
+                    <a class="add greenBtn pull-right"><i class="fa fa-2x fa-plus-circle"></i></a>
                 </div>
             </div>
         </div>
+        <div class="form-group resultform sortable">
+
+
+                </div>
+        
+    </div>
+    </div>
 
 
         <!--        <div class="form-group">
