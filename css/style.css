@@ -1429,6 +1429,7 @@ button.btn-addCustom {
 .mediaGalleryBox .mg-img img {width: auto;}
 .mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px; }
 .mediaGalleryBox .mg-img a {color: #333; text-decoration: none;}
+<<<<<<< HEAD
 .mediaGalleryBox .mg-img .wide {
     
 }
@@ -1451,6 +1452,8 @@ button.btn-addCustom {
 .mediaGalleryBox .outerContainer img {
     height:88px;
 }
+=======
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
 
 .row-images {padding: 0px 12px;}
 .recentAdditions {margin-top: 70px; background-color: #eee; padding: 15px; border-radius: 4px; height: 700px;}
@@ -1513,6 +1516,7 @@ button.btn-addCustom {
     font-size: 40px;
 }
 }
+<<<<<<< HEAD
 
 
 #remainingChars {
@@ -1534,3 +1538,5 @@ button.btn-addCustom {
     text-decoration:none;
     color:#fff;
 }
+=======
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf

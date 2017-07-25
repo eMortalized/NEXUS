@@ -22,6 +22,7 @@
                                     </a>
                                 </div>  
                             </div>
+<<<<<<< HEAD
                             
                             <div class="outerContainer">
                                 <div class="mg-img">
@@ -29,46 +30,106 @@
                                     <img src="img/mediagallery/thumb2.jpg" alt="" title="Some Title">
                                     <p><b>Image heading</b></p>
                                     </a>
+=======
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                    <a href="img/mediagallery/image2.jpg">
+                                    <img src="img/mediagallery/thumb2.jpg" alt="" title="Lorem Ipsum">
+                                    <p><b>Image heading</b></p>
+                                    </a>
+                                </div>  
+                            </div>
+
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image3.jpg">
+                                    <img src="img/mediagallery/thumb3.jpg" alt="" title="Something Else">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 </div>  
                             </div>
                             
                             <div class="outerContainer">
                                 <div class="mg-img">
+<<<<<<< HEAD
                                     <a href="img/mediagallery/image3.jpg">
                                     <img src="img/mediagallery/thumb3.jpg" alt="" title="Some Title">
                                     <p><b>Image heading</b></p>
                                     </a>
+=======
+                                     <a href="img/mediagallery/image4.jpg">
+                                    <img src="img/mediagallery/thumb4.jpg" alt="" title="Lorem Ipsum">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 </div>  
                             </div>
                             
                             <div class="outerContainer">
                                 <div class="mg-img">
+<<<<<<< HEAD
                                     <a href="img/mediagallery/image5.jpg">
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Some Title">
                                     <p><b>Image heading</b></p>
                                     </a>
+=======
+                                     <a href="img/mediagallery/image5.jpg">
+                                    <img src="img/mediagallery/thumb5.jpg" alt="" title="Lorem Ipsum">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 </div>  
                             </div>
                             
                             
                             <div class="outerContainer">
                                 <div class="mg-img">
+<<<<<<< HEAD
                                     <a href="img/mediagallery/image4.jpg">
                                     <img src="img/mediagallery/thumb4.jpg" alt="" title="Some Title">
                                     <p><b>Image heading</b></p>
                                     </a>
+=======
+                                     <a href="img/mediagallery/image6.jpg">
+                                    <img src="img/mediagallery/thumb6.jpg" alt="" title="Image6">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 </div>  
                             </div>
                             
                             
                             <div class="outerContainer">
                                 <div class="mg-img">
+<<<<<<< HEAD
                                     <a href="img/mediagallery/image5.jpg">
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Some Title">
                                     <p><b>Image heading</b></p>
                                     </a>
                                 </div>  
                             </div>
+=======
+                                     <a href="img/mediagallery/image7.jpg">
+                                    <img src="img/mediagallery/thumb7.jpg" alt="" title="Image7">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image8.jpg">
+                                    <img src="img/mediagallery/thumb8.jpg" alt="" title="Image8">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                         </div>
                     </div>
 
@@ -81,7 +142,11 @@
                             </div>
                         </div>
                         <div class="row row-images">
+<<<<<<< HEAD
                             <div class="outerContainer">
+=======
+                            <div class="col-sm-2 col-xs-3">
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image6.jpg">
                                     <img src="img/mediagallery/thumb6.jpg" alt="" title="Image6">
@@ -90,7 +155,11 @@
                                 </div>  
                             </div>
 
+<<<<<<< HEAD
                             <div class="outerContainer">
+=======
+                            <div class="col-sm-2 col-xs-3">
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image7.jpg">
                                     <img src="img/mediagallery/thumb7.jpg" alt="" title="Image7">
@@ -99,10 +168,17 @@
                                 </div>  
                             </div>
 
+<<<<<<< HEAD
                             <div class="outerContainer">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image8.jpg">
                                     <img src="img/mediagallery/image8.jpg" alt="" title="Image8">
+=======
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image8.jpg">
+                                    <img src="img/mediagallery/thumb8.jpg" alt="" title="Image8">
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                                     <p><b>Image heading</b></p>
                                      </a>
                                 </div>  
@@ -110,7 +186,76 @@
                         </div>
                     </div>
                     
+<<<<<<< HEAD
                     
+=======
+                    <div class="container-fluid mediaGalleryBox">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="mg-heading">
+                                    <p class=""><i class="fa fa-picture-o"></i><span>Body & Mind</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-images">
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                    <a href="img/mediagallery/image2.jpg">
+                                    <img src="img/mediagallery/thumb2.jpg" alt="" title="Image2">
+                                    <p><b>Image heading</b></p>
+                                    </a>
+                                </div>  
+                            </div>
+
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image3.jpg">
+                                    <img src="img/mediagallery/thumb3.jpg" alt="" title="Image3">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image4.jpg">
+                                    <img src="img/mediagallery/thumb4.jpg" alt="" title="Image4">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image5.jpg">
+                                    <img src="img/mediagallery/thumb5.jpg" alt="" title="Image5">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image6.jpg">
+                                    <img src="img/mediagallery/thumb6.jpg" alt="" title="Image6">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="mg-img">
+                                     <a href="img/mediagallery/image7.jpg">
+                                    <img src="img/mediagallery/thumb7.jpg" alt="" title="Image7">
+                                    <p><b>Image heading</b></p>
+                                     </a>
+                                </div>  
+                            </div>
+                            
+                        </div>
+                    </div>
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
                     <br><br>
                 </div>
 
@@ -241,9 +386,13 @@
 
 <script>
 	$(function(){
+<<<<<<< HEAD
 		var $gallery = $('.mg-img a').simpleLightbox({
                         animationSlide:true
                     });
+=======
+		var $gallery = $('.mg-img a').simpleLightbox();
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
 
 		$gallery.on('show.simplelightbox', function(){
 			console.log('Requested for showing');
@@ -253,10 +402,13 @@
 		})
 		.on('close.simplelightbox', function(){
 			console.log('Requested for closing');
+<<<<<<< HEAD
                         if (window.location.href.indexOf('pid') > -1) {
                             history.pushState('#/media-gallery/open', document.title, '#/media-gallery');
                         }
 
+=======
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
 		})
 		.on('closed.simplelightbox', function(){
 			console.log('Closed');

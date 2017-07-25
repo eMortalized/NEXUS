@@ -439,8 +439,12 @@ $.fn.simpleLightbox = function( options )
 
 			elem.trigger($.Event('close.simplelightbox'));
 			if(options.history){
+<<<<<<< HEAD
 				//resetHash();
 				
+=======
+				resetHash();
+>>>>>>> 5600782e521d9d55f92eb2fcbbdcdc48d2a64dbf
 			}
 			$('.sl-image img, .sl-overlay, .sl-close, .sl-navigation, .sl-image .sl-caption, .sl-counter').fadeOut('fast', function(){
 				if(options.disableScroll) handleScrollbar('show');
