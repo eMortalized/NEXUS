@@ -1494,15 +1494,17 @@ button.btn-addCustom {
     position: fixed;
     right: 30px;
     top: 30px;
+    height:20px;
+    width:20px;
     z-index: 1060;
     margin-top: -14px;
     margin-right: -14px;
-    height: 44px;
-    width: 44px;
-    line-height: 44px;
+    line-height: 10px;
     font-family: Arial, Baskerville, monospace;
-    color: #fff;
-    font-size: 30px;
+    color: #e0e0e0;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 22px;
 }
 .sl-wrapper .sl-navigation button {color: #fff;}
 
@@ -1534,3 +1536,25 @@ button.btn-addCustom {
     text-decoration:none;
     color:#fff;
 }
+
+.sl-wrapper .sl-image
+{
+    border:10px solid #fff;
+    
+}
+
+.gal-cal {
+    display:block;
+    padding:0;
+}
+.gal-cal .fa {
+    margin-top:-5px;
+    margin-right:2px;
+}
+
+.text-min-title {
+    font-size:.85em;
+    color:#c1c1c1;
+}
+
+

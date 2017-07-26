@@ -82,13 +82,20 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
 
 
 app.controller('mediagalleryController', ['$scope','$location', function ($scope,$location) {
-   
+     $scope.init = function () {
+    }
     
     angular.element(function () {
         resizeProcessPosthumous();
         setTimeout(function(){
             resizeProcessPosthumous();
         },100);
+        
+        resizeRecentAdditions();
+        setTimeout(function(){
+            resizeRecentAdditions();
+        },100);
+        
     });
     $scope.init();
 }]);
@@ -878,6 +885,10 @@ var resizeProcessPosthumous = function () {
         var windowHeight = $(window).outerHeight();
         $('.Posthumousgrid-form').css("height", windowHeight - gridWrap + "px");
     }
+}
+
+var resizeRecentAdditions = function(){
+    //var gridWrap = $('.Posthumousgrid-wrap').outerHeight();
 }
 
 //Calculating Zodiac

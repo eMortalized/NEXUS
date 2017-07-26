@@ -36,7 +36,7 @@ $.fn.simpleLightbox = function( options )
 		swipeTolerance: 50,
 		className: 'simple-lightbox',
 		widthRatio: 0.8,
-		heightRatio: 0.9,
+		heightRatio: 0.8,
 		disableRightClick: false,
 		disableScroll: true,
 		alertError: true,
