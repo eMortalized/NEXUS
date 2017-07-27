@@ -917,7 +917,7 @@ input[type=range] {
 }
 
 .container-posthomous-links .form-group label {
-    margin-top: 15px;
+    margin-top: 8px;
     padding-bottom: 0;
     color: #8d8d8d;
     font-weight: 400;
@@ -1343,6 +1343,8 @@ button.btn-addCustom {
     transition: 0.3s ease;
 }
 
+.add_new .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: 0px; webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.125); box-shadow: inset 0 0px 0px rgba(0,0,0,.125);}
+
 .custom-black {
     background: #afafaf;
 }
@@ -1424,14 +1426,25 @@ button.btn-addCustom {
 
 .mediaGalleryBox .mg-heading p{font-size: 22px; border-bottom: 2px solid #ddd; margin-bottom: 5px; padding: 0px; }
 .mediaGalleryBox .mg-heading p i {padding: 5px; background-color: #ddd; margin-right: 5px;}
-.mediaGalleryBox .mg-img { transition: 0.3s;     border: 1px solid #eee;}
+.mediaGalleryBox .mg-img { transition: 0.3s; background-color: #ddd;}
 .mediaGalleryBox .mg-img:hover {    background: #c4e8de !important; cursor: pointer; transition: 0.3s;}
 .mediaGalleryBox .mg-img img {width: auto;}
-.mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px; }
+.mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px;     padding-top: 0px; }
 .mediaGalleryBox .mg-img a {color: #333; text-decoration: none;}
 .mediaGalleryBox .mg-img .wide {
     
 }
+
+.mediaGalleryBox .mg-heading p .img-mg-heading {
+    width: 55px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px 3px 0px 0px;
+}
+.mediaGalleryBox .mg-heading p span {padding-bottom: 0px; position: relative; top: 1px;}
+
 
 .mediaGalleryBox .outerContainer {
     float:left;
@@ -1450,6 +1463,7 @@ button.btn-addCustom {
 
 .mediaGalleryBox .outerContainer img {
     height:88px;
+    padding: 5px;
 }
 
 .row-images {padding: 0px 12px;}
@@ -1458,14 +1472,16 @@ button.btn-addCustom {
 .recentAdditions .ra-img { margin-bottom: 10px; transition: 0.3s;}
 .recentAdditions .ra-img .col-img {}
 .recentAdditions .ra-img:hover {background: #eee !important; cursor: pointer; transition: 0.3s;}
-.recentAdditions .ra-img img {width: 100%;}
-.recentAdditions .ra-img p {margin: 0px; font-size: 10px; padding: 3px 0px;}
+.recentAdditions .ra-img img {width: 100%; height: 65px;}
+.recentAdditions .ra-img p {margin: 0px; font-size: 10px; padding: 0px 0px; margin-top: -4px;}
 .recentAdditions .ra-img .ra-img-heading {font-size: 17px;}
 .recentAdditions .ra-img .ra-img-heading span {padding-bottom: 0px;}
-.recentAdditions .ra-img .ra-img-timing {font-size: 13px; color: #bbb; padding: 0px 15px 0px 0px; margin-top: 10px;}
+.recentAdditions .ra-img .ra-img-timing {font-size: 13px; color: #666; padding: 0px 15px 0px 0px; margin-top: 0px;}
 .recentAdditions .ra-img .ra-img-timing span {padding-bottom: 0px;}
 .borderBottom {border-bottom: 1px soild #ddd;}
 .recentAdditions .hrColor {border-top: 1px solid #bbb;}
+
+
 
 /* lightbox gallery */
 .sl-overlay {
@@ -1539,7 +1555,7 @@ button.btn-addCustom {
 
 .sl-wrapper .sl-image
 {
-    border:10px solid #fff;
+    border:0px solid #fff;
     
 }
 
@@ -1557,4 +1573,6 @@ button.btn-addCustom {
     color:#c1c1c1;
 }
 
+
+.note-insert {display: none;}
 

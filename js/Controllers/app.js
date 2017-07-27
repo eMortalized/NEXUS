@@ -888,7 +888,8 @@ var resizeProcessPosthumous = function () {
 }
 
 var resizeRecentAdditions = function(){
-    //var gridWrap = $('.Posthumousgrid-wrap').outerHeight();
+    var galleryOuterContainer = $('.galleryOuterContainer').outerHeight();
+    $(".recentAdditions").css("height",galleryOuterContainer-120+"px");
 }
 
 //Calculating Zodiac
