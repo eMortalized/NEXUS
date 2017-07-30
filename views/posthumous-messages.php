@@ -1,5 +1,5 @@
     <!-- Mid Section -->
-    <div class="col-sm-8 nopadding" ng-controller="posthumousController"  >
+    <div class="col-sm-8 nopadding scroll" ng-controller="posthumousController"  >
         
         <div class="midsec">
 <!--            <div class="container-fluid Posthumousgrid-wrap">
@@ -16,7 +16,7 @@
                 </div>
             </div>-->
             
-            <div class="Posthumousgrid-form scroll" style="position:relative;top:0;left:0;">
+            <div class="Posthumousgrid-form" style="position:relative;top:0;left:0;">
                 <div ng-include src="template.url"></div>
             </div>
         </div>
@@ -47,5 +47,4 @@
     <!-- End of Right Section -->
 
     <span class="sm-media"></span>
-
 

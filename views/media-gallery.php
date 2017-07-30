@@ -9,12 +9,13 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="mg-heading">
-                                    <p class=""><img src="img/aboutme/personal_details.jpg" class="img-mg-heading"><span>Personal Details</span></p>
+                           <!--         <p class=""><img src="img/aboutme/personal_details.jpg" class="img-mg-heading"><span>Personal Details</span></p>-->
+                                    <p class=""><span>Personal Details</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row row-images">
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image1.jpg" >
                                         <img src="img/mediagallery/thumb1.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  12/26/1994</span>">
@@ -25,7 +26,18 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
+                                <div class="mg-img">
+                                    <a href="img/mediagallery/image1.jpg" >
+                                        <img src="img/mediagallery/thumb1.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  12/26/1994</span>">
+                                    <p><b>Image heading</b>
+                                    <span class="gal-cal"> <?php echo " " . date("Y"); ?></span>
+                                    </p>
+                                    </a>
+                                </div>  
+                            </div>
+                            
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image2.jpg" >
                                     <img src="img/mediagallery/thumb2.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -36,7 +48,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image3.jpg" >
                                     <img src="img/mediagallery/thumb3.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -49,7 +61,7 @@
                             
                             
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image5.jpg">
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -60,7 +72,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image7.jpg" >
                                     <img src="img/mediagallery/thumb7.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -73,7 +85,7 @@
                             
                             
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image5.jpg" >
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -90,12 +102,12 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="mg-heading">
-                                    <p class=""><img src="img/aboutme/early_details.jpg" class="img-mg-heading"><span>Early Details</span></p>
+                                    <p class=""><span>Early Details</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row row-images">
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image6.jpg" >
                                     <img src="img/mediagallery/thumb6.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -106,7 +118,7 @@
                                 </div>  
                             </div>
 
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image7.jpg" >
                                     <img src="img/mediagallery/thumb7.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -117,7 +129,7 @@
                                 </div>  
                             </div>
 
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image4.jpg" >
                                     <img src="img/mediagallery/image4.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -134,14 +146,14 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="mg-heading">
-                                    <p class=""><img src="img/aboutme/body_mind.jpg" class="img-mg-heading"><span>Body & Mind</span></p>
+                                    <p class=""><span>Body & Mind</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row row-images">
                             
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image2.jpg" >
                                     <img src="img/mediagallery/thumb2.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -152,7 +164,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image3.jpg" >
                                     <img src="img/mediagallery/thumb3.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -163,7 +175,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image1.jpg" >
                                         <img src="img/mediagallery/thumb1.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  12/26/1994</span>">
@@ -174,7 +186,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image5.jpg">
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -185,7 +197,7 @@
                                 </div>  
                             </div>
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                      <a href="img/mediagallery/image7.jpg" >
                                     <img src="img/mediagallery/thumb7.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">
@@ -197,7 +209,7 @@
                             </div>
                             
                             
-                            <div class="outerContainer">
+                            <div class="outerContainer shadowGrid">
                                 <div class="mg-img">
                                     <a href="img/mediagallery/image5.jpg" >
                                     <img src="img/mediagallery/thumb5.jpg" alt="" title="Hey There this is title <br/> <span class='text-min-title'>Some Random Desc <br/>  03/25/1998</span>">

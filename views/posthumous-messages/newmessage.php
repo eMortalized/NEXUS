@@ -1,4 +1,4 @@
-<div class="container-fluid container-posthomous-links">
+<div class="container-fluid container-posthomous-links" ng-controller="newmessage">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
             
@@ -7,17 +7,6 @@
             </h3>
             <hr>
                 <div class="form-group">
-                    <div class="col-sm-4">
-                        <label class="custom-display" for="type">Select message type <a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Choose the type of message you would like to create."><i class="fa fa-info-circle"></i></a></label>
-                        <select class="form-control chosen-select" id="type" name="type" required>
-                        <option>Type</option>
-                        <option>Upload</option>
-                        <option>Record audio</option>
-                        <option>Record video</option>
-
-                        </select>
-                    </div>
-                    
                     <div class="col-sm-4">
                         <label class="custom-display" for="name">Name <a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Provide a unique name for this communication.  Others will be able to see this name."><i class="fa fa-info-circle"></i></a></label>
                         <input type="text" class="form-control" id="name" name="name" maxlength="50" required/>
@@ -77,21 +66,14 @@
                 </div>
                 
                 <div class="form-group">
-                    <div class="col-md-12">
-                            <label class="custom-display">WordPad</label>
-                           <textarea name="text" class="summernote" id="contents" title="Contents"></textarea>
-                    </div>
-                </div>
-            
-                <div class="form-group">
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                             <label class="custom-display" for="posthumousMessContext">About the message <a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="This field to provide any additional context to the message.  You can describe your motivation, circumstances, thoughts & feelings, etc."><i class="fa fa-info-circle"></i></a></label>
                              <input type="text" class="form-control" id="posthumousMessContext" name="posthumousMessContext" maxlength="512"/>
                         
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                        
                             <label class="custom-display" for="posthumousMessage">Enter/upload your message <label for="memoir_upload" class="custom-file-upload">
                                 <i class="fa fa-arrow-circle-up"  data-placement="top" title="Upload"></i>
@@ -100,21 +82,27 @@
                         
                     </div>
                     
-                    <div class="col-sm-4">
-                        
-                            <label class="custom-display" for="informOfCreation"><a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Selecting yes will notify the recipients immediately that a message has been created and will be available for them to view on the 'date of availability'."><i class="fa fa-info-circle"></i></a></label><input type="checkbox" icheck id="informOfCreation" name="informOfCreation"> Inform recipients of message creation</label> 
-                        
-                    </div>
+                   
                     
                 </div>
             
-                
-            <div class="row">
-                <div class="col-md-12">
-                    <button class="btn custombtn pull-right">Save</button>
+                <div class="form-group">
+                    <div class="col-md-12">
+                            <label class="custom-display">Message for posterity</label>
+                           <textarea name="text" class="summernote" id="contents" title="Contents"></textarea>
+                    </div>
                 </div>
-
-            </div>
+            
+                <div class="col-sm-6">
+                        
+                    <label class="custom-display"><input type="checkbox" icheck id="informOfCreation" name="informOfCreation" ng-model="informOfCreation">&nbsp; Inform recipients of message creation &nbsp;&nbsp; <a href="" class="tooltip-help_custom"  data-placement="top" data-title="Selecting yes will notify the recipients immediately that a message has been created and will be available for them to view on the 'date of availability'."><i class="fa fa-info-circle"></i></a></label> 
+                        
+                    </div>
+                    <div class="col-md-6">
+                    <button class="btn custombtn pull-right">Save </button>
+                </div>
+                
+           
             
                 
             
@@ -150,27 +138,6 @@
     
 </div>
 
-<script type="text/javascript">
-    $(function() {
-      $('.summernote').summernote({
-        height: 150
-      });
-
-      $('form').on('submit', function (e) {
-        e.preventDefault();
-        alert($('.summernote').summernote('code'));
-        alert($('.summernote').val());
-      });
-      
-      $("#myNote").summernote({
-            toolbar: [
-                ['para', ['ul']]
-            ],
-            focus: true
-        });
-$('.note-editor [data-event="insertUnorderedList"]').tooltip('disable'); 
-    });
-  </script>
 
 
 

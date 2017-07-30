@@ -1335,9 +1335,10 @@ button.btn-addCustom {
 
 /* posthumous */
 
-.add_new {height: 110px; width: 270px; background-color: #ccc; border: 1px solid #ccc; border-radius: 3px; color: #fff; padding: 10px; display: inline-block; transition: 0.25s; line-height: 80px;}
-.add_new:hover {background-color: #bababa; cursor: pointer;}
-.add_new:hover > .custom-black {background: #bababa;}
+.add_new {height: 110px; width: 270px;     background-color: #f9f9f9;
+    border: 1px solid #f9f9f9; border-radius: 3px; color: #fff; padding: 10px; display: inline-block; transition: 0.25s; line-height: 80px;}
+.add_new:hover {background-color: #53ba9b; cursor: pointer;}
+.add_new:hover > .custom-black {background: #53ba9b;}
 .add_new:hover .custom-btn i {
     transform: rotate(90deg);
     transition: 0.3s ease;
@@ -1346,7 +1347,7 @@ button.btn-addCustom {
 .add_new .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: 0px; webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.125); box-shadow: inset 0 0px 0px rgba(0,0,0,.125);}
 
 .custom-black {
-    background: #afafaf;
+    background: #53ba9b;
 }
 .custom-btn {
     height: 30px;
@@ -1358,20 +1359,31 @@ button.btn-addCustom {
 .custom-btn:hover {color: #fff !important;}
 .cards-grid {margin-top: 50px; padding-left: 10px; padding-right: 10px;}
 .box-card {
-    box-shadow: 1px 2px 2px #ccc; height: auto; border: 1px solid #dcdbdb; transition: 0.25s; margin-bottom: 25px;
+    background-color:#fff;
+    box-shadow: 0px 1px 2px #e6e6e6;
+    border-radius:3px;
+    height: auto;
+    border: 1px solid #dcdbdb;
+    transition: 0.25s;
+    margin-bottom: 25px;
+    cursor:pointer;
 }
+
+.box-card:hover {   
+    box-shadow: 0px 3px 4px #e6e6e6;
+}
+
 .box-card p 
 {
     margin:0px;
     padding:0px;
+    font-size:13px;
 }
-.box-card:hover {   
-    box-shadow: 1px 3px 5px rgba(184,184,184,1);
-}
+
 .box-card .card-heading {
-    color: #666;
-    margin-bottom:8px;
-    font-size:20px;
+    color: #1b1b1b;
+    margin-bottom: 8px;
+    font-size: 15px;
 }
 .green-color
 {
@@ -1385,6 +1397,7 @@ button.btn-addCustom {
 .box-card  .card-foot 
 {
     padding:9px 15px 9px 15px;
+    background-color:#f1f1f1;
     border-top:1px solid #e4e4e4;
     width:100%;
 }
@@ -1426,14 +1439,12 @@ button.btn-addCustom {
 
 .mediaGalleryBox .mg-heading p{font-size: 22px; border-bottom: 2px solid #ddd; margin-bottom: 5px; padding: 0px; }
 .mediaGalleryBox .mg-heading p i {padding: 5px; background-color: #ddd; margin-right: 5px;}
-.mediaGalleryBox .mg-img { transition: 0.3s; background-color: #ddd;}
-.mediaGalleryBox .mg-img:hover {    background: #c4e8de !important; cursor: pointer; transition: 0.3s;}
+.mediaGalleryBox .mg-img {transition: 0.3s; background-color: #fff; box-shadow: 0px 0px 5px #dadada; }
+.mediaGalleryBox .mg-img:hover {background: #c4e8de !important; cursor: pointer; transition: 0.3s;}
 .mediaGalleryBox .mg-img img {width: auto;}
-.mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px;     padding-top: 0px; }
+.mediaGalleryBox .mg-img p {margin: 0px; font-size: 10px; padding: 3px 5px; padding-top: 0px; }
 .mediaGalleryBox .mg-img a {color: #333; text-decoration: none;}
-.mediaGalleryBox .mg-img .wide {
-    
-}
+.mediaGalleryBox .mg-img .wide {}
 
 .mediaGalleryBox .mg-heading p .img-mg-heading {
     width: 55px;
@@ -1573,6 +1584,154 @@ button.btn-addCustom {
     color:#c1c1c1;
 }
 
-
+.info_checkbox{
+    
+    
+    padding-left: 9px;
+}
 .note-insert {display: none;}
 
+/******** modal ***********/
+.outer_modal
+{
+    padding:0px 20px 0px 20px;
+}
+.margin_bottom_custom
+{
+    margin-bottom:0px !important;
+}
+.modal_block1
+{
+        background-color: #e8e8e8;
+    color:#fff;
+    padding:30px;
+    border-radius:3px;
+    margin-bottom:17px;
+	transition:.3s ease-in-out;
+}
+.modal_block1:hover 
+{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ead9d+1,03ad6f+100 */
+background: #7ead9d; /* Old browsers */
+background: -moz-linear-gradient(left, #7ead9d 1%, #03ad6f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7ead9d 1%,#03ad6f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7ead9d 1%,#03ad6f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ead9d', endColorstr='#03ad6f',GradientType=1 ); /* IE6-9 */
+    transition:0.3s ease;
+    cursor:pointer;
+}
+.modal_block1 button
+{
+    border:none;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ead9d+1,03ad6f+100 */
+background: #7ead9d; /* Old browsers */
+background: -moz-linear-gradient(left, #7ead9d 1%, #03ad6f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7ead9d 1%,#03ad6f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7ead9d 1%,#03ad6f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ead9d', endColorstr='#03ad6f',GradientType=1 ); /* IE6-9 */
+}
+.modal_block1 button:focus 
+{
+    color:#fff !important;
+}
+.modal_block1 .custom-btn1
+{
+    width:145px;
+}
+.modal_block1 .custom-btn2
+{
+    width:140px;
+}
+
+.modal_block1 .custom-btn3
+{
+    width:140px;
+}
+.modal_block1 .custom-btn4
+{
+    width:140px;
+}
+
+.modal_block1 i
+{
+    margin-right:2px;
+    vertical-align:-2px;
+    font-size:20px;
+}
+.pad_right_6
+{
+    padding-right:9px !important;
+}
+.pad_left_6
+{
+    padding-left:9px !important;
+}
+
+.receipent {
+    margin:3px 0;
+}
+.receipent:first-child{
+    margin-top:6px;
+}
+.receipent img {
+    width:30px;
+    margin-right:5px;
+}
+.receipent a {
+    font-size:14px;
+    display:inline;
+    color:#1b8a69;
+}
+.receipent a:hover {
+    color:#0a543e;
+}
+
+
+.receipent a .seen{
+    color:#cccccc;
+}
+
+.view_receipents {
+    color:#bababa;
+    border-bottom:1px solid #d0d0d0;
+    padding-bottom:2px;
+}
+
+.view_receipents:hover {
+    color:#292929;
+}
+
+a:active,a:hover {
+    text-decoration:none;
+}
+
+.shadowGrid {
+    border-radius:4px;
+    box-shadow: 0px 0px 5px #dadada;
+}
+.card-icons i
+{
+    margin-left:5px;
+    color:#717171;
+}
+.custom-btn-cards
+{
+    font-size:14px;
+    color:#fff;
+    margin-top:7px; 
+    width:auto !important;
+    padding:0px 9px 0px 9px;
+    margin-bottom:7px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afafaf+0,848484+100 */
+background: #afafaf; /* Old browsers */
+background: -moz-linear-gradient(top, #afafaf 0%, #848484 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #afafaf 0%,#848484 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #afafaf 0%,#848484 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#848484',GradientType=0 ); /* IE6-9 */
+    height:26px !important;
+    border:none;
+}
+.card-icons i:hover 
+{
+    color:#353535;
+}

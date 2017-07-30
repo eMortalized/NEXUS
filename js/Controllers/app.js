@@ -45,6 +45,61 @@ app.controller('homeController', ['$scope','$location', function ($scope,$locati
     $scope.init();
 }]);
 
+app.controller('newmessage', ['$scope','$location', function ($scope,$location) {
+    tooltips();
+    $scope.input = "hi";
+    
+    $scope.load = function() {
+        renderElements();
+        
+        $(function() {
+        $('.summernote').summernote({
+          height: 150,
+              toolbar: [
+                      ['style', ['bold', 'italic','underline']],
+                  ],
+                  focus: true
+        });
+
+        $('form').on('submit', function (e) {
+          e.preventDefault();
+          alert($('.summernote').summernote('code'));
+          alert($('.summernote').val());
+        });
+
+          $('.note-editor [data-event="insertUnorderedList"]').tooltip('disable'); 
+
+      });
+    };
+    
+    $scope.load();
+    
+    $scope.init = function(){
+        var inputTarget = $(this).attr("data-inputTarget");
+            var jc = $.confirm({
+                title: 'Select message to compose',
+                content: 'url:views/posthumous-messages/_newmessage.html',
+                animation: 'opacity',
+                columnClass: 'col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center',
+                buttons: {
+                    close: {
+                        btnClass: 'hidden'
+                    },
+
+                }
+            });
+            
+        $("body").on('click','.modal_block1',function(){
+            var input = $(this).attr("data-target");
+            $scope.input = input;
+            $scope.$digest();
+            jc.close();
+        });
+    }
+    
+    $scope.init();
+}]);
+
 app.controller('posthumousController', ['$scope','$location', function ($scope,$location) {
     $scope.templates =
         [ { name: 'Template1', url: 'views/posthumous-messages/newmessage.php'},
@@ -76,6 +131,7 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
         $('.datepicker').datepicker({
             autoclose: true
         });
+		
     }
     $scope.init();
 }]);
@@ -296,12 +352,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                 containment: "parent" 
              }).disableSelection();
             
-            $('.tooltip-help_custom').attr('tabindex', '-1');
-            $('body, a').attr('tabindex','-1');
-            $('form input').attr('tabindex','1');
-            $('form select').attr('tabindex','1');
-            $('form textarea').attr('tabindex','1');
-            $('form button').attr('tabindex','1');
+           
             
             //Range symbols with grater and less than
             $('.range-slider__range').on('mousemove change',function() { 
@@ -322,27 +373,8 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                 
             });
             
-            //Help popups
-            $(".tooltip-help_custom").unbind('click');
+            tooltips();
             
-            $('.tooltip-help_custom').on('click', function () {
-                var helpcontent = $(this).attr("data-title");
-                var labeltext = $(this).closest(".form-group").find("label").text();
-                $.alert({
-                    title: labeltext,
-                    content: helpcontent,
-                    icon: 'fa fa-info',
-                    animation: 'opacity',
-                    closeAnimation: 'opacity',
-                    backgroundDismiss: true,
-                    buttons: {
-                        okay: {
-                            text: 'Close',
-                            btnClass: 'btn-yellow'
-                        }
-                    }
-                });
-            });
             
             
             //Prompt For Multivalue Text
@@ -379,6 +411,8 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
                 });
                 
             });
+			
+			
             
             
             
@@ -530,18 +564,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
         $scope.init();
 
         $scope.load = function () {
-            //fetchBooks();
-            //fetchLanguages();
-            //fetchSportsTeamFav();
-            //fetchAnimal();
-            //fetchMusicians();
-            //fetchMovies();
-            //fetchTvShow();
-
-            //Initializing Tooltip
-            $('[data-toggle="tooltip"]').tooltip();
-            $('.titleHidden').removeAttr('title');
-
+            
 
             resizeProcess();
             $(window).resize(function () {
@@ -550,80 +573,7 @@ app.controller('aboutController', ['$scope', '$http','chineseZodiac', function (
 
             /* Date and Time Inputs */
             // do your $() stuff here
-            $(function () {
-                //Initialize Select2 Elements
-                $(".select2").select2();
-
-                //Datemask dd/mm/yyyy
-                $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
-                //Datemask2 mm/dd/yyyy
-                $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
-                //Money Euro
-                $("[data-mask]").inputmask();
-
-                //Date range picker
-                $('#reservation').daterangepicker();
-                //Date range picker with time picker
-                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 1, format: 'MM/DD/YYYY h:mm A'});
-                //Date range as a button
-                $('#daterange-btn').daterangepicker(
-                        {
-                            ranges: {
-                                'Today': [moment(), moment()],
-                                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-                                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-                                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-                                'This Month': [moment().startOf('month'), moment().endOf('month')],
-                                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-                            },
-                            startDate: moment().subtract(29, 'days'),
-                            endDate: moment()
-                        },
-                function (start, end) {
-                    $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-                }
-                );
-
-                //Date picker
-                $('.datepicker').datepicker({
-                    autoclose: true
-                });
-                $('.yearpicker').datepicker({
-                    autoclose: true,
-                     format: " yyyy", // Notice the Extra space at the beginning
-                    viewMode: "years", 
-                    minViewMode: "years"
-                });
-
-                $(".input-group-addon").on("click", function () {
-                    $(this).parents('.form-group').find('input').focus();
-                });
-
-
-
-                //iCheck for checkbox and radio inputs
-                $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
-                    checkboxClass: 'icheckbox_minimal-blue',
-                    radioClass: 'iradio_minimal-blue'
-                });
-
-                 $("#timeOfArrival").focus(function(){
-                     $(this).timepicker({
-                        showInputs: false,
-                        defaultTime: curtime
-                    });
-                 });
-                 
-                var curtime = new Date(new Date().getTime()).toLocaleTimeString();
-                //Timepicker
-                $(".timepicker").timepicker({
-                    showInputs: false,
-                    defaultTime: curtime
-                });
-               
-            });
-
-
+            renderElements();
         };
 
         //don't forget to call the load function
@@ -1098,3 +1048,111 @@ function myersbriggs(a,b)
             
     }
 }
+
+function tooltips(){
+     $('.tooltip-help_custom').attr('tabindex', '-1');
+    $('body, a').attr('tabindex','-1');
+    $('form input').attr('tabindex','1');
+    $('form select').attr('tabindex','1');
+    $('form textarea').attr('tabindex','1');
+    $('form button').attr('tabindex','1');
+
+    //Help popups
+    $(".tooltip-help_custom").unbind('click');
+    $('.tooltip-help_custom').on('click', function () {
+        var helpcontent = $(this).attr("data-title");
+        var labeltext = $(this).closest(".form-group").find("label").text();
+        $.alert({
+            title: labeltext,
+            content: helpcontent,
+            icon: 'fa fa-info',
+            animation: 'opacity',
+            closeAnimation: 'opacity',
+            backgroundDismiss: true,
+            buttons: {
+                okay: {
+                    text: 'Close',
+                    btnClass: 'btn-yellow'
+                }
+            }
+        });
+    });
+}
+
+function renderElements(){
+    //Initializing Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+            $('.titleHidden').removeAttr('title');
+
+            $(function () {
+                //Initialize Select2 Elements
+                $(".select2").select2();
+
+                //Datemask dd/mm/yyyy
+                $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
+                //Datemask2 mm/dd/yyyy
+                $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
+                //Money Euro
+                $("[data-mask]").inputmask();
+
+                //Date range picker
+                $('#reservation').daterangepicker();
+                //Date range picker with time picker
+                $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 1, format: 'MM/DD/YYYY h:mm A'});
+                //Date range as a button
+                $('#daterange-btn').daterangepicker(
+                        {
+                            ranges: {
+                                'Today': [moment(), moment()],
+                                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                                'This Month': [moment().startOf('month'), moment().endOf('month')],
+                                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                            },
+                            startDate: moment().subtract(29, 'days'),
+                            endDate: moment()
+                        },
+                function (start, end) {
+                    $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                }
+                );
+
+                //Date picker
+                $('.datepicker').datepicker({
+                    autoclose: true
+                });
+                $('.yearpicker').datepicker({
+                    autoclose: true,
+                     format: " yyyy", // Notice the Extra space at the beginning
+                    viewMode: "years", 
+                    minViewMode: "years"
+                });
+
+                $(".input-group-addon").on("click", function () {
+                    $(this).parents('.form-group').find('input').focus();
+                });
+
+                //iCheck for checkbox and radio inputs
+                $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+                    checkboxClass: 'icheckbox_minimal-blue',
+                    radioClass: 'iradio_minimal-blue'
+                });
+
+                 $("#timeOfArrival").focus(function(){
+                     $(this).timepicker({
+                        showInputs: false,
+                        defaultTime: curtime
+                    });
+                 });
+                 
+                var curtime = new Date(new Date().getTime()).toLocaleTimeString();
+                //Timepicker
+                $(".timepicker").timepicker({
+                    showInputs: false,
+                    defaultTime: curtime
+                });
+               
+            });
+
+} 
