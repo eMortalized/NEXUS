@@ -874,7 +874,7 @@
                     <switch name="americanCollege" ng-model="americanCollege"></switch>
                 </div>
                 <div class="col-xs-10 text-right">
-                    <span ng-hide="americanCollege" class="fixPlace">American College Scores</span>
+                    <span ng-hide="americanCollege" class="fixPlace">ACAT Scores</span>
                 </div>
             </div>
             <!-- Array Head -->

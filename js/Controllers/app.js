@@ -47,7 +47,6 @@ app.controller('homeController', ['$scope','$location', function ($scope,$locati
 
 app.controller('newmessage', ['$scope','$location', function ($scope,$location) {
     tooltips();
-    $scope.input = "hi";
     
     $scope.load = function() {
         renderElements();
@@ -75,27 +74,8 @@ app.controller('newmessage', ['$scope','$location', function ($scope,$location) 
     $scope.load();
     
     $scope.init = function(){
-        var inputTarget = $(this).attr("data-inputTarget");
-            var jc = $.confirm({
-                title: 'Select message to compose',
-                content: 'url:views/posthumous-messages/_newmessage.html',
-                animation: 'opacity',
-                columnClass: 'col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center',
-                buttons: {
-                    close: {
-                        btnClass: 'hidden'
-                    },
-
-                }
-            });
-            
-        $("body").on('click','.modal_block1',function(){
-            var input = $(this).attr("data-target");
-            $scope.input = input;
-            $scope.$digest();
-            jc.close();
-        });
-    }
+        
+    };
     
     $scope.init();
 }]);
@@ -106,12 +86,39 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
         { name: 'Template2', url: 'views/posthumous-messages/others-view.php'},
         { name: 'Template3', url: 'views/posthumous-messages/own-view.php'},
     ];
-
+    $scope.messageType = "";
+    
     $scope.template = $scope.templates[2];
     $scope.changeTemplate = function(template){
         $scope.template = $scope.templates[template];
     };
 
+    $scope.addNewMessage = function(){
+        var inputTarget = $(this).attr("data-inputTarget");
+            var jc = $.confirm({
+                title: 'Select message to compose',
+                content: 'url:views/posthumous-messages/_newmessage.html',
+                animation: 'opacity',
+                backgroundDismiss: true,
+                columnClass: 'col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center',
+                
+                buttons: {
+                    close: {
+                        btnClass: 'hidden'
+                    },
+
+                }
+            });
+            
+        $("body").on('click','.modal_block1',function(){
+            var input = $(this).attr("data-target");
+            $scope.messageType = input;
+            $scope.$digest();
+            jc.close();
+            $scope.changeTemplate(0);
+            $scope.$digest();
+        });
+    };
     
     angular.element(function () {
         resizeProcessPosthumous();
@@ -120,7 +127,7 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
         },100);
     });
     
-
+    
 
     $scope.changeCallback = function() {
       console.log('This is the state of my model ' + $scope.enabled);

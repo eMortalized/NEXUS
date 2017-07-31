@@ -1335,9 +1335,9 @@ button.btn-addCustom {
 
 /* posthumous */
 
-.add_new {height: 110px; width: 270px;     background-color: #f9f9f9;
+.add_new {height: 110px; width: 270px;     background-color: #e8e8e8;
     border: 1px solid #f9f9f9; border-radius: 3px; color: #fff; padding: 10px; display: inline-block; transition: 0.25s; line-height: 80px;}
-.add_new:hover {background-color: #53ba9b; cursor: pointer;}
+.add_new:hover {background-color: #dcdbdb; cursor: pointer;}
 .add_new:hover > .custom-black {background: #53ba9b;}
 .add_new:hover .custom-btn i {
     transform: rotate(90deg);
@@ -1391,7 +1391,7 @@ button.btn-addCustom {
 }
 .box-card .content 
 {
-    padding: 15px; 
+    padding: 15px 15px 7px 15px; 
     color:#828282;
 }
 .box-card  .card-foot 
@@ -1426,7 +1426,7 @@ button.btn-addCustom {
 .box-card .card-bottom {margin-bottom: 0px; margin-top: 30px; padding: 10px; border-top: 1px solid #eee; font-weight: 600;}
 .box-card .card-bottom .fa-calendar {color: #c10000; }
 
-.note-editable p{line-height: 0px; color: #555;}
+.note-editable p{line-height: 1.0; color: #555; padding-bottom:5px;margin-bottom:5px;}
 
 .margin-fix{
     margin-top:5px;
@@ -1612,11 +1612,8 @@ button.btn-addCustom {
 .modal_block1:hover 
 {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ead9d+1,03ad6f+100 */
-background: #7ead9d; /* Old browsers */
-background: -moz-linear-gradient(left, #7ead9d 1%, #03ad6f 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #7ead9d 1%,#03ad6f 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #7ead9d 1%,#03ad6f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ead9d', endColorstr='#03ad6f',GradientType=1 ); /* IE6-9 */
+background: #dcdbdb; /* Old browsers */
+
     transition:0.3s ease;
     cursor:pointer;
 }
@@ -1624,11 +1621,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ead9d', end
 {
     border:none;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ead9d+1,03ad6f+100 */
-background: #7ead9d; /* Old browsers */
-background: -moz-linear-gradient(left, #7ead9d 1%, #03ad6f 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #7ead9d 1%,#03ad6f 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #7ead9d 1%,#03ad6f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ead9d', endColorstr='#03ad6f',GradientType=1 ); /* IE6-9 */
+background: #53ba9b; /* Old browsers */
+
 }
 .modal_block1 button:focus 
 {
@@ -1716,22 +1710,32 @@ a:active,a:hover {
 }
 .custom-btn-cards
 {
-    font-size:14px;
+    font-size:13px;
     color:#fff;
     margin-top:7px; 
     width:auto !important;
-    padding:0px 9px 0px 9px;
+    padding:0px 6px 0px 6px;
     margin-bottom:7px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afafaf+0,848484+100 */
 background: #afafaf; /* Old browsers */
-background: -moz-linear-gradient(top, #afafaf 0%, #848484 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #afafaf 0%,#848484 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #afafaf 0%,#848484 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#848484',GradientType=0 ); /* IE6-9 */
+
     height:26px !important;
     border:none;
 }
 .card-icons i:hover 
 {
     color:#353535;
+}
+
+.play_icons
+{
+	color:#48b897 !important;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	
+	
+color: #fff;
+
+
 }
