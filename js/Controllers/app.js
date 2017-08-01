@@ -82,9 +82,10 @@ app.controller('newmessage', ['$scope','$location', function ($scope,$location) 
 
 app.controller('posthumousController', ['$scope','$location', function ($scope,$location) {
     $scope.templates =
-        [ { name: 'Template1', url: 'views/posthumous-messages/newmessage.php'},
+        [ { name: 'Template1', url: 'views/posthumous-messages/newmessage_text.php'},
         { name: 'Template2', url: 'views/posthumous-messages/others-view.php'},
         { name: 'Template3', url: 'views/posthumous-messages/own-view.php'},
+        { name: 'Template4', url: 'views/posthumous-messages/newmessage_upload.php'},
     ];
     $scope.messageType = "";
     
@@ -115,7 +116,7 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
             $scope.messageType = input;
             $scope.$digest();
             jc.close();
-            $scope.changeTemplate(0);
+            $scope.changeTemplate(3);
             $scope.$digest();
         });
     };
