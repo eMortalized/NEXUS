@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="em">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title> eMortalize | Forgot Email</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/iCheck/all.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/webfonts.css" />
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="plugins/confirmjs/jquery-confirm.min.css"/>
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />    
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    </head>
+    <body class="back-grey">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <div class="frgt-pass">
+                    <h3 class="text-center"><img src="img/forgot-login.png"><br>Forgot Email</h3>
+                                <br>
+
+        <div class="form-group">
+            <label class="custom-display" for="email">Email<a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter legal first name."><i class="fa fa-info-circle"></i></a></label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your email address">
+        </div>
+
+        <button class="btn signInBtn">Send Reset Link</button>
+        </div>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-md-4 col-md-offset-4">
+            <br>
+                <p class="text-center copy-txt">&copy;2017. All Rights Reserved. </p>
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <!-- Main Scripts -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/angular-1.5.8/angular.js"></script>
+
+        <!-- date-range-picker -->
+
+        <!-- bootstrap time picker -->
+
+        <script src="plugins/iCheck/icheck.min.js"></script>
+        <script type="text/javascript" src="plugins/confirmjs/jquery-confirm.min.js"></script>
+        <script src="js/main.js"></script>
+        <script> 
+            tooltips();
+            function tooltips(){
+                 $('.tooltip-help_custom').attr('tabindex', '-1');
+                $('body, a').attr('tabindex','-1');
+                $('form input').attr('tabindex','1');
+                $('form select').attr('tabindex','1');
+                $('form textarea').attr('tabindex','1');
+                $('form button').attr('tabindex','1');
+
+                //Help popups
+                $(".tooltip-help_custom").unbind('click');
+                $('.tooltip-help_custom').on('click', function (event) {
+                    event.preventDefault();
+                    var helpcontent = $(this).attr("data-title");
+                    var labeltext = $(this).closest(".form-group").find("label").text();
+                    $.alert({
+                        title: labeltext,
+                        content: helpcontent,
+                        icon: 'fa fa-info',
+                        animation: 'opacity',
+                        closeAnimation: 'opacity',
+                        backgroundDismiss: true,
+                        columnClass: 'col-sm-4 col-sm-offset-4',
+                        buttons: {
+                            okay: {
+                                text: 'Close',
+                                btnClass: 'btn-yellow'
+                            }
+                        }
+                    });
+                });
+            }
+        </script>
+
+
+</body>
+</html>

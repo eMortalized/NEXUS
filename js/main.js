@@ -222,6 +222,10 @@ $(document).ready(function(){
         $('.tympicker').timepicker('hideWidget');
     });
     
-    
+    $('.checkBox').iCheck({
+        checkboxClass: 'icheckbox_square-green',
+        radioClass: 'iradio_square-green',
+        increaseArea: '0%' // optional
+      });
     
 });

@@ -134,6 +134,15 @@
     .container-posthomous-links .links-boxes {display: inline-block;}
     
     .links-msgs-p {display: none;}
+    
+    .login-box
+    {
+        margin-top: 20px;
+    }
+    .frgt-pass
+    {
+        margin-top:60px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:1300px){
