@@ -1944,4 +1944,56 @@ padding-top:0px;
     text-decoration:underline;
 }
 
+.btnsave{
+    padding-top: 17px;
+}
 
+.btn-group .btn:hover,.btn-group .btn:active,.btn-group .btn:focus{
+    color:#252525;
+}
+
+.note-editor {
+    margin-top: 15px;
+}
+
+/**************** nav on terms page *************************/
+
+.nav-outer
+{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+        line-height: 2;
+    padding:15px;
+}
+.nav-outer h3 
+{
+    margin-top:5px;
+    color:#53ba9b;
+}
+.nav-outer ul
+{
+    margin:0px 0px 0px 50px;
+    padding:0px;
+    list-style:none;
+    
+}
+.nav-outer button 
+{
+    width:130px;
+    margin-top:0px;
+}
+
+.nav-outer h4 
+{
+    margin-left:35px;
+    line-height: 2.4;
+    color:#777777;
+    font-size:16px;
+}
+.nav-outer h4:hover 
+{
+    color:#000;
+    transition:0.3s ease;
+    cursor:pointer
+}

@@ -3,7 +3,7 @@
 
     <div class="midsec back-white scroll">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="mediagallery-height">
                 <div class="col-md-8 col-sm-12 nopadding galleryOuterContainer">
                     <div class="container-fluid mediaGalleryBox">
                         <div class="row">
@@ -231,7 +231,7 @@
                         <div class="row">
                             <div class="col-sm-12 nopadding">
 
-                                <div class="recentAdditions scroll">
+                                <div class="recentAdditions" style="height:100vh;">
                                     <p class="ra-heading text-center"><span>Recent Additions</span></p>
                                     <div class="ra-img">
                                         <div class="row">

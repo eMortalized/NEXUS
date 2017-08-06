@@ -10,6 +10,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/posthumous-messages', {
             templateUrl: 'views/posthumous-messages.php',
             controller: 'posthumousController'
+        }).when('/posthumous-messages/new-message/:viewType', {
+            templateUrl: 'views/posthumous-messages-newmessage.php',
+            controller: 'newmessage'
         }).when('/media-gallery', {
             templateUrl: 'views/media-gallery.php',
             controller: 'mediagalleryController'
@@ -22,6 +25,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     }]);
 
 app.controller('homeController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
     $scope.test = "";
     
     $scope.isActive = function (viewLocation) {
@@ -45,13 +51,22 @@ app.controller('homeController', ['$scope','$location', function ($scope,$locati
     $scope.init();
 }]);
 
-app.controller('newmessage', ['$scope','$location', function ($scope,$location) {
+app.controller('newmessage', ['$scope','$location','$routeParams', function ($scope,$location,$routeParams) {
+    $scope.getTheClass = function (){
+        return "none";
+    }
     tooltips();
+    $scope.msgTitle = "";
+    $scope.msgTitleImg = "";
+    $scope.msgPage = "";
     
-    $scope.load = function() {
-        renderElements();
-        
-        $(function() {
+    viewType = $routeParams.viewType;
+    //Toggle with type of page
+    if(viewType == "typemessage"){
+        $scope.msgTitle = 'New Message';
+        $scope.msgTitleImg = "newmessage.png";
+        $scope.msgPage = "typemessage";
+         $(function() {
         $('.summernote').summernote({
           height: 150,
               toolbar: [
@@ -69,6 +84,17 @@ app.controller('newmessage', ['$scope','$location', function ($scope,$location) 
           $('.note-editor [data-event="insertUnorderedList"]').tooltip('disable'); 
 
       });
+    } else if(viewType=="uploadfile"){
+        $scope.msgTitle = 'Create Your Upload Message';
+        $scope.msgTitleImg = "cloud-upload.png";
+        $scope.msgPage = "uploadfile";
+    } else {
+        $location.path('/posthumous-messages');
+    }
+    $scope.load = function() {
+        renderElements();
+        
+       
     };
     
     $scope.load();
@@ -81,6 +107,9 @@ app.controller('newmessage', ['$scope','$location', function ($scope,$location) 
 }]);
 
 app.controller('posthumousController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
     $scope.templates =
         [ { name: 'Template1', url: 'views/posthumous-messages/newmessage_text.php'},
         { name: 'Template2', url: 'views/posthumous-messages/others-view.php'},
@@ -112,12 +141,13 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
             });
             
         $("body").on('click','.modal_block1',function(){
-            var input = $(this).attr("data-target");
-            $scope.messageType = input;
-            $scope.$digest();
-            jc.close();
-            $scope.changeTemplate(3);
-            $scope.$digest();
+//            var input = $(this).attr("data-target");
+//            $scope.messageType = input;
+//            $scope.$digest();
+                jc.close();
+//            $scope.changeTemplate(3);
+//            $location.search('page', 'newmsg');
+//            $scope.$digest();
         });
     };
     
@@ -146,6 +176,10 @@ app.controller('posthumousController', ['$scope','$location', function ($scope,$
 
 
 app.controller('mediagalleryController', ['$scope','$location', function ($scope,$location) {
+     $scope.getTheClass = function (){
+        return "slide";
+    }
+    
      $scope.init = function () {
     }
     
@@ -165,6 +199,9 @@ app.controller('mediagalleryController', ['$scope','$location', function ($scope
 }]);
 
 app.controller('aboutController', ['$scope', '$http','chineseZodiac', function ($scope, $http,ChineseZodiac) {
+        $scope.getTheClass = function (){
+            return "slide";
+        }
         $scope.test = "";
         
          $('.chosen-select').chosen({
@@ -846,8 +883,8 @@ var resizeProcessPosthumous = function () {
 }
 
 var resizeRecentAdditions = function(){
-    var galleryOuterContainer = $('.galleryOuterContainer').outerHeight();
-    $(".recentAdditions").css("height",galleryOuterContainer-120+"px");
+    var galleryOuterContainer = $('#mediagallery-height').outerHeight();
+   $(".recentAdditions").css("height",galleryOuterContainer+"px");
 }
 
 //Calculating Zodiac

@@ -5,6 +5,9 @@
             <h3>
                 <img src="img/cloud-upload.png" width="50px"/>  Create Your Upload Message
             </h3>
+            
+      
+            
             <hr>
             <div class="row">
                 <div class="col-sm-6">
@@ -141,7 +144,26 @@
                 </div>
                 
             </div>
-            
+            <span class="glyphicons glyphicons-keyboard-wireless"></span>
+            <div class="row">
+                <div class="btnsave">
+                    
+                <div class="col-sm-12">
+                    <div class="form-group">
+                    <div class="pull-right ">
+                        <div class="btn-group">
+                            
+                          <button type="button" class="btn btn-default"><i class="fa fa-keyboard-o" aria-hidden="true"></i>
+ Save Message</button>
+                          <button type="button" class="btn btn-default active"><i class="fa fa-cloud-upload" aria-hidden="true"></i>
+Upload Message</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
             
             <div class="row">
                 <div class="col-md-12">
@@ -155,7 +177,12 @@
 
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12"> <button class="btn custombtn pull-right">Save </button>
+                
+            </div>
             
+        </div>
         </div>
     </div>
         <script>
