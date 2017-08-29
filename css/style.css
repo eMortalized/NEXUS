@@ -1937,7 +1937,7 @@ padding-top:0px;
 {
     color:#000 !important;
     font-weight:100 !important;
-    margin:10px 0px 10px 0px;
+    margin:0px 0px 15px 0px;
 }
 .checkbox-text a:hover
 {
@@ -2008,14 +2008,22 @@ padding-top:0px;
     height:100vh;
     background-color:#080f14;
     background-image: url('../img/emortalized_login.jpg');
-    background-size:100% 100%;
-    padding:50px 30px;
+    background-size:contain;
+    background-repeat: repeat;
+    padding:30px 30px;
     transition:background-size .8s ease;
+}
+
+.null-right {
+    padding-right:7px;
+    
+}
+.null-left{
+    padding-left:7px;
 }
 
 .login-img:hover {
     cursor:pointer;
-    background-size:102% 102%;
 }
 .login-content {
     height:100vh;
@@ -2026,6 +2034,7 @@ padding-top:0px;
     color:#fff;
     font-size:40px;
     font-weight:800;
+    line-height: 1.5em;
 }
 .login-img .loginheading span {
     font-weight:800;
@@ -2036,7 +2045,6 @@ padding-top:0px;
 .login-img .logintext {
     font-size:16px;
     color:#fff;
-    padding:20px 0;
 }
 
 .login-img ul {
@@ -2068,7 +2076,7 @@ login-img ul li a:last-child {
 }
 .login-content
 {
-    padding:50px;
+    padding:30px 50px 50px 50px;
 }
 .login-content .login-content-wrapper 
 {
@@ -2078,7 +2086,12 @@ login-img ul li a:last-child {
 {
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.login-content-wrapper .forgot-pwd {
+    position:absolute;
+    bottom:50px;
 }
 .login-content h3 span 
 {
@@ -2118,10 +2131,16 @@ login-img ul li a:last-child {
 }
 .login-content .remember-check
 {
-    margin:20px 0px 23px 0px;
+    margin:0px 0px 15px 0px;
 }
 .login-content .forgot-pwd
 {
     font-size:14px;
 }
-
+.left-inner-addon {
+    margin-bottom:15px;
+}
+n-size
+{
+    width: 500px;
+}
