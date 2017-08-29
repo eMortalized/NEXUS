@@ -1818,7 +1818,7 @@ color: #fff;
 .login-box a, .frgt-pass a { padding: 0px; font-size: 14px; }
 .login-box a:hover {text-decoration: none;}
 .frgt-pass a:hover {text-decoration: none;}
-.signInBtn {outline: none !important; background-color: #48b897;height:40px; width:100%; color: #fff; margin-top: 18px;}
+.signInBtn {outline: none !important; background-color: #48b897;height:50px; width:100%; color: #fff; margin:20px 0px 15px 0px; font-size:18px; font-weight:800;}
 .signInBtn:hover {background-color: #3ba284;  outline: none !important;}
 .or-txt {margin: 0px; padding: 0px; margin-top: 15px; margin-bottom: 15px; }
 .social-icons {padding: 0px; margin: 0px;}
@@ -1997,3 +1997,131 @@ padding-top:0px;
     transition:0.3s ease;
     cursor:pointer
 }
+
+
+/* Login Page (New) */
+.login-pg {
+    background-color:#fff;
+}
+
+.login-img {
+    height:100vh;
+    background-color:#080f14;
+    background-image: url('../img/emortalized_login.jpg');
+    background-size:100% 100%;
+    padding:50px 30px;
+    transition:background-size .8s ease;
+}
+
+.login-img:hover {
+    cursor:pointer;
+    background-size:102% 102%;
+}
+.login-content {
+    height:100vh;
+    background:#eee;
+}
+
+.login-img .loginheading{
+    color:#fff;
+    font-size:40px;
+    font-weight:800;
+}
+.login-img .loginheading span {
+    font-weight:800;
+    font-size:75px;
+    border-bottom:5px solid #48b897;
+}
+
+.login-img .logintext {
+    font-size:16px;
+    color:#fff;
+    padding:20px 0;
+}
+
+.login-img ul {
+    padding:0;
+    color:#fff;
+    position: absolute;
+    bottom:50px;
+}
+
+.login-img ul li{
+    display:inline-block;
+}
+.login-img ul li a {
+    color:#eee;
+    padding:0px 5px;
+    border-right:1px solid #fff;
+}
+
+.login-img ul li a:hover {
+    color: #dedede;
+}
+
+login-img ul li a:last-child {
+    border-right:0px;
+}
+
+.border-none {
+    border:0px !important;
+}
+.login-content
+{
+    padding:50px;
+}
+.login-content .login-content-wrapper 
+{
+    width:400px;
+}
+.login-content h3 
+{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.login-content h3 span 
+{
+    font-weight: 800;
+    font-size: 55px;
+}
+.login-content .left-inner-addon {
+  position: relative;
+}
+.login-content .left-inner-addon i{
+  position: absolute;
+  left: 0px;
+  padding: 14px 12px;
+  font-size:19px;
+  color:#757575;
+  pointer-events: none;
+}
+.login-content form input 
+{
+    margin-bottom:5px;
+    height:50px;
+    width:100%;
+    border-radius:4px;
+    background-color:#fff;
+    border:1.5px solid #d0d0d0;
+    padding-left:33px;
+}
+.login-content form input:focus 
+{
+    outline:none;
+    border:1.5px solid #949494;
+    transition:0.4s ease;
+}
+.login-content form input::placeholder
+{
+  color: #bfbfbf;
+}
+.login-content .remember-check
+{
+    margin:20px 0px 23px 0px;
+}
+.login-content .forgot-pwd
+{
+    font-size:14px;
+}
+
