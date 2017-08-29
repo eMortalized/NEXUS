@@ -2014,10 +2014,12 @@ padding-top:0px;
     transition:background-size .8s ease;
 }
 
-
-
-.login-img:hover {
+.login-content #datepicker {
     cursor:pointer;
+}
+
+.md-check { 
+    width:1px;            
 }
 .login-content {
     height:100vh;
@@ -2030,10 +2032,16 @@ padding-top:0px;
     font-weight:800;
     line-height: 1.5em;
 }
-.login-img .loginheading span {
+.login-img .loginheading a {
+        padding-bottom: 2px;
+    color:#fff;
     font-weight:800;
     font-size:75px;
     border-bottom:5px solid #48b897;
+}
+
+.login-img .loginheading a:hover {
+    color:#fff;
 }
 
 .login-img .logintext {

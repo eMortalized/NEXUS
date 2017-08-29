@@ -7,22 +7,25 @@
         <title>eMortalize | SignUp </title>
         <link rel="icon" type="image/x-icon" href="favicon.png" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="plugins/iCheck/all.css">
+        <link rel="stylesheet" href="plugins/iCheck/all.css" />
+            
+        <!-- bootstrap datepicker -->
+        <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" />
+        <link rel="stylesheet" href="plugins/datepicker/datepicker3.css" />
+        <link rel="stylesheet" href="plugins/iCheck/all.css" />
 
-            <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-                <link rel="stylesheet" href="css/webfonts.css" />
-                <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/webfonts.css" />
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" />
 
-                    <link rel="stylesheet" type="text/css" href="plugins/confirmjs/jquery-confirm.min.css"/>
-
-
-                    <link rel="stylesheet" type="text/css" href="css/style.css" />    
-                    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-                    </head>
+        <link rel="stylesheet" type="text/css" href="plugins/confirmjs/jquery-confirm.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />    
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    </head>
                     <body class="login-pg">
                         <div class="col-md-5 login-img">
-                            <h1 class="loginheading"><span>eMortalized</span><br/> is eternal</h1>
+                            <h1 class="loginheading"><a href="login.html">eMortalized</a><br/> is eternal</h1>
                             <p class="logintext">Becoming eMortalized means being digitally present to future generations in the way you wish to be.</p>
                             <ul>
                                 <li><a href="login.html">Login</a></li>
@@ -58,7 +61,7 @@
                                         <div class="col-md-6 null-left">
                                             <div class="left-inner-addon">
                                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                <input type="text" placeholder="DOB" class="form-control" name=""/>
+                                                <input type="text" placeholder="DOB" class="form-control" id="datepicker" name=""/>
                                             </div>
                                         </div>
                                     </div>
@@ -80,101 +83,72 @@
 
 
                                         <button class="btn signInBtn">Signup</button>
+                                        <p class="clearfix"></p>
                                 </form>
                             </section>
                         </div>
+                        
+                        <p class="clearfix"></p>
+                        <div class="md-check"></div>
 
-                        <!-- <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-offset-4">
-                                    <div class="login-box">
-                                        <h3 class="text-center"><img src="img/login.png"/><br>Login</h3>
-                                        <p class="text-center signIn-txt">Log in with your Administrator Account</p>
-                                        
-                                        <div class="form-group">
-                                            <label class="custom-display" for="email">Email <a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter legal first name."><i class="fa fa-info-circle"></i></a></label>
-                                            <input type="email" class="form-control" id="email" name="email">
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <label class="custom-display" for="pwd">Password<a href="" class="tooltip-help_custom pull-right"  data-placement="top" data-title="Enter legal first name."><i class="fa fa-info-circle"></i></a></label>
-                                            <input type="password" class="form-control" id="pwd" name="pwd">
-                                        </div>
-                                        
-                                        <div class="">
-                                            <label class="checkbox-text"><input type="checkbox" class="checkBox" checked>&nbsp; Remember Password</label>
-                                        </div>
-                                        
-                                        <center> 
-                                            <div class="g-recaptcha" data-sitekey="6LeWrSsUAAAAABn-T5Z0D29pb7ZE7J7O8j1uQPj3"></div>
-                                        </center>
-                                        
-                                        <button class="btn signInBtn">Log in</button>
-                                        <a href="forgot_password.html" class="forgot_password"><span>Forgot Password?</span></a><br>
-                                        <a href="forgot_email.html" class="forgot_email"><span>Forgot Email?</span></a>
-                        <!--
-                        <p class="text-center social-icons"><i class="fa fa-facebook-official facebook_custm"></i><i class="fa fa-twitter twitter_custm"></i><i class="fa fa-github github_custm"></i></p>
-                        ->
-                    </div>
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-md-4 col-md-offset-4">
-                    <p class="text-center reg_txt">Don't have an account? Please go to <a href="signup.html"><strong>Register</a></strong></p>
-                    <p class="text-center copy-txt">&copy;2017. All Rights Reserved. </p>
-                </div>
-            </div>
-        </div> ---->
+    <!-- Main Scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular-1.5.8/angular.js"></script>
+    <script src="plugins/iCheck/icheck.min.js"></script>
+    <!-- date-range-picker -->
+    <script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+    <!-- bootstrap time picker -->
+    <script>
+        $(document).ready(function(){
+           //Date picker
+            $('#datepicker').datepicker({
+              autoclose: true
+            }); 
+        });
+    </script>
+    
+    <!-- bootstrap time picker -->
+    <script src="plugins/iCheck/icheck.min.js"></script>
+    <script type="text/javascript" src="plugins/confirmjs/jquery-confirm.min.js"></script>
 
+    <script src="js/main.js"></script>
+    <script src="js/outer-pages.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        tooltips();
+        function tooltips() {
+            $('.tooltip-help_custom').attr('tabindex', '-1');
+            $('body, a').attr('tabindex', '-1');
+            $('form input').attr('tabindex', '1');
+            $('form select').attr('tabindex', '1');
+            $('form textarea').attr('tabindex', '1');
+            $('form button').attr('tabindex', '1');
 
-
-                        <!-- Main Scripts -->
-                        <script src="js/jquery-3.1.1.min.js"></script>
-
-                        <script src="js/bootstrap.min.js"></script>
-                        <script src="js/angular-1.5.8/angular.js"></script>
-                        <script src="plugins/iCheck/icheck.min.js"></script>
-                        <!-- date-range-picker -->
-
-                        <!-- bootstrap time picker -->
-                        <script src="plugins/iCheck/icheck.min.js"></script>
-                        <script type="text/javascript" src="plugins/confirmjs/jquery-confirm.min.js"></script>
-
-                        <script src="js/main.js"></script>
-                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                        <script>
-                            tooltips();
-                            function tooltips() {
-                                $('.tooltip-help_custom').attr('tabindex', '-1');
-                                $('body, a').attr('tabindex', '-1');
-                                $('form input').attr('tabindex', '1');
-                                $('form select').attr('tabindex', '1');
-                                $('form textarea').attr('tabindex', '1');
-                                $('form button').attr('tabindex', '1');
-
-                                //Help popups
-                                $(".tooltip-help_custom").unbind('click');
-                                $('.tooltip-help_custom').on('click', function (event) {
-                                    event.preventDefault();
-                                    var helpcontent = $(this).attr("data-title");
-                                    var labeltext = $(this).closest(".form-group").find("label").text();
-                                    $.alert({
-                                        title: labeltext,
-                                        content: helpcontent,
-                                        icon: 'fa fa-info',
-                                        animation: 'opacity',
-                                        closeAnimation: 'opacity',
-                                        backgroundDismiss: true,
-                                        columnClass: 'col-sm-4 col-sm-offset-4',
-                                        buttons: {
-                                            okay: {
-                                                text: 'Close',
-                                                btnClass: 'btn-yellow'
-                                            }
-                                        }
-                                    });
-                                });
-                            }
-                        </script>
-                    </body>
-                    </html>
+            //Help popups
+            $(".tooltip-help_custom").unbind('click');
+            $('.tooltip-help_custom').on('click', function (event) {
+                event.preventDefault();
+                var helpcontent = $(this).attr("data-title");
+                var labeltext = $(this).closest(".form-group").find("label").text();
+                $.alert({
+                    title: labeltext,
+                    content: helpcontent,
+                    icon: 'fa fa-info',
+                    animation: 'opacity',
+                    closeAnimation: 'opacity',
+                    backgroundDismiss: true,
+                    columnClass: 'col-sm-4 col-sm-offset-4',
+                    buttons: {
+                        okay: {
+                            text: 'Close',
+                            btnClass: 'btn-yellow'
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
