@@ -2014,13 +2014,7 @@ padding-top:0px;
     transition:background-size .8s ease;
 }
 
-.null-right {
-    padding-right:7px;
-    
-}
-.null-left{
-    padding-left:7px;
-}
+
 
 .login-img:hover {
     cursor:pointer;
