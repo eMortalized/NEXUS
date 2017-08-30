@@ -1819,6 +1819,7 @@ color: #fff;
 .login-box a:hover {text-decoration: none;}
 .frgt-pass a:hover {text-decoration: none;}
 .signInBtn {outline: none !important; background-color: #48b897;height:50px; width:100%; color: #fff; margin:20px 0px 15px 0px; font-size:18px; font-weight:800;}
+.signin-custom{ margin:0px !important; height:40px; width:120px;}
 .signInBtn:hover {background-color: #3ba284;  outline: none !important;}
 .or-txt {margin: 0px; padding: 0px; margin-top: 15px; margin-bottom: 15px; }
 .social-icons {padding: 0px; margin: 0px;}
@@ -2080,9 +2081,9 @@ login-img ul li a:last-child {
 {
     padding:30px 50px 50px 50px;
 }
-.login-content .login-content-wrapper 
+.login-content .login-content-wrapper, .login-tabs
 {
-    width:400px;
+        width: 440px;
 }
 .login-content h3 
 {
@@ -2142,7 +2143,70 @@ login-img ul li a:last-child {
 .left-inner-addon {
     margin-bottom:15px;
 }
-n-size
+
+.fpass
 {
-    width: 500px;
+    font-size: 30px !important;
+    
+}
+.addb
+{
+    margin-bottom: -2px;
+}
+.login-content form .addb input 
+{
+    padding-left:40px;
+}
+.login-content .forgot-pass-heading 
+{
+   margin:17px 0px 30px 0px;
+   
+}
+.login-content .forgot-pass-heading span
+{
+    line-height:1.1;
+     font-weight: 800;
+    font-size: 50px;
+}
+.em-logo
+{
+    width:160px;
+    position:absolute;
+    bottom:90px;
+}
+.login-tabs
+{
+    position:absolute;
+    bottom:45px;
+}
+.login-content .tabs 
+{
+    padding:10px;
+    border:1.5px solid #d0d0d0;
+}
+.login-content .tabs:hover 
+{
+    background-color:#e0e0e0;
+    transition:0.3s ease;
+}
+.login-content .tab-active
+{
+    background-color:#e0e0e0;
+}
+.login-content .tab-a
+{
+    color:#908f8f;
+}
+
+.pad-zero-left
+{
+    padding-left:0px;
+}
+.pad-zero-right
+{
+    padding-right:0px;
+}
+.login-content .border-left-custom 
+{
+    border-left:none !important;
 }

@@ -122,12 +122,39 @@
 
     .login-img .loginheading {
         font-size: 30px;
-        line-height: 2em;
+        line-height: 1.3em;
     }
     
     .login-img .loginheading a {
         font-size: 55px;
         border-bottom: 3px solid #48b897;
+    }
+    .login-img
+    {
+        height:auto;
+        padding: 16px 30px;
+    }
+    .login-img ul 
+    {
+        position:static;
+    }
+    .login-img .logintext
+    {
+        padding: 28px 0px 20px 0px;
+    }
+    .em-logo
+    {
+        position:static;
+        margin-bottom:5px;
+    }
+    .login-tabs
+    {
+        position:static;
+    }
+    .login-content .border-left-custom 
+    {
+        border-left:1.5px solid #d0d0d0 !important;
+        border-top:none;
     }
 }
 
@@ -178,9 +205,10 @@
         position: static;
     }
     
-    .login-content .login-content-wrapper {
+    .login-content .login-content-wrapper, .login-tabs{
         width: 100%;
     }
+    
     
 }
 
