@@ -1,5 +1,7 @@
 $(window).on('load',function(){
     resizeLoginSects();
+    
+    $(".rc-anchor-checkbox-label").css("font-family","'Questrial', sans-serif");
 });
 
 function resizeLoginSects(){
@@ -9,6 +11,7 @@ function resizeLoginSects(){
         windowHeight = $(window).height();
         if ( loginWrapper > windowHeight) {
             // scrollbar
+            
             $(".login-content").css("height","auto");
             var loginContent = $(".login-content").outerHeight();
             $(".login-img").css("height",loginContent);
@@ -18,3 +21,7 @@ function resizeLoginSects(){
     }
     
 }
+
+$("#recaptcha_widget img").one('load',function(){
+    alert();
+});

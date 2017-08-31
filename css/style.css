@@ -1818,8 +1818,12 @@ color: #fff;
 .login-box a, .frgt-pass a { padding: 0px; font-size: 14px; }
 .login-box a:hover {text-decoration: none;}
 .frgt-pass a:hover {text-decoration: none;}
-.signInBtn {outline: none !important; background-color: #48b897;height:50px; width:100%; color: #fff; margin:20px 0px 15px 0px; font-size:18px; font-weight:800;}
+.signInBtn {outline: none !important; background-color: #48b897;height:50px; width:100%; color: #fff; margin:20px 0px 65px 0px; font-size:18px; font-weight:800;}
 .signin-custom{ margin:0px !important; height:40px; width:120px;}
+.forgot-password {
+    position:relative;
+    top:-55px;
+}
 .signInBtn:hover {background-color: #3ba284;  outline: none !important;}
 .or-txt {margin: 0px; padding: 0px; margin-top: 15px; margin-bottom: 15px; }
 .social-icons {padding: 0px; margin: 0px;}
@@ -2209,4 +2213,9 @@ login-img ul li a:last-child {
 .login-content .border-left-custom 
 {
     border-left:none !important;
+}
+
+.rc-anchor-checkbox-label {
+        font-family: 'Questrial', sans-serif !important;
+        font-size: 13px;
 }
