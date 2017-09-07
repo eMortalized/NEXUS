@@ -7,6 +7,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/about', {
             templateUrl: 'views/about.php',
             controller: 'aboutController'
+        }).when('/timeline', {
+            templateUrl: 'views/timeline.php',
+            controller: 'timelineController'
         }).when('/posthumous-messages', {
             templateUrl: 'views/posthumous-messages.php',
             controller: 'posthumousController'
@@ -23,6 +26,20 @@ app.config(['$routeProvider', function ($routeProvider) {
         });
 
     }]);
+
+app.controller('timelineController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
+    
+    $scope.init = function () {
+    }
+    
+    angular.element(function () {
+        
+    });
+    $scope.init();
+}]);
 
 app.controller('homeController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){
