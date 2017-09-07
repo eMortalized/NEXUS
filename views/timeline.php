@@ -6,7 +6,6 @@
         <div class="midsec scroll">
             
                 <section id="cd-timeline" class="cd-container">
-                    <h2>Timeline</h2>
                     <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture">
 
