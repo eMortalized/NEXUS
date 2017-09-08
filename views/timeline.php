@@ -12,7 +12,7 @@
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content">
-                                <h4 class="user-heading">Bohdan Konnonets</h4>
+                                <img src="img/avatar1.jpg" class="pull-left avatar"/><h4 class="user-heading">Bohdan Konnonets</h4>
                                 <div class="timelime-main-c">
                                     <img src="img/content/1.jpg" class="timeline-main-banner-img" />
                                     <h3>Social Media's Globe</h3>
@@ -23,7 +23,7 @@
                             </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
-                    <div class="cd-timeline-block">
+                    <div class="cd-timeline-block right">
                             <div class="cd-timeline-img cd-movie">
 
                             </div> <!-- cd-timeline-img -->
@@ -36,7 +36,7 @@
                             </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
-                    <div class="cd-timeline-block">
+                    <div class="cd-timeline-block right">
                             <div class="cd-timeline-img cd-picture">
 
                             </div> <!-- cd-timeline-img -->
