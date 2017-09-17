@@ -2674,3 +2674,109 @@ margin-left: 15px;
     transform: translateX(0);
   }
 }
+.home-back_
+{
+    background:url('../img/home-back.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.home-header
+{
+    padding:20px 0px 20px 0px;
+}
+.home-header img
+{
+    width:150px;
+}
+.home-header .navbar-inverse 
+{
+    background-color: transparent !important;
+    border-color:transparent;
+}
+.home-header .navbar-inverse .navbar-nav>li>a
+{
+    color:#fff !important;
+    text-shadow:.5px .5px .3px #4e4e4e;
+}
+.home-header .navbar-inverse .navbar-nav>li>a:hover
+{
+    color:#ececec!important;
+    text-decoration: underline;
+}
+.home-header .navbar-inverse .navbar-nav>li>.active
+{
+    color:#ececec !important;
+}
+.home-header .navbar-inverse .login-btn
+{
+    background-color:#ff8b94;
+    border-radius:2px;
+    padding-top:13px;
+    padding-bottom:14px;
+    border-color:transparent;
+}
+.home-header .navbar-inverse .login-btn:hover 
+{
+    background-color:#fd6d78;
+    transition:0.3s ease;
+    
+    
+}
+.home-header .navbar-inverse .navbar-nav>li>.login-btn:hover
+{
+    color:#fff !important;
+    text-decoration: none;
+}
+.home-header .navbar-inverse .navbar-nav>li>a>.lan-sign
+{
+    width:24px;
+    margin-right:5px;
+}
+
+.home-header .navbar-inverse .navbar-toggle {
+    background:#333;
+}
+.home-header .navbar-inverse .navbar-toggle .icon-bar {
+    padding:0;
+}
+
+.home-content p
+{
+    color:#fff;
+    font-size:25px;
+    letter-spacing:1px;
+    text-shadow:1.5px 1px 1px #7d7d7d;
+    margin:100px 0px 20px 0px;
+}
+.home-content a i 
+{
+    margin-left:7px;
+    vertical-align:-1.4px;
+    font-size:20px;
+}
+.home-content .btn-custom1
+{
+    padding:9px 30px 9px 30px;
+    font-size:22px;
+    color:#fff;
+    background-color:#00b99b;
+    border-radius:3px;
+    border-color:transparent;
+}
+
+.home-content .btn-custom2
+{
+    padding:12px 20px 12px 20px;
+    font-size:16px;
+    color:#fff;
+    margin-top:14px;
+    background-color:#4fbbda;
+    border-radius:3px;
+    text-shadow:.5px .5px .3px #4e4e4e;
+    border-color:transparent;
+}
+.home-content .btn-custom2:hover 
+{
+    background-color:#46a6c1;
+    transition:0.4s ease;
+}

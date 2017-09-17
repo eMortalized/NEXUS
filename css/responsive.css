@@ -113,7 +113,7 @@
     .boxes-posthomous {
     padding: 10px 10px;
     display: table;
-}
+    }
 
 .container-posthomous-links .links-boxes {display: inline-block;}
 
@@ -155,6 +155,22 @@
     {
         border-left:1.5px solid #d0d0d0 !important;
         border-top:none;
+    }
+    
+    .home-header .navbar-collapse {
+        background: rgb(51, 51, 51);
+    }
+    .home-header .nav>li {
+        position: relative;
+        display: block;
+        padding:0 10px;
+    }
+    
+    .home-content p {
+        margin-top:30px;
+    }
+    .home-back_ {
+     background-image: url(../img/home-back-sm.jpg);
     }
 }
 
