@@ -2676,9 +2676,11 @@ margin-left: 15px;
 }
 .home-back_
 {
-    background:url('../img/home-back.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
+    background: url(../img/home-back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .home-header
 {
@@ -2764,6 +2766,16 @@ margin-left: 15px;
     border-color:transparent;
 }
 
+.home-content .semi-greenBox{
+    font-size:22px;
+    padding:9px 30px 9px 30px;
+        color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgba(140, 140, 140, 0.43);
+    
+}
+
 .home-content .btn-custom2
 {
     padding:12px 20px 12px 20px;
@@ -2779,4 +2791,9 @@ margin-left: 15px;
 {
     background-color:#46a6c1;
     transition:0.4s ease;
+}
+
+.home-content .btn-custom2:active, .home-content .btn-custom2:active
+{
+   color:#fff;
 }

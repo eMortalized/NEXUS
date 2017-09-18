@@ -166,11 +166,33 @@
         padding:0 10px;
     }
     
-    .home-content p {
-        margin-top:30px;
-    }
+    
     .home-back_ {
      background-image: url(../img/home-back-sm.jpg);
+    }
+    .home-back_ .navbar {
+        z-index:10;
+    }
+    .home-content {
+        position: absolute;
+        bottom: 0;
+        background: rgba(107, 107, 107, 0.67);
+        z-index:-10;
+    }
+    .home-header .navbar-inverse .navbar-toggle {
+        margin-top: -4px;
+    }
+    .home-content p {
+        margin-top:15px;
+        margin-bottom:0;
+        font-size:14px;
+        line-height: 1em;
+    }
+    
+    .home-content .semi-greenBox {
+            background-color: rgba(228, 228, 228, 0.43);
+        padding: 4px 10px 4px 10px;
+        font-size:14px;
     }
 }
 
