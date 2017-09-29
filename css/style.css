@@ -2699,11 +2699,12 @@ margin-left: 15px;
 {
     color:#fff !important;
     text-shadow:.5px .5px .3px #4e4e4e;
+    font-size:17px;
 }
 .home-header .navbar-inverse .navbar-nav>li>a:hover
 {
-    color:#ececec!important;
-    text-decoration: underline;
+        color: #baefdc !important;
+    text-decoration: none;
 }
 .home-header .navbar-inverse .navbar-nav>li>.active
 {
@@ -2716,6 +2717,7 @@ margin-left: 15px;
     padding-top:13px;
     padding-bottom:14px;
     border-color:transparent;
+    font-size:14px !important;
 }
 .home-header .navbar-inverse .login-btn:hover 
 {
@@ -2767,13 +2769,13 @@ margin-left: 15px;
 }
 
 .home-content .semi-greenBox{
-    font-size:22px;
-    padding:9px 30px 9px 30px;
-        color: #ffffff;
+    font-size: 32px;
+    /* font-weight: 600; */
+    padding: 9px 30px 9px 30px;
+    color: #ffffff;
     border-radius: 3px;
     display: inline-block;
-    background-color: rgba(140, 140, 140, 0.43);
-    
+    background-color: rgba(69, 177, 117, 0.33);
 }
 
 .home-content .btn-custom2

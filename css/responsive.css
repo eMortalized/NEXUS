@@ -159,6 +159,7 @@
     
     .home-header .navbar-collapse {
         background: rgb(51, 51, 51);
+            padding-bottom: 10px;
     }
     .home-header .nav>li {
         position: relative;
@@ -185,7 +186,7 @@
     .home-content p {
         margin-top:15px;
         margin-bottom:0;
-        font-size:14px;
+        font-size:16px;
         line-height: 1em;
     }
     
