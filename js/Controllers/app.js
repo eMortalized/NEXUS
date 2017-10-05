@@ -13,6 +13,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/timeline', {
             templateUrl: 'views/timeline.php',
             controller: 'timelineController'
+        }).when('/connections', {
+            templateUrl: 'views/connections.php',
+			controller: 'connectionsController'
         }).when('/posthumous-messages', {
             templateUrl: 'views/posthumous-messages.php',
             controller: 'posthumousController'
@@ -29,6 +32,20 @@ app.config(['$routeProvider', function ($routeProvider) {
         });
 
     }]);
+
+app.controller('connectionsController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
+    
+    $scope.init = function () {
+    }
+    
+    angular.element(function () {
+        
+    });
+    $scope.init();
+}]);
 
 app.controller('familytreeController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){
