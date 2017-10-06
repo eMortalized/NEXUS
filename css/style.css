@@ -2799,3 +2799,148 @@ margin-left: 15px;
 {
    color:#fff;
 }
+
+
+
+/************************** Connections page CSS ***********************/
+
+
+.head_1_connections
+{
+    padding:10px; 
+}
+.head_1_connections ul 
+{
+    list-style:none;
+    margin:3px 0px 0px 0px;
+    padding:0px;
+}
+.head_1_connections ul li
+{
+    display:inline;
+}
+.head_1_connections ul li a
+{
+    color:#848383;
+    text-decoration:none;
+    margin-right:40px;
+    padding:0px !important;
+}
+.head_1_connections ul li a:hover
+{
+    color:#616060;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+.head_1_connections input 
+{
+    width:170px;
+    height:32px;
+    border:1px solid #c7c7c7;
+    border-radius:3px;
+    padding-left:6px;
+    margin-left:10px;
+}
+.head_1_connections input:focus
+{
+    outline:none;
+    border-color:#888787;
+    transition:0.2s ease;
+}
+.head_1_connections select:focus
+{
+    outline:none;
+    border-color:#888787;
+    transition:0.2s ease;
+}
+.head_1_connections select 
+{
+    width:170px;
+    height:32px;
+    border:1px solid #c7c7c7;
+    border-radius:3px;
+}
+
+
+.a-z_connections 
+{
+    background-color:#fff;
+    padding:10px 0px 10px 0px;
+    margin-bottom:20px !important;
+    margin-top:10px !important;
+}
+.a-z_connections ul 
+{
+    list-style:none;
+    margin:0px;
+    font-size:16px;
+    padding:0px;
+}
+.a-z_connections ul a  
+{
+    color:#8c8c8c;
+}
+.a-z_connections ul a li 
+{
+    display:inline;
+    margin-left:16px;
+    padding:7px;
+}
+.a-z_connections ul a li:hover 
+{
+    background-color:#eeeeee;
+}
+.a-z_connections ul a .active
+{
+    background-color:#eeeeee;
+}
+
+
+.connection_cards .cards-item .box-card .content .thumbnail
+{
+    height:auto;
+    overflow:hidden;
+    margin-bottom:14px !important;
+}
+.connection_cards .cards-item .box-card .content .content2
+{
+    margin-bottom:8px;
+}
+.connection_cards .cards-item .box-card .content .content2 h4
+{
+    color:#53ba9b;
+    font-size:20px;
+}
+.connection_cards .cards-item .box-card .card-foot .card-icons i
+{
+    font-size:17px !important;
+    margin-right:3px;
+    display:inline;
+}
+.connection_cards .cards-item .box-card .card-foot .card-icons .connection_menu_dropdown li 
+{
+    border-bottom:1px solid #dedcdc;
+    padding:5px 0px 5px 4px;
+    background-color:#fff;
+}
+.connection_cards .cards-item .box-card .card-foot .card-icons .connection_menu_dropdown li a 
+{
+    margin:0px;
+    padding:0px;
+}
+.connection_cards .dislpay-line
+{
+    display:inline;
+}
+.connection_cards .caret 
+{
+    margin-top:7px;
+}
+.connection_cards .border-bottom-none
+{
+    border-bottom:none !important;
+}
+
+.thumbnail {
+	border: 0px solid #ddd;
+}
