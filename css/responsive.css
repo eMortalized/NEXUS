@@ -6,8 +6,36 @@
     .null-left{
         padding-left:7px;
     }
+    .page
+    {
+        font-size: 36px;
+      
+    }
 }
-
+@media screen and (max-width:780px){
+.page
+    {
+        font-size: 25px;
+       
+    }
+    .error-seem h4
+    {
+        font-size: 15px;
+    }
+    
+    
+    .home-header .navbar-inverse .error-navbar>li>a
+    {
+        color: #fff !important;
+    }
+    
+    
+    .home-header .navbar-inverse .error-navbar>li>.active
+    {
+        color: #fff !important;
+    }
+    
+}
 @media screen and (max-width:1200px){
     .gridsm {
         width:13.68%;
@@ -261,6 +289,40 @@
     .head_1_connections ul li a 
     {
         margin-right: 30px;
+    }
+    .top-header-messaging .content-left ul li a i
+    {
+        margin-right:10px;
+    }
+    .top-header-messaging .content-right ul li a i
+    {
+        margin-left:10px;
+    }
+    .top-header-messaging .content-right
+    {
+        text-align:center;
+    }
+    .top-header-messaging .content-right ul .percentage 
+    {
+        margin-left:10px !Important;
+        padding:5px;
+    }
+    .main-body-message .content-right 
+    {
+        text-align:left !important;
+        margin-top:20px !important;
+    }
+    .main-body-message .content-right ul li a .left-align
+    {
+            margin-left:0px;
+    }
+    .main-body-message .head-actions .bottom-adjust
+    {
+        margin-bottom:10px;
+    }
+    .main-body-message .files .bottom-adjust
+    {
+        margin-bottom:20px;
     }
 }
 

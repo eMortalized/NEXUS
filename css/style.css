@@ -2974,8 +2974,17 @@ margin-left: 15px;
 }
 .btn_error
 {
-    width: 200px;
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 16px;
     
+    
+}
+.btn_error a
+{
+    color: #fff;
+    font-weight: bold;
 }
 .error-middle
 {
@@ -2997,8 +3006,19 @@ margin-left: 15px;
 }
 .page
 {
-    padding-top: 40px; padding-bottom: 20px; border-bottom-width: 10px;
+    padding-top: 50px; padding-bottom: 20px; border-bottom-width: 10px;
 }
+.error-seem{
+    padding-bottom: 10px !important;
+}
+
+.error-header
+{
+    padding-bottom: 3px !important;
+}
+
+
+
 
 /******************* Message Page Css ******************/
 .top-header-messaging 
@@ -3142,6 +3162,46 @@ margin-left: 15px;
 {
     color:#47a086;
     transition:0.3s ease;
+}
+.main-body-message .content
+{
+    padding:45px 0px 45px 0px;
+    border-bottom:1px solid #e2e1e1;
+    color:#545454;
+}
+.main-body-message .files 
+{
+    margin:20px 0px 30px 0px;
+}
+.main-body-message .files .file1
+{
+    height:200px;
+    overflow:hidden;
+    border:1px solid #c7c7c7;
+    border-radius:4px;
+}
+.main-body-message .files .file1 .header 
+{
+     padding:10px;
+     position:relative;
+}
+.main-body-message .files .file1 .header a 
+{
+    background:#777777;
+    position:absolute;
+    top:9px;
+    right:10px;
+}
+.main-body-message .files .file1 .header a:hover
+{
+    background:#5a5959;
+    transition:0.3s ease;
+}
+.main-body-message .files .file1 .header a i 
+{
+    padding:3px 0px 3px 0px;
+    color:#fff;
+    font-size:11px;
 }
 
 
