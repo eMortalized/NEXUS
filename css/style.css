@@ -2945,6 +2945,60 @@ margin-left: 15px;
 	border: 0px solid #ddd;
 }
 
+/*** 404 Page ***/
+
+
+.navbar-inverse .navbar-nav>li>a:focus
+{
+    background-color: #fd6d78 !important;
+}
+.home-back1
+{
+    background: #fff;
+}
+.home-header .navbar-inverse .error-navbar>li>a
+{
+   color: #5b5b5d !important;
+   text-shadow: 0px 0px 0px;
+    
+}
+.home-header .navbar-inverse .error-navbar>li>.active
+{
+   color: #5b5b5d !important;
+   text-shadow: 0px 0px 0px;
+    
+}
+.home-header .navbar-inverse .error-navbar>li>a:hover
+{
+    color: #48b897 !important;
+}
+.btn_error
+{
+    width: 200px;
+    
+}
+.error-middle
+{
+    background-color: #f7edf6;
+}
+.error_bottom
+{
+    height: 10%;
+    background-color: #e6e4e4 !important;
+    bottom: 0 !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+.error_bottom h4
+{
+    padding-top: 20px;
+    border-radius: 100px;
+}
+.page
+{
+    padding-top: 40px; padding-bottom: 20px; border-bottom-width: 10px;
+}
 
 /******************* Message Page Css ******************/
 .top-header-messaging 
@@ -3089,3 +3143,6 @@ margin-left: 15px;
     color:#47a086;
     transition:0.3s ease;
 }
+
+
+
