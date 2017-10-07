@@ -2944,3 +2944,148 @@ margin-left: 15px;
 .thumbnail {
 	border: 0px solid #ddd;
 }
+
+
+/******************* Message Page Css ******************/
+.top-header-messaging 
+{
+    padding:10px 0px 10px 0px;
+}
+.top-header-messaging .content-left ul
+{
+    list-style:none !important;
+    margin:4px 0px 0px 0px;
+    padding:0px;
+}
+.top-header-messaging .content-left ul li 
+{
+    display:inline;
+}
+.top-header-messaging .content-left ul li a 
+{
+    padding:0px !important;
+}
+.top-header-messaging .content-left ul li a i 
+{
+    color:#828282;
+    font-size:19px; 
+    margin-right:25px;
+}
+.top-header-messaging .content-left ul li a i:hover 
+{
+    color:#636363;
+    transition:0.3s ease;
+}
+
+.top-header-messaging .content-right ul
+{
+    list-style:none !important;
+    margin:0px;
+    padding:0px;
+}
+.top-header-messaging .content-right ul li 
+{
+    display:inline;
+}
+.top-header-messaging .content-right ul li a 
+{
+    padding:0px !important;
+}
+.top-header-messaging .content-right ul li a i 
+{
+    color:#828282;
+    font-size:19px; 
+    margin-left:25px;
+}
+.top-header-messaging .content-right ul li a i:hover 
+{
+    color:#636363;
+    transition:0.3s ease;
+}
+.top-header-messaging .content-right ul .percentage 
+{
+    margin-left:25px !important;
+    color:#525252;
+}
+.top-header-messaging .content-right ul .percentage:hover 
+{
+    color:#525252;
+}
+.main-body-message 
+{
+    background-color:#fff;
+    padding:0px 15px 0px 15px;
+    margin:20px 0px 20px 0px;
+}
+.main-body-message .head-actions
+{
+    padding:15px 0px 15px 0px;
+    border-bottom:1px solid #e2e1e1;
+    margin-bottom:15px;
+}
+.main-body-message .head-actions .actionbtn1
+{
+    margin-right:10px;
+    background-color:#dfe2e1;
+    color:#8c8a8a;
+    
+}
+.main-body-message .head-actions .actionbtn1:hover 
+{
+    background-color: #d4d4d4;
+    color: #7d7d7d;
+}
+.main-body-message .content-left .avatar
+{
+    float:left;
+}
+.main-body-message .content-left .avatar 
+{
+    height:46px;
+    width:46px;
+    margin-right:10px;
+    overflow:hidden;
+    border-radius:4px;
+}
+.main-body-message .content-left h4 
+{
+    color:#53ba9b;
+    margin-bottom:2px;
+    padding-top:5px;
+}
+.main-body-message .content-left h5 
+{
+    color:#a09e9e;
+}
+.main-body-message .content-right ul
+{
+    list-style:none !important;
+    margin:10px 0px 0px 0px ;
+    padding:0px;
+}
+.main-body-message .content-right ul li a .badge
+{
+    position:absolute;
+    top:20px;
+    font-size:10px;
+}
+.main-body-message .content-right ul li 
+{
+    display:inline;
+
+}
+.main-body-message .content-right ul li a 
+{
+    padding:0px !important;
+}
+.main-body-message .content-right ul li a i 
+{
+    color:#53ba9b;
+    font-size:19px; 
+    margin-left:25px;
+}
+.main-body-message .content-right ul li a i:hover 
+{
+    color:#47a086;
+    transition:0.3s ease;
+}
