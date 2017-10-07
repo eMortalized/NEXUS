@@ -16,6 +16,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/timeline', {
             templateUrl: 'views/timeline.php',
             controller: 'timelineController'
+        }).when('/family-tree', {
+            templateUrl: 'views/family-tree.php',
+            controller: 'familytreeController'
         }).when('/connections', {
             templateUrl: 'views/connections.php',
 			controller: 'connectionsController'
@@ -79,6 +82,20 @@ app.controller('familytreeController', ['$scope','$location', function ($scope,$
 }]);
 
 app.controller('timelineController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
+    
+    $scope.init = function () {
+    }
+    
+    angular.element(function () {
+        
+    });
+    $scope.init();
+}]);
+
+app.controller('familytreeController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){
         return "slide";
     }

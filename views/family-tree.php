@@ -8,8 +8,6 @@
             <!-- <input type="button" id="sendData" value="send data" onclick="$.send_Family({url: 'save_family.php'})"/> -->
             <div id="pk-family-tree">
             </div>
-
-
         </div>
     </div>
     <!-- End of Mid Section -->
@@ -22,16 +20,13 @@
 
             <div class="main-content">
                 <div class="content-pad">
+                    <p class="about-text">Media Gallery Teaser...
                     <p class="about-text">Timeline Teaser...
                     </p>
 
 
                 </div>
             </div>
-
-
-
-            <button class="aboutmeBtn">Timline ></button>
             <p class="clearfix"></p>
         </div>
     </div>
