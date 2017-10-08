@@ -133,7 +133,7 @@
                                 </div>
                                 <img src="img/mediagallery/image6.jpg" class="img-responsive" />
                             </div>
-                            
+                            <br/>
                         </div>
                         
                         

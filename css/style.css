@@ -2713,11 +2713,16 @@ margin-left: 15px;
 .home-header .navbar-inverse .login-btn
 {
     background-color:#ff8b94;
+	color:#fff;
     border-radius:2px;
     padding-top:13px;
     padding-bottom:14px;
     border-color:transparent;
     font-size:14px !important;
+}
+
+.text-white {
+	color:#fff !important;
 }
 .home-header .navbar-inverse .login-btn:hover 
 {
@@ -2959,8 +2964,11 @@ margin-left: 15px;
 .home-header .navbar-inverse .error-navbar>li>a
 {
    color: #5b5b5d !important;
-   text-shadow: 0px 0px 0px;
-    
+   text-shadow: 0px 0px 0px;  
+}
+.home-header .navbar-inverse .error-navbar>li>.login-btn
+{
+   color: #fff !important;
 }
 .home-header .navbar-inverse .error-navbar>li>.active
 {
