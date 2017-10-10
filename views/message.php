@@ -1,6 +1,7 @@
 <?php include '../inc/connect.php'; ?>
 
 <!-- Mid Section -->
+
 <div class="col-sm-11 nopadding" ng-controller="messageController"  >
 
     <div class="midsec scroll">
@@ -11,19 +12,19 @@
                     <div class="col-xs-6">
                         <div class="content-left ">
                             <ul class="text-left">
-                                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-comment" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-users" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="content-right text-right">
                             <ul>
-                                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
                                 <button class="btn percentage" disabled >80%</button>
                             </ul>
                         </div>
@@ -43,11 +44,11 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="head-actions">
-                            <button class="btn actionbtn1 bottom-adjust">Compose</button>
-                            <button class="btn actionbtn1 bottom-adjust">Inbox</button>
-                            <button class="btn actionbtn1 bottom-adjust">Outbox</button>
-                            <button class="btn actionbtn1 bottom-adjust">Sent Items</button>
-                            <button class="btn actionbtn1 bottom-adjust">Deleted Items</button>
+                           <button class="btn actionbtn1 bottom-adjust"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Compose</button>
+                            <button class="btn actionbtn1 bottom-adjust"><i class="fa fa-inbox" aria-hidden="true"></i>&nbsp; Inbox</button>
+                            <button class="btn actionbtn1 bottom-adjust"> <i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; Outbox</button>
+                            <button class="btn actionbtn1 bottom-adjust"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Sent Items</button>
+                            <button class="btn actionbtn1 bottom-adjust"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp; Deleted Items</button>
                         </div>
                     </div>
                 </div>
@@ -64,12 +65,12 @@
                     <div class="col-sm-8 col-xs-12">
                         <div class="content-right text-right">
                             <ul>
-                                <li><a href="#" ><i class="fa fa-folder-open left-align" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="badge">1</span></a></li>
-                                <li><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></li>
+                                <li><a href="" ><i class="fa fa-folder-open left-align" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-reply-all" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i><span class="badge">1</span></a></li>
+                                <li><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +98,7 @@
                                         <h5>350kb</h5>
                                     </div>
                                     
-                                    <a href="#" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
                                     
                                 </div>
                                 <img src="img/mediagallery/image4.jpg" class="img-responsive" />
@@ -112,7 +113,7 @@
                                         <h5>350kb</h5>
                                     </div>
                                     
-                                    <a href="#" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
                                     
                                 </div>
                                 <img src="img/mediagallery/image5.jpg" class="img-responsive" />
@@ -128,7 +129,7 @@
                                         <h5>350kb</h5>
                                     </div>
                                     
-                                    <a href="#" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="" class="btn"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
                                     
                                 </div>
                                 <img src="img/mediagallery/image6.jpg" class="img-responsive" />

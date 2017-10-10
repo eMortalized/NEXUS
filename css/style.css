@@ -2812,7 +2812,7 @@ margin-left: 15px;
 
 .head_1_connections
 {
-    padding:10px; 
+    padding:65px 0px 0px 0px; 
 }
 .head_1_connections ul 
 {
@@ -3031,7 +3031,7 @@ margin-left: 15px;
 /******************* Message Page Css ******************/
 .top-header-messaging 
 {
-    padding:10px 0px 10px 0px;
+    padding:65px 0px 10px 0px;
 }
 .top-header-messaging .content-left ul
 {
@@ -3173,7 +3173,7 @@ margin-left: 15px;
 }
 .main-body-message .content
 {
-    padding:45px 0px 45px 0px;
+    padding:45px 0px 5px 0px;
     border-bottom:1px solid #e2e1e1;
     color:#545454;
 }
