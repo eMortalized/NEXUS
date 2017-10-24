@@ -35,6 +35,7 @@
                                     <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
                                 </div> -->
                             </div>
+                            <!----
                             <div class="content-right text-right">
                                 <ul>
                                     <li><a href=""><i class="fa fa-inbox" aria-hidden="true"></i></a></li>
@@ -42,7 +43,22 @@
                                     <li><a href=""><i class="fa fa-archive" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
-                           
+                            ---->
+                            <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
+                           <ul class="nav nav-tabs border-bottom-none" id="customtabs">
+                                <li class="nav-item active">
+                                  <a class="nav-link active" href="#"><i class="fa fa-inbox" aria-hidden="true"></i>Inbox</a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link" href="#"><i class="fa fa-archive" aria-hidden="true"></i>Archive</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>Sent Items</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#"><i class="fa fa-trash" aria-hidden="true"></i>Deleted Items</a>
+                                </li>
+                              </ul>
                         </form>
                         
                         <ul class="nav nav-tabs nav_people">
@@ -201,13 +217,11 @@
                                         </div>
                                     <div class="col-sm-12">
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-12">
                                                 <a href="" class="msg_helpers"><i class="fa fa-font add_file"></i></a>
-                                                <a href="" class="msg_helpers"><i class="fa fa-paperclip add_file"></i></a>
+                                                <a href="" class="msg_helpers"><i class="fa fa-paperclip  pull-right add_file"></i></a>
                                             </div>
-                                            <div class="col-sm-6">
-                                                <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> Delete</button>
-                                            </div>
+                                            
                                             <div class="col-sm-12">
                                                 <textarea class="form-control txt-msg" placeholder="Type your message"></textarea>
                                             </div>
@@ -218,6 +232,9 @@
                                     <div class="col-sm-12">
                                         
                                         <a href="" class="txt-send"><span>SEND</span></a>
+                                        
+                                        <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> Delete</button>
+                                         
                                     </div>
                                 </div>
                                 
@@ -248,7 +265,45 @@
     </div>
 </div>
 <!-- End of Mid Section -->
+<div id="visitModal" class="modal fade" role="dialog" >
+    <div class="modal-dialog modal-md">
 
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"> <span class="times">&times;</span> </button>
+                <h4 class="modal-title"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Compose</h4>
+               
+                <!--<br /><img src="../../Content/images/newsletter.png" class="center-block" width="80" />-->
+            </div>
+            <div class="modal-body">
+
+                <div class="login-email signup-email newsletter">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            
+
+                                <!--<span>Choose a Message</span> <p class="clearfix"></p>-->
+                                
+                            <input type="text" class="form-input form-control subject-input" placeholder="Subject">
+                            <br>
+                                <textarea placeholder="Type in the message.." class="form-input form-control" rows="4" ng-model="visitMessage" ng-trim="false" maxlength="150"></textarea>
+                                <span id="remainingChars">{{150-visitMessage.length }}</span> 
+
+                                <div class="col-sm-offset-2 col-sm-8">
+                                    <br>
+                                    <button type="button" class="btn custombtn" id="sendVisit">Send</button>
+                                    <!--<button class="btn button-large success" id="sendVisit">Send</button>-->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <!-- Right Section 
 <div class="col-sm-3 nopadding">
