@@ -58,6 +58,41 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
         return "slide";
     }
     
+    $scope.showInbox = true;
+    $scope.showArchived = false;
+    $scope.showSent = false;
+    $scope.showDeleted = false;
+    
+    $scope.showMessageTab = function(target){
+        if(target=="inbox"){
+            $scope.showInbox = true;
+            $scope.showArchived = false;
+            $scope.showSent = false;
+            $scope.showDeleted = false;
+        } else if("archived"){
+            $scope.showInbox = false;
+            $scope.showArchived = true;
+            $scope.showSent = false;
+            $scope.showDeleted = false;
+        } else if("sent"){
+            $scope.showInbox = false;
+            $scope.showArchived = false;
+            $scope.showSent = true;
+            $scope.showDeleted = false;
+        } else if("deleted"){
+            $scope.showInbox = false;
+            $scope.showArchived = false;
+            $scope.showSent = false;
+            $scope.showDeleted = true;
+        } else {
+            $scope.showInbox = true;
+            $scope.showArchived = false;
+            $scope.showSent = false;
+            $scope.showDeleted = false;
+        }
+        
+    };
+    
     $scope.init = function () {
     }
     

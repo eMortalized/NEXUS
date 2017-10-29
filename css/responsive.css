@@ -248,15 +248,15 @@
 	}
         
         .top-header-messaging 
-{
-    padding:0px 0px 10px 0px;
-    margin-top: -20px;
-}
+        {
+            padding:0px 0px 10px 0px;
+            margin-top: -20px;
+        }
      .head_1_connections
-     {
-    padding:0px 0px 0px 0px; 
-    margin-top: -20px;
-     }
+        {
+            padding:0px 0px 0px 0px; 
+            margin-top: -20px;
+        }
 
 
      .main-body-message {
@@ -279,6 +279,41 @@
     
     #customtabs li a span{
         display: none;
+    }
+    
+    .nav_people {
+        height: 440px;
+    }
+    
+    .box_people {
+        border-bottom: 3px solid #eee;
+    }
+    .main-body-message .navbar-form {
+        margin-bottom: 0px;
+        margin-top:0;
+    }
+    
+    .main-body-message .chatHead_sep {
+        border-bottom: 0px solid #eee;
+    }
+    
+    .compose-btn {
+        margin-top:10px;
+    }
+
+    .main-body-message .box_msgs {
+        height: 440px;
+    }
+    
+    /* for date */
+    .nav_people li .content-left span{
+        position:absolute;
+        top:15px;
+        right:0;
+    }
+    
+    .nav_people li .content-left span.label{
+        position:static;
     }
 }
 
@@ -380,10 +415,6 @@
     .main-body-message .files .bottom-adjust
     {
         margin-bottom:20px;
-    }
-
-    .compose-btn {
-        margin-top:10px;
     }
 
 

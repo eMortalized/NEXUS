@@ -51,21 +51,21 @@
                             
                            <ul class="nav nav-tabs border-bottom-none" id="customtabs">
                                 <li class="nav-item active">
-                                  <a class="nav-link active" href="#"><i class="fa fa-inbox" aria-hidden="true"></i> <span>Inbox</span></a>
+                                    <a class="nav-link active" ng-click="showMessageTab('inbox')"><i class="fa fa-inbox" aria-hidden="true"></i> <span>Inbox</span></a>
                                 </li>
                                 <li class="nav-item ">
-                                  <a class="nav-link" href="#"><i class="fa fa-archive" aria-hidden="true"></i> <span>Archive</span></a>
+                                  <a class="nav-link" ng-click="showMessageTab('archived')"><i class="fa fa-archive" aria-hidden="true"></i> <span>Archived</span></a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Sent </span></a>
+                                  <a class="nav-link" ng-click="showMessageTab('sent')"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Sent </span></a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link disabled" href="#"><i class="fa fa-trash" aria-hidden="true"></i> <span>Deleted </span></a>
+                                  <a class="nav-link" ng-click="showMessageTab('deleted')"><i class="fa fa-trash" aria-hidden="true"></i> <span>Deleted </span></a>
                                 </li>
                               </ul>
                         </form>
                         
-                        <ul class="nav nav-tabs nav_people">
+                        <ul class="nav nav-tabs nav_people" ng-show="showInbox">
                             <li class="active">
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
@@ -177,6 +177,69 @@
                             </li>
                             
                         </ul>
+                        
+                        <!-- Archieved Messages -->
+                        <ul class="nav nav-tabs nav_people" ng-show="showArchived">
+                            <li >
+                                <a data-toggle="tab" href="#/message">
+                                    <div class="content-left">
+                                        <div class="avatar">
+                                            <img src="img/avatar2.jpg" class="img-responsive"/>
+                                        </div>
+                                        <h4>Trisha Williams</h4>
+                                        <h5>Design for health project<span class="pull-right">04 Oct &nbsp;</span></h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#/message">
+                                    <div class="content-left">
+                                        <div class="avatar">
+                                            <img src="img/avatar3.jpg" class="img-responsive"/>
+                                        </div>
+                                        <h4>John Doe</h4>
+                                        <h5>Design for health project<span class="pull-right">08 Oct &nbsp;</span></h5>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                         <!-- sent Messages -->
+                        <ul class="nav nav-tabs nav_people" ng-show="showSent">
+                            <li >
+                                <a data-toggle="tab" href="#/message">
+                                    <div class="content-left">
+                                        <p>Oops! No Messages Found</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                         
+                          <!-- deleted Messages -->
+                        <ul class="nav nav-tabs nav_people" ng-show="showDeleted">
+                            <li >
+                                <a data-toggle="tab" href="#/message">
+                                    <div class="content-left">
+                                        <div class="avatar">
+                                            <img src="img/avatar2.jpg" class="img-responsive"/>
+                                        </div>
+                                        <h4>Trisha Williams</h4>
+                                        <h5>Design for health project<span class="pull-right">04 Oct &nbsp;</span></h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#/message">
+                                    <div class="content-left">
+                                        <div class="avatar">
+                                            <img src="img/avatar3.jpg" class="img-responsive"/>
+                                        </div>
+                                        <h4>John Doe</h4>
+                                        <h5>Design for health project<span class="pull-right">08 Oct &nbsp;</span></h5>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-sm-7 box_msgs">
@@ -193,7 +256,7 @@
                                         </div>
                                     </div>
                                     
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-4 hidden-xs hidden-sm">
                                         <p class="text-right icons-mail">
                                             <a href=""><i class="fa fa-chevron-left"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href=""><i class="fa fa-chevron-right"></i></a>
