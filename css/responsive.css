@@ -11,6 +11,10 @@
         font-size: 36px;
       
     }
+
+    .composesec{
+        padding:0;
+    }
 }
 @media screen and (max-width:780px){
 .page
@@ -41,8 +45,18 @@
         width:13.68%;
     }
     
+    #customtabs li a {
+        font-size:11px;
+    }
+
+    #customtabs li {
+        border-bottom: 1px solid #dad8d8;
+        padding: 0px 4px 0px 4px;
+    }
 }
 @media screen and (max-width:990px){
+    
+
     .md-check {
         width:0px;
     }
@@ -244,6 +258,28 @@
     margin-top: -20px;
      }
 
+
+     .main-body-message {
+        background-color: #fff;
+        padding: 0px 15px 0px 15px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .main-body-message .navbar-form {
+        padding: 0px 25px !important;
+    }
+
+    #customtabs li{
+        padding-left:25px;
+        padding-right:20px;
+    }
+    #customtabs li a{
+        font-size:14px;
+    }
+    
+    #customtabs li a span{
+        display: none;
+    }
 }
 
 @media screen and (max-width:550px){
@@ -345,6 +381,12 @@
     {
         margin-bottom:20px;
     }
+
+    .compose-btn {
+        margin-top:10px;
+    }
+
+
 }
 
 @media screen and (min-width:769px) and (max-width:1300px){

@@ -29,11 +29,15 @@
                     <div class="col-sm-5 box_people">
                         
                         <form class="navbar-form" role="search">
-                             <div class="input-group add-on">
-                                <input class="form-control srch_people" placeholder="Search" name="srch-term" id="srch-term" type="text">
-                               <!-- <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                                </div> -->
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="input-group add-on">
+                                        <input class="form-control srch_people" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 composesec ">
+                                <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
+                                </div>
                             </div>
                             <!----
                             <div class="content-right text-right">
@@ -44,19 +48,19 @@
                                 </ul>
                             </div>
                             ---->
-                            <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
+                            
                            <ul class="nav nav-tabs border-bottom-none" id="customtabs">
                                 <li class="nav-item active">
-                                  <a class="nav-link active" href="#"><i class="fa fa-inbox" aria-hidden="true"></i>Inbox</a>
+                                  <a class="nav-link active" href="#"><i class="fa fa-inbox" aria-hidden="true"></i> <span>Inbox</span></a>
                                 </li>
                                 <li class="nav-item ">
-                                  <a class="nav-link" href="#"><i class="fa fa-archive" aria-hidden="true"></i>Archive</a>
+                                  <a class="nav-link" href="#"><i class="fa fa-archive" aria-hidden="true"></i> <span>Archive</span></a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>Sent Items</a>
+                                  <a class="nav-link" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Sent </span></a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link disabled" href="#"><i class="fa fa-trash" aria-hidden="true"></i>Deleted Items</a>
+                                  <a class="nav-link disabled" href="#"><i class="fa fa-trash" aria-hidden="true"></i> <span>Deleted </span></a>
                                 </li>
                               </ul>
                         </form>
@@ -218,7 +222,6 @@
                                     <div class="col-sm-12">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <a href="" class="msg_helpers"><i class="fa fa-font add_file"></i></a>
                                                 <a href="" class="msg_helpers"><i class="fa fa-paperclip  pull-right add_file"></i></a>
                                             </div>
                                             
@@ -233,7 +236,7 @@
                                         
                                         <a href="" class="txt-send"><span>SEND</span></a>
                                         
-                                        <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> Delete</button>
+                                        <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> Cancel</button>
                                          
                                     </div>
                                 </div>

@@ -3235,7 +3235,7 @@ margin-left: 15px;
 .nav_people 
 {
     border-bottom: 0px solid transparent;
-    height: 500px;
+    height: 486px;
     overflow-y: auto;
 }
 
@@ -3395,7 +3395,9 @@ width: 100%;
 }
 .add_file 
 {
-    margin-top: 10px; 
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-bottom: 5px; 
     font-size: 20px;
 }
 
@@ -3445,13 +3447,16 @@ width: 100%;
 .deleteBtn {
     background: #ffd8d8;
     border: 0px solid transparent;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: red;
-    margin:12px 25px 10px 0px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #525252;
+    margin:12px 15px 10px 0px;
     opacity:.8;
 }
 
+.deleteBtn .fa {
+    color:red;
+}
 .deleteBtn:hover{
     opacity:1;
 }
@@ -3499,7 +3504,6 @@ width: 100%;
 }
 .compose-btn
 {
-    margin-top:10px;
     font-size: 14px;
     font-weight: 100;
     color: #fff;
