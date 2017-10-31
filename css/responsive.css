@@ -72,6 +72,17 @@
     .null-left{
         padding-left:15px;
     }
+
+    
+    .compose-btn {
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:990px){
+    .compose-btn {
+        margin-left:15px;
+    }
 }
 
 @media screen and (max-width:1300px){
@@ -297,9 +308,6 @@
         border-bottom: 0px solid #eee;
     }
     
-    .compose-btn {
-        margin-top:10px;
-    }
 
     .main-body-message .box_msgs {
         height: 440px;
@@ -314,6 +322,10 @@
     
     .nav_people li .content-left span.label{
         position:static;
+    }
+
+    .messagepg {
+        padding-top:60px;
     }
 }
 

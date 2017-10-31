@@ -69,17 +69,17 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
             $scope.showArchived = false;
             $scope.showSent = false;
             $scope.showDeleted = false;
-        } else if("archived"){
+        } else if(target=="archived"){
             $scope.showInbox = false;
             $scope.showArchived = true;
             $scope.showSent = false;
             $scope.showDeleted = false;
-        } else if("sent"){
+        } else if(target=="sent"){
             $scope.showInbox = false;
             $scope.showArchived = false;
             $scope.showSent = true;
             $scope.showDeleted = false;
-        } else if("deleted"){
+        } else if(target=="deleted"){
             $scope.showInbox = false;
             $scope.showArchived = false;
             $scope.showSent = false;

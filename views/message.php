@@ -4,7 +4,7 @@
 
 <div class="col-sm-11 nopadding" ng-controller="messageController"  >
 
-    <div class="midsec scroll">
+    <div class="midsec scroll messagepg">
         <div class="container">
 
             <!--<section class="top-header-messaging">
@@ -25,7 +25,7 @@
 
             <section class="main-body-message">
                 
-                <div class="row">
+                <div class="row posRel">
                     <div class="col-sm-5 box_people">
                         
                         <form class="navbar-form" role="search">
@@ -50,17 +50,17 @@
                             ---->
                             
                            <ul class="nav nav-tabs border-bottom-none" id="customtabs">
-                                <li class="nav-item active">
-                                    <a class="nav-link active" ng-click="showMessageTab('inbox')"><i class="fa fa-inbox" aria-hidden="true"></i> <span>Inbox</span></a>
+                                <li class="nav-item" ng-class="{ active: showInbox==true }" ng-click="showMessageTab('inbox')">
+                                    <a class="nav-link "><i class="fa fa-inbox" aria-hidden="true"></i> <span>Inbox</span></a>
                                 </li>
-                                <li class="nav-item ">
-                                  <a class="nav-link" ng-click="showMessageTab('archived')"><i class="fa fa-archive" aria-hidden="true"></i> <span>Archived</span></a>
+                                <li class="nav-item " ng-class="{ active: showArchived==true }" ng-click="showMessageTab('archived')">
+                                  <a class="nav-link"><i class="fa fa-archive" aria-hidden="true"></i> <span>Archived</span></a>
                                 </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" ng-click="showMessageTab('sent')"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Sent </span></a>
+                                <li class="nav-item" ng-class="{ active: showSent==true }" ng-click="showMessageTab('sent')">
+                                  <a class="nav-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Sent </span></a>
                                 </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" ng-click="showMessageTab('deleted')"><i class="fa fa-trash" aria-hidden="true"></i> <span>Deleted </span></a>
+                                <li class="nav-item" ng-class="{ active: showDeleted==true }" ng-click="showMessageTab('deleted')">
+                                  <a class="nav-link"><i class="fa fa-trash" aria-hidden="true"></i> <span>Deleted </span></a>
                                 </li>
                               </ul>
                         </form>
@@ -206,39 +206,12 @@
                         
                          <!-- sent Messages -->
                         <ul class="nav nav-tabs nav_people" ng-show="showSent">
-                            <li >
-                                <a data-toggle="tab" href="#/message">
-                                    <div class="content-left">
-                                        <p>Oops! No Messages Found</p>
-                                    </div>
-                                </a>
-                            </li>
+                            <p class="text-center">Oops! No Messages Found</p>
                         </ul>
                          
                           <!-- deleted Messages -->
                         <ul class="nav nav-tabs nav_people" ng-show="showDeleted">
-                            <li >
-                                <a data-toggle="tab" href="#/message">
-                                    <div class="content-left">
-                                        <div class="avatar">
-                                            <img src="img/avatar2.jpg" class="img-responsive"/>
-                                        </div>
-                                        <h4>Trisha Williams</h4>
-                                        <h5>Design for health project<span class="pull-right">04 Oct &nbsp;</span></h5>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#/message">
-                                    <div class="content-left">
-                                        <div class="avatar">
-                                            <img src="img/avatar3.jpg" class="img-responsive"/>
-                                        </div>
-                                        <h4>John Doe</h4>
-                                        <h5>Design for health project<span class="pull-right">08 Oct &nbsp;</span></h5>
-                                    </div>
-                                </a>
-                            </li>
+                            <p class="text-center">Oops! No Messages Found</p>
                         </ul>
                     </div>
 
