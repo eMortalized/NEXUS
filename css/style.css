@@ -3530,3 +3530,7 @@ width: 100%;
 .posRel {
     position:relative;
 }
+
+#back-msgScreen {
+    margin-top:10px;
+}

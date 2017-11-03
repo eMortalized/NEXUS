@@ -36,7 +36,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 composesec ">
-                                <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
+                                    <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
+                                    <button class="btn btn-default btn-sm pull-right" id="back-msgScreen"><i class="fa fa-arrow-left"></i> </button>
                                 </div>
                             </div>
                             <!----
@@ -248,6 +249,7 @@
                                             Have a nice day.<br>
                                             John.
                                         </p>
+                                        <p claas="clearfix"></p>
                                     </div>
                                 </div>
                                 

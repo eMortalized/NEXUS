@@ -94,6 +94,24 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
     };
     
     $scope.init = function () {
+        $("#back-msgScreen").hide();
+        $(".nav_people").click(function(){
+            $(".box_msgs").animate({
+                left:"0%"
+            },200,function(){
+                $("#back-msgScreen").fadeIn("fast");
+            });
+            
+            
+        });
+
+        $("#back-msgScreen").click(function(){
+            $(".box_msgs").animate({
+                left:"100%"
+            },300,function(){
+                $("#back-msgScreen").fadeOut("fast");
+            });
+        });
     }
     
     angular.element(function () {

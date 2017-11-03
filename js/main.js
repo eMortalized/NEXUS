@@ -247,6 +247,8 @@ $(document).ready(function(){
 		});
 	});
         
-        
+    $("#nav_people").click(function(){
+        alert();
+    });    
         
 });
