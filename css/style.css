@@ -3363,16 +3363,27 @@ color: #696c75;
 }
 .main-body-message .chatHead_sep 
 {
-    border-bottom: 3px solid #eee; 
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border-bottom: 3px solid #eee;
+    background-color:#fff; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+.msgHead {
+    border-bottom: 3px solid #eee;
+    padding-bottom:10px;
+}
+.msgText-Area {
+    padding:20px 0 !important;
+    overflow-x:hidden !important;
+}
 .sndMsg_box 
 {
-position: absolute; 
-bottom: 0px;   
-width: 100%;
+    position: absolute; 
+    bottom: 0px;   
+    width: 100%;
+    background: #fff;
+    border-top: 3px solid #eee;
 }
 .txt-send 
 {
@@ -3533,4 +3544,26 @@ width: 100%;
 
 #back-msgScreen {
     margin-top:10px;
+}
+
+/* Attachment Box */
+.attachmentBox {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 1px 3px 10px #d8d8d8;
+    background-color: white;
+    cursor:pointer;
+    margin-bottom:15px;
+}
+
+.attachmentBox h3{
+    font-size:15px;
+}
+.attachmentBox .fa {
+    padding-top:10px;
+}
+.attachmentBox .fa:hover {
+    opacity:.7;
 }

@@ -95,23 +95,34 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
     
     $scope.init = function () {
         $("#back-msgScreen").hide();
-        $(".nav_people").click(function(){
-            $(".box_msgs").animate({
-                left:"0%"
-            },200,function(){
-                $("#back-msgScreen").fadeIn("fast");
-            });
-            
-            
-        });
 
-        $("#back-msgScreen").click(function(){
-            $(".box_msgs").animate({
-                left:"100%"
-            },300,function(){
-                $("#back-msgScreen").fadeOut("fast");
+        var screenWidth = $(".sm-media").width();
+        if(screenWidth>0){
+            $(".nav_people").click(function(){
+                $(".box_msgs").animate({
+                    left:"0%"
+                },200,function(){
+                    $("#back-msgScreen").fadeIn("fast");
+                });
+                
+                
             });
-        });
+    
+            $("#back-msgScreen").click(function(){
+                $(".box_msgs").animate({
+                    left:"100%"
+                },300,function(){
+                    $("#back-msgScreen").fadeOut("fast");
+                });
+            });
+        }
+
+        var totalHeight = $(".box_msgs").height();
+        var headHeight = $(".msgHead").height();
+        var sendHeight = $(".sndMsg_box").height();
+
+        $(".msgText-Area").css("height",(totalHeight-(headHeight+sendHeight)));
+
     }
     
     angular.element(function () {

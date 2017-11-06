@@ -89,6 +89,20 @@
     }
 }
 
+@media screen and (min-width:990px) and (max-width:1199px){
+    .searchsec {
+		padding-right:0;
+	}
+	
+	.main-body-message .input-group {
+		width: 90%;
+	}
+	
+	.compose-btn {
+		margin-left: -20px;
+	}
+}
+
 @media screen and (max-width:1300px){
     
 }
@@ -352,6 +366,8 @@
         width: 99.5%;
         background: #fff;
     }
+
+    
 }
 
 @media screen and (max-width:550px){

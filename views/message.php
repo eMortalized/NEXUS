@@ -30,7 +30,7 @@
                         
                         <form class="navbar-form" role="search">
                             <div class="row">
-                                <div class="col-md-9">
+                                <div class="col-md-9 searchsec">
                                     <div class="input-group add-on">
                                         <input class="form-control srch_people" placeholder="Search" name="srch-term" id="srch-term" type="text">
                                     </div>
@@ -74,18 +74,19 @@
                                             <img src="img/avatar1.jpg" class="img-responsive"/>
                                         </div>
                                         <h4>John Doe</h4>
-                                        <h5>Design for health project<span class="pull-right">08 Oct &nbsp;</span></h5>
+                                        <h5 class="minimize">Lorem ipsum dolor sit adipiscing elit dolor sit adipiscing elit<span class="pull-right">08 Oct &nbsp;</span></h5>
                                     </div>
                                 </a>
                             </li>
-                            <li class="unreadMsg">
+                            <li>
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
                                         <div class="avatar">
                                             <img src="img/avatar2.jpg" class="img-responsive"/>
                                         </div>
                                         <h4>Trisha Williams</h4>
-                                        <h5>Design for health project<span class="pull-right">04 Oct &nbsp;</span><span class="label label-warning pull-right unread">New</span></h5>
+                                        <h5 class="minimize">Suspendisse nulla ligula, sagittis eu eros id, porta interdum elit. Curabitur sit amet metus eu mauris feugiat pretium quis a mi. 
+                                        <span class="pull-right">04 Oct &nbsp;</span><span class="label label-warning pull-right unread">New</span></h5>
                                     </div>
                                 </a>
                             </li>
@@ -100,7 +101,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li>
+                            <li class="unreadMsg">
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
                                         <div class="avatar">
@@ -122,7 +123,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="unreadMsg">
+                            <li>
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
                                         <div class="avatar">
@@ -219,44 +220,71 @@
                     <div class="col-sm-7 box_msgs">
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
+
+                            <div class="msgHead">
                                 <div class="row">
-                                    <div class="col-sm-8">
+                                    <div class="col-sm-10">
                                         <div class="content-left">
-                                            <div class="avatar">
-                                                <img src="img/avatar1.jpg" class="img-responsive"/>
-                                            </div>
-                                            <h3 class="msg_subject">Design for health project</h3>
-                                            <span class="msg_dateandtime"><i class="fa fa-clock-o"></i> 04-Oct 9:42AM</span>
+                                            <table>
+                                                <tr>
+                                                    <td valign="top">
+                                                        <div class="avatar">
+                                                            <img src="img/avatar1.jpg" class="img-responsive"/>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <h3 class="msg_subject">Design for health project</h3>
+                                                        <span class="msg_dateandtime"><i class="fa fa-clock-o"></i> 04-Oct 9:42AM</span>
+                                        
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </div>
                                     </div>
                                     
-                                    <div class="col-sm-4 hidden-xs hidden-sm">
+                                    <div class="col-sm-2 hidden-xs hidden-sm">
                                         <p class="text-right icons-mail">
                                             <a href=""><i class="fa fa-chevron-left"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href=""><i class="fa fa-chevron-right"></i></a>
                                         </p>
                                     </div>
                                     <div class="clearfix"></div>
-                                    <div class="chatHead_sep">
-                                        
-                                    </div>
                                 </div>
-                                
+                            </div>
+
+                            
+                            <div class="msgText-Area scroll">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <p>Hi Peter,<br><br>
-                                            I am looking for a UI designer for an upcoming heath app. We already have an established web presence and now moving to the mobile space.<br><br>
-                                            Have a nice day.<br>
-                                            John.
-                                        </p>
-                                        <p claas="clearfix"></p>
+                                            <p>Hi Peter,<br><br>
+                                                I am looking for a UI designer for an upcoming heath app. We already have an established web presence and now moving to the mobile space.<br><br>
+                                                Have a nice day.<br>
+
+                                                <br/> 
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel rutrum justo, dictum malesuada lectus. Mauris vulputate leo sed quam pharetra fermentum. Duis commodo tincidunt sem in efficitur. Cras eu tellus sagittis, gravida velit sed, finibus felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis viverra massa et dui viverra volutpat. Nunc nisl velit, bibendum sit amet ex et, efficitur finibus felis. Suspendisse nulla ligula, sagittis eu eros id, porta interdum elit. Curabitur sit amet metus eu mauris feugiat pretium quis a mi. Aenean mattis lacus at diam iaculis porta. Praesent nec dapibus arcu. Donec diam tellus, vestibulum quis vestibulum accumsan, dignissim et ex. Aenean porta, nisi vel imperdiet tristique, ligula mauris accumsan mi, non congue diam est id massa.
+    <br/> <br/>
+    Praesent feugiat porta dolor quis dictum. Etiam lobortis maximus ipsum ut pharetra. Integer congue, tortor ac volutpat consectetur, felis turpis blandit lorem, sed auctor arcu nisi ut est. Vestibulum ullamcorper maximus est, et aliquet lorem vulputate et. Sed tempor maximus ligula, pharetra auctor purus placerat id. Curabitur consectetur egestas ultricies. Curabitur efficitur eu ex lobortis semper. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In accumsan suscipit porta. Vestibulum sit amet quam sed urna fermentum finibus. Donec semper est vel vehicula mollis. Quisque vel scelerisque nulla. Quisque pellentesque massa euismod fringilla pellentesque. Pellentesque at neque tortor.
+
+                                                John.
+                                            </p>
+
+                                        <!-- Attachments -->
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="attachmentBox">
+                                                    <h3><img src="img/thumb_pic.png" width=30/> Jessica's Birthday picture <i class="fa fa-download pull-right"></i></h3>
+                                                </div>
+                                                <div class="attachmentBox">
+                                                    <h3><img src="img/thumb_doc.png" width=30/> Birthday Notes <i class="fa fa-download pull-right"></i></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
+                             </div>
                                 
-                                <div class="row sndMsg_box">
-                                    <div class="chatHead_sep">
-                                            
-                                        </div>
+                             <div class="row sndMsg_box">
                                     <div class="col-sm-12">
                                         <div class="row">
                                             <div class="col-sm-12">
@@ -274,25 +302,13 @@
                                         
                                         <a href="" class="txt-send"><span>SEND</span></a>
                                         
-                                        <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> Cancel</button>
+                                        <button class="pull-right deleteBtn"><i class="fa fa-trash"></i> CANCEL</button>
                                          
                                     </div>
                                 </div>
                                 
                                 
                                 
-                            </div>
-                            <div id="menu1" class="tab-pane fade">
-                                <h3>Menu 1</h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                            <div id="menu2" class="tab-pane fade">
-                                <h3>Menu 2</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                            </div>
-                            <div id="menu3" class="tab-pane fade">
-                                <h3>Menu 3</h3>
-                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
                     </div>
@@ -369,3 +385,17 @@
 <!-- End of Right Section -->
 
 <span class="sm-media"></span>
+<script>
+        var minimized_elements = $('.minimize');
+        minimized_elements.each(function(){    
+            var t = $(this).text();        
+            if(t.length < 50) return;
+
+            $(this).html(
+                t.slice(0,50)+'<span>... </span><a href="#" class="more"></a>'+
+                '<span style="display:none;">'+ t.slice(100,t.length)+' <a href="#" class="less">Less</a></span>'
+            );
+
+        }); 
+
+</script>
