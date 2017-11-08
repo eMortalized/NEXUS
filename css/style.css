@@ -3373,9 +3373,10 @@ color: #696c75;
     border-bottom: 3px solid #eee;
     padding-bottom:10px;
 }
-.msgText-Area {
+.msgText-Area  {
     padding:20px 0 !important;
     overflow-x:hidden !important;
+
 }
 .sndMsg_box 
 {
@@ -3477,7 +3478,7 @@ color: #696c75;
 }
 #customtabs li
 {
-    border-bottom:1px solid #dad8d8;
+    border-bottom:1px solid #dad8d8 !important;
     padding:0px 15px 0px 15px;
     cursor:pointer;
 }
@@ -3500,11 +3501,11 @@ color: #696c75;
 {
     margin-right:7px;
 }
-#customtabs li.active 
+#customtabs li.active
 {
-    border-left:1px solid #dad8d8;
-    border-right:1px solid #dad8d8;
-    border-top:1px solid #dad8d8;
+    border-left:1px solid #dad8d8 !important;
+    border-right:1px solid #dad8d8 !important;
+    border-top:1px solid #dad8d8 !important;
     background-color:#eaeaea;
     cursor:pointer;
     border-bottom:1px solid transparent;
@@ -3566,4 +3567,8 @@ color: #696c75;
 }
 .attachmentBox .fa:hover {
     opacity:.7;
+}
+.msgText-Area p 
+{
+	font-size:14px;
 }

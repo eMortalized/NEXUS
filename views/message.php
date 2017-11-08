@@ -37,11 +37,12 @@
                                 </div>
                                 <div class="col-md-3 composesec ">
                                     <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
-                                    <button class="btn btn-default btn-sm pull-right" id="back-msgScreen"><i class="fa fa-arrow-left"></i> </button>
+                                    <button class="btn btn-default btn-sm pull-right" id="back-msgScreen"><i class="fa fa-arrow-right"></i> </button>
                                 </div>
                             </div>
                             <!----
                             <div class="content-right text-right">
+                                <ul>
                                 <ul>
                                     <li><a href=""><i class="fa fa-inbox" aria-hidden="true"></i></a></li>
                                     <li><a href=""><i class="fa fa-share" aria-hidden="true"></i></a></li>
@@ -256,7 +257,7 @@
                             <div class="msgText-Area scroll">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                            <p>Hi Peter,<br><br>
+                                            <p class="Hedingtext">Hi Peter,<br><br>
                                                 I am looking for a UI designer for an upcoming heath app. We already have an established web presence and now moving to the mobile space.<br><br>
                                                 Have a nice day.<br>
 
@@ -272,23 +273,35 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="attachmentBox">
-                                                    <h3><img src="img/thumb_pic.png" width=30/> Jessica's Birthday picture <i class="fa fa-download pull-right"></i></h3>
+                                                    <h3><img src="img/thumb_pic.png" width=30/> Jessica's Birthday victure <i class="fa fa-download pull-right"></i></h3>
                                                 </div>
                                                 <div class="attachmentBox">
                                                     <h3><img src="img/thumb_doc.png" width=30/> Birthday Notes <i class="fa fa-download pull-right"></i></h3>
                                                 </div>
                                             </div>
                                         </div>
+ 
 
                                     </div>
                                 </div>
                              </div>
-                                
+                                <div class="col-sm-12">
+                    <div class="form-group">
+                    <div class="pull-right ">
+                        <div class="btn-group">
+                            
+                          
+                          
+                        </div>
+                    </div>
+                    </div>
+                </div>
                              <div class="row sndMsg_box">
                                     <div class="col-sm-12">
                                         <div class="row">
+							
                                             <div class="col-sm-12">
-                                                <a href="" class="msg_helpers"><i class="fa fa-paperclip  pull-right add_file"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#uploadModal"><i class="fa fa-paperclip  pull-right add_file"></i></a>
                                             </div>
                                             
                                             <div class="col-sm-12">
@@ -322,6 +335,8 @@
     </div>
 </div>
 <!-- End of Mid Section -->
+
+
 <div id="visitModal" class="modal fade" role="dialog" >
     <div class="modal-dialog modal-md">
 
@@ -362,6 +377,61 @@
     </div>
 </div>
 
+<!-- attechment Section -->
+<div id="uploadModal" class="modal fade" role="dialog" >
+    <div class="modal-dialog modal-md">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"> <span class="times">&times;</span> </button>
+                <h4 class="modal-title">&nbsp; Upload Files</h4>
+               
+                <!--<br /><img src="../../Content/images/newsletter.png" class="center-block" width="80" />-->
+            </div>
+            <div class="modal-body">
+
+                <div class="login-email signup-email newsletter">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            
+
+                                <!--<span>Choose a Message</span> <p class="clearfix"></p>-->
+                                
+                            								 <!-- Drag And Drop --> 
+										            <div class="row">
+                <div class="col-md-12">
+                    <div >
+                        <div id="dZUpload" class="dropzone">
+                            <div class="dz-default dz-message"><img src="img/cloud-upload-black.png" /> <br/> Drop Files to Upload</div>
+                        </div>
+                        <input type="hidden" name="uploadurl" id="uploadurl"/> 
+                        <!-- Upload Image -->
+                    </div>
+
+                </div>
+            </div>
+										 <!-- Drag And End -->
+                            <br>
+                                
+                               
+
+                                <div class="col-sm-offset-2 col-sm-8">
+                                    <br>
+                                    <button type="button" class="btn custombtn" id="sendVisit" data-dismiss="modal">Done</button>
+                                    <!--<button class="btn button-large success" id="sendVisit">Send</button>-->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- attechment Section End -->
 <!-- Right Section 
 <div class="col-sm-3 nopadding">
     <div class="rightsec">
@@ -399,3 +469,43 @@
         }); 
 
 </script>
+<!-- drag and drop jquery -->
+  <script>
+
+                    //Dropzone Upload Script 
+                    $(document).ready(function () {
+            Dropzone.autoDiscover = false;
+                    var file_name = "0";
+                    var date = new Date().getTime() + '_';
+                    //Only allow the submission when flag is 1 i.e fileuploaded
+                    var successflag = 0;
+                    $("#dZUpload").dropzone({
+            url: "upload.php",
+                    maxFilesize: 500,
+                    addRemoveLinks: true,
+                    maxFiles: 255,
+                    acceptedFiles: ".jpeg,.jpg,.png,.gif,.ai,.psd,.zip,.rar,.pdf",
+                    renameFilename: function (filename) {
+                    file_name = date + filename;
+                            return file_name;
+                    },
+                    success: function (file, response) {
+                    var imgName = response;
+                            file.previewElement.classList.add("dz-success");
+                            console.log("Successfully uploaded :" + file_name);
+                            $('#uploadurl').val(file_name);
+                            successflag = 1;
+                    },
+                    error: function (file, response) {
+                    file.previewElement.classList.add("dz-error");
+                            successflag = 0;
+                    }
+
+            });
+            });
+                    //end of dropzone
+        </script>
+
+        <script src="plugins/dropzone/dropzone.js"></script>
+
+<!-- drag and end-->

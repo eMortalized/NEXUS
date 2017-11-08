@@ -43,7 +43,7 @@
                             <span>Connect</span>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="">
                         <div class="links">
                             <i class="fa fa-envelope-o"></i>
                             <span>Message</span>
