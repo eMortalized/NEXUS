@@ -3557,6 +3557,7 @@ color: #696c75;
     background-color: white;
     cursor:pointer;
     margin-bottom:15px;
+    height:auto;
 }
 
 .attachmentBox h3{
@@ -3571,4 +3572,22 @@ color: #696c75;
 .msgText-Area p 
 {
 	font-size:14px;
+}
+
+.nav_people li .content-left p {
+    padding-bottom:0;
+}
+
+.nav_people li .content-left span{
+        position:absolute;
+        top:15px;
+        right:0;
+    }
+
+.unread {
+    margin-top:20px;
+}
+
+.messagepg {
+        overflow-x: hidden;
 }

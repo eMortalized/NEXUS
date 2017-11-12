@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width:990px){
+@media screen and (min-width:769px) and (max-width:991px){
     .compose-btn {
         margin-left:15px;
     }
@@ -347,6 +347,15 @@
         right:0;
     }
     
+    .unread {
+        margin-top:0px;
+    }
+
+    .nav_people li .content-left .minimize {
+        position: static !important; 
+      
+    }
+
     .nav_people li .content-left span.label{
         position:static;
     }
@@ -470,7 +479,9 @@
         margin-bottom:20px;
     }
 
-
+    .attachmentBox h3 {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:1300px){
@@ -514,6 +525,19 @@
 
 @media screen and (max-width:348px){
     .midsec{height: auto; padding-top:80px; padding-bottom: 0px;}
+    
+    .unread {
+        display:none;
+    }
+    
+    .content-left h5 span {
+        display:none;
+    }
+    #customtabs li {
+        padding-left: 0px;
+        text-align: center;
+        padding-right: 0px;
+    }
 }
 
 
@@ -529,4 +553,41 @@
 @media (max-width:1824px) and (min-width:991px) {
 .inputBox1 {width: 30%; float: left; padding-right:2px;}
 .inputBox2 {width: 70%; float: left; padding-left: 2px;}
+}
+
+@media screen and (min-width:1400px){
+    .messagepg .container {
+        width:90%;
+    }
+    
+    .main-body-message .box_people {
+        height: 800px;
+    }
+    
+    .nav_people {
+           height: 673px;
+    }
+    
+    .main-body-message .box_msgs {
+        height: 798px;
+    }
+}
+
+@media screen and (min-width:1680px) and (min-height:1000px){
+    .main-body-message .box_people {
+        height: 950px;
+    }
+    
+    .nav_people {
+        height: 818px;
+    }
+    .main-body-message .box_msgs {
+        height: 950px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:989px){
+    .nav_people {
+        height: 428px;
+    }
 }

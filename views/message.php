@@ -5,7 +5,7 @@
 <div class="col-sm-11 nopadding" ng-controller="messageController"  >
 
     <div class="midsec scroll messagepg">
-        <div class="container">
+        <div class="container ">
 
             <!--<section class="top-header-messaging">
                 <div class="row">
@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="col-md-3 composesec ">
                                     <button class="btn compose-btn" data-toggle="modal" data-target="#visitModal"><i class="fa fa-envelope" aria-hidden="true"></i> Compose</button>
-                                    <button class="btn btn-default btn-sm pull-right" id="back-msgScreen"><i class="fa fa-arrow-right"></i> </button>
+                                    <button class="btn btn-default btn-sm pull-right" id="back-msgScreen"><i class="fa fa-arrow-left"></i> </button>
                                 </div>
                             </div>
                             <!----
@@ -75,7 +75,7 @@
                                             <img src="img/avatar1.jpg" class="img-responsive"/>
                                         </div>
                                         <h4>John Doe</h4>
-                                        <h5 class="minimize">Lorem ipsum dolor sit adipiscing elit dolor sit adipiscing elit<span class="pull-right">08 Oct &nbsp;</span></h5>
+                                        <h5 ><p class="minimize">Lorem ipsum dolor sit adipiscing elit dolor sit adipiscing elit </p> <span class="pull-right">08 Oct &nbsp;</span></h5>
                                     </div>
                                 </a>
                             </li>
@@ -86,8 +86,8 @@
                                             <img src="img/avatar2.jpg" class="img-responsive"/>
                                         </div>
                                         <h4>Trisha Williams</h4>
-                                        <h5 class="minimize">Suspendisse nulla ligula, sagittis eu eros id, porta interdum elit. Curabitur sit amet metus eu mauris feugiat pretium quis a mi. 
-                                        <span class="pull-right">04 Oct &nbsp;</span><span class="label label-warning pull-right unread">New</span></h5>
+                                        <h5><p class="minimize">Suspendisse nulla ligula, sagittis eu eros id, porta interdum elit. Curabitur sit amet metus eu mauris feugiat pretium quis a mi. </p> 
+                                        <span class="pull-right">04 Oct &nbsp;</span></h5>
                                     </div>
                                 </a>
                             </li>
@@ -113,6 +113,7 @@
                                     </div>
                                 </a>
                             </li>
+                            
                             <li class="unreadMsg">
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
@@ -124,6 +125,7 @@
                                     </div>
                                 </a>
                             </li>
+                            
                             <li>
                                 <a data-toggle="tab" href="#/message">
                                     <div class="content-left">
@@ -245,7 +247,7 @@
                                     
                                     <div class="col-sm-2 hidden-xs hidden-sm">
                                         <p class="text-right icons-mail">
-                                            <a href=""><i class="fa fa-chevron-left"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a href=""><i class="fa fa-chevron-left"></i></a>&nbsp;&nbsp;
                                             <a href=""><i class="fa fa-chevron-right"></i></a>
                                         </p>
                                     </div>
@@ -271,12 +273,14 @@
 
                                         <!-- Attachments -->
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-11 col-xs-11 col-md-8">
                                                 <div class="attachmentBox">
                                                     <h3><img src="img/thumb_pic.png" width=30/> Jessica's Birthday victure <i class="fa fa-download pull-right"></i></h3>
+                                                    <p class="clearfix"></p>
                                                 </div>
                                                 <div class="attachmentBox">
                                                     <h3><img src="img/thumb_doc.png" width=30/> Birthday Notes <i class="fa fa-download pull-right"></i></h3>
+                                                    <p class="clearfix"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -462,8 +466,7 @@
             if(t.length < 50) return;
 
             $(this).html(
-                t.slice(0,50)+'<span>... </span><a href="#" class="more"></a>'+
-                '<span style="display:none;">'+ t.slice(100,t.length)+' <a href="#" class="less">Less</a></span>'
+                t.slice(0,30)+'.. '
             );
 
         }); 
@@ -504,6 +507,14 @@
             });
             });
                     //end of dropzone
+                    
+                    $(window).resize(function(){
+                            var totalHeight = $(".box_msgs").height();
+                            var headHeight = $(".msgHead").height();
+                            var sendHeight = $(".sndMsg_box").height();
+
+                            $(".msgText-Area").css("height",(totalHeight-(headHeight+sendHeight)));
+                    });
         </script>
 
         <script src="plugins/dropzone/dropzone.js"></script>

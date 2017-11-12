@@ -122,8 +122,9 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
         var sendHeight = $(".sndMsg_box").height();
 
         $(".msgText-Area").css("height",(totalHeight-(headHeight+sendHeight)));
+        
 
-    }
+    };
     
     angular.element(function () {
         
