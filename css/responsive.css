@@ -376,7 +376,14 @@
         background: #fff;
     }
 
+    .settings_subheading {
+        position:relative;
+        top:0;
+    }
     
+    .maincontainer {
+        margin-top:0;
+    }
 }
 
 @media screen and (max-width:550px){

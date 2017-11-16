@@ -13,6 +13,21 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/message', {
             templateUrl: 'views/message.php',
             controller: 'messageController'
+        }).when('/settings', {
+            templateUrl: 'views/settings_user.php',
+            controller: 'settingsController'
+        }).when('/settings/user', {
+            templateUrl: 'views/settings_user.php',
+            controller: 'settingsController'
+        }).when('/settings/notifications', {
+            templateUrl: 'views/settings_notifications.php',
+            controller: 'settingsController'
+        }).when('/settings/notifications', {
+            templateUrl: 'views/settings_notifications.php',
+            controller: 'settingsController'
+        }).when('/settings/profiles', {
+            templateUrl: 'views/settings_profiles.php',
+            controller: 'settingsController'
         }).when('/timeline', {
             templateUrl: 'views/timeline.php',
             controller: 'timelineController'
@@ -131,6 +146,21 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
     });
     $scope.init();
 }]);
+
+app.controller('settingsController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "slide";
+    }
+    
+    $scope.init = function () {
+    }
+    
+    angular.element(function () {
+        
+    });
+    $scope.init();
+}]);
+
 
 app.controller('familytreeController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){

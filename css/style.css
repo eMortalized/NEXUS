@@ -3,6 +3,7 @@ body{
     background-color:#eee;
     overflow-x:hidden;
     background-color: #080f14;
+	
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -160,12 +161,13 @@ textarea {
 
 
 .midsec {
-    height:100vh;
+    
     width:100%;
     background:#eee;
     transform: translateZ(0);
     -webskit-transform: translateZ(0);
     -moz-transform: translateZ(0);
+	
 
 }
 
@@ -3591,3 +3593,256 @@ color: #696c75;
 .messagepg {
         overflow-x: hidden;
 }
+/* setting page
+----------------------------------*/
+.maincontainer
+{
+  margin-top:35px;
+}
+.Sidebar 
+{
+background-color:#53ba9b;
+border-top: 1px solid #f4f4f4;
+
+}
+.Account
+{
+
+background-color:white;
+
+}
+
+.profile
+{
+background-color:white;
+width:audio;
+}
+.sidebar_color
+{
+background-color:#53ba9b;
+   
+	
+}
+.sidebar_color:Hover
+{
+background-color:#53ba9b;
+    
+	
+}
+.settings_heading {
+    border-bottom: 2px solid #E5E5E5;
+    color: #444;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 28px;
+}
+.settings_subheading {
+    font-size:14px;
+	font-weight:bold;
+    position:relative;
+    top:14px;
+}
+
+.boldtext { 
+    font-weight:bold;
+}
+
+.settings-profile{ 
+    width:100%;
+    height:auto;
+    border-radius:8px 8px 4px 4px;
+    background-color:#fff;
+}
+
+.settings-profile .profileHead {
+    height:130px;
+    background-color:grey;
+    border-radius:8px 8px 0 0;
+    background-image:url('../img/content/user_banner.jpg');
+    background-size:cover;
+}
+
+.settings-profile .profileContent {
+    padding:10px;
+    text-align:center;
+}
+.settings-profile .profileContent img {
+    border-radius:100px;
+    margin:5px;
+}
+.settings-sidebar {
+    width:100%;
+    padding:20px;
+    background:rgba(0,0,0,.07);
+    border-radius:3px;
+    margin-top:20px;
+}
+
+.settings-sidebar a {
+    padding:10px;
+    background-color:rgba(255,255,255,.4);
+    width:100%;
+    display:block;
+    margin:5px 0 10px 0;
+    border-radius:3px;
+    color:#000;
+}
+.settings-sidebar a:hover {
+    background-color:rgba(255,255,255,.8);
+}
+
+.settings-sidebar a.active {
+    background-color:rgba(255,255,255,.8);
+       border-left: 6px solid #53ba9b;
+}
+.pad
+{
+    padding:20px;
+    border-top: 1px solid #eee;
+}
+/*material-switch
+----------------------------------*/
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 45px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/*material-switch End
+----------------------------------*/
+/*material-switch2
+----------------------------------*/
+.material-switch2 > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch2 > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 45px;  
+}
+
+.material-switch2 > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch2 > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch2 > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch2 > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/*material-switch End
+----------------------------------*/
+/*material-switch3
+----------------------------------*/
+.material-switch3> input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch3> label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 45px;  
+}
+
+.material-switch3> label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch3> label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch3> input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch3> input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/*material-switch End
+----------------------------------*/
