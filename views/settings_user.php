@@ -8,169 +8,7 @@
     <!--Sidebar section---->
     <div class="maincontainer">
         <!--Account section---->
-
-        <div class="col-sm-6 col-sm-offset-1 Account">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="settings_heading boldtext">User Settings</h2>
-                </div>
-            </div>
-
-            <div class="row pad">
-
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">User Name</h3>
-
-                </div>
-                <div class="col-sm-5">
-
-                    <p>
-                        <input type="text" class="form-control" value="tanvir009"  disabled>
-                    </p>
-                    <div class="material-switch pull-left">
-                        <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
-                        <label for="someSwitchOptionDefault" class="label-default"></label>
-                    </div>
-                    <p>Let people find your blogs through this address
-                    </p>
-                </div>
-                <div class="col-sm-4 pull-right">
-                    <span class="glyphicon">&#x270f;</span>
-                </div>
-            </div>
-            <!-- pass-->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">Email</h3>
-
-                </div>
-                <div class="col-sm-5">
-
-                    <p>
-                        <input type="text" class="form-control" value="tnvr009@gmail.com" disabled>
-                    </p>
-                </div>
-                <div class="col-sm-4 pull-right">
-                    <span class="glyphicon">&#x270f;</span>
-                </div>
-            </div>
-            <!-- End pass Section -->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">Password</h3>
-
-                </div>
-                <div class="col-sm-5">
-
-                    <p>
-                        <input type="text" class="form-control"  disabled>
-                    </p>
-                </div>
-                <div class="col-sm-4 pull-right">
-                    <span class="glyphicon">&#x270f;</span>
-                </div>
-            </div>
-            <!-- Availabilitys-->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">Date of birth</h3>
-                </div>
-                <div class="col-sm-5">
-                    <input type="date" class="form-control" name="bday">
-                </div>
-            </div>
-            <!-- Availability End -->
-            <!-- Dial-a-post-->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">City of birth</h3>
-
-                </div>
-                <div class="col-sm-5">
-                    <select class="selectpicker form-control" data-width="fit">
-                        <option>City of birth</option>
-                        <option>Español</option>
-                    </select>
-
-
-
-                </div>
-
-            </div>
-
-            <!-- Dial-a-post End -->
-            <!-- Language section-->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">	Country of birth</h3>
-
-                </div>
-                <div class="col-sm-5">
-                    <select class="selectpicker form-control" data-width="fit">
-                        <option>united state</option>
-                        <option>india 
-                    </select>
-
-                </div>
-
-            </div>
-
-            <!-- Language End -->
-
-            <!--Filtering-->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h3 class="settings_subheading">Relationship</h3>
-
-                </div>
-                <div class="col-sm-5">
-                    <select class="selectpicker form-control" data-width="fit">
-                        <option>Single</option>
-                        <option>Married </option>
-                    </select>
-
-
-
-                </div>
-                <div class="col-sm-4 pull-right">
-                </div>
-            </div>
-            <!-- Filtering End -->
-            <!-- Active Sessions -->
-            <div class="row pad">
-                <div class="col-sm-3">
-                    <h4>Active Sessions
-                        Past 30 days</h4>
-
-                </div>
-                <div class="col-sm-3">
-                    <h4>Browser</h4>
-                    <p>Chrome 62 
-                        Windows 10
-                    </p>
-
-                </div>
-                <div class="col-sm-3">
-                    <h4>Location</h4>
-                    <p>CH-Chandigarh, IN 
-                        169.149.138.178
-                    </p>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Last seen
-                    </h4><p>Current session
-                    </p>
-
-                </div>
-
-            </div>
-            <!--Active Sessions End -->
-            
-
-        </div>
-        
-        
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-sm-offset-1">
             <div class="settings-profile">
                 <div class="profileHead">
                     
@@ -189,10 +27,149 @@
                 <a href="#/settings/notifications" >Notifications</a>
                 <a href="#/settings/profiles" >Profiles</a>
             </div>
+            <br/>
         </div>
         <!--Sidebar section End---->
         
+        <div class="col-sm-6 Account">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="settings_heading boldtext">User Settings</h2>
+                </div>
+            </div>
+
+            <div class="row pad">
+
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">First Name</h3>
+
+                </div>
+                <div class="col-sm-5">
+                        <input type="text" class="form-control" value="tanvir009"  disabled>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            <!-- pass-->
+            <div class="row pad">
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">Last Name</h3>
+
+                </div>
+                <div class="col-sm-5">
+                        <input type="text" class="form-control" value="tnvr009@gmail.com" disabled>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            <div class="row pad">
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">Cellular</h3>
+
+                </div>
+                <div class="col-sm-5">
+                        <input type="text" class="form-control" value="" disabled>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            <div class="row pad">
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">Email</h3>
+                </div>
+                <div class="col-sm-5">
+                        <input type="email" class="form-control" value="tnvr009@gmail.com" disabled>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            <div class="row pad">
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">Backup Email</h3>
+
+                </div>
+                <div class="col-sm-5">
+                    <p>
+                        <input type="email" class="form-control" value="tanvirchahal009@gmail.com" disabled>
+                    </p>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            
+            <!-- End pass Section -->
+            <div class="row pad">
+                <div class="col-sm-3">
+                    <h3 class="settings_subheading">Password</h3>
+
+                </div>
+                <div class="col-sm-5">
+
+                    <p>
+                        <input type="text" class="form-control"  disabled>
+                    </p>
+                </div>
+                <div class="col-sm-4 pull-right">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <button class="btn pull-right ">Save Settings</button>
+                </div>
+            </div>
+            <br/>
+            <div class="settingsSubsec">
+                <div class="col-sm-12">
+                    <h3 class="boldtext">Payments</h3>
+                </div>
+                
+                <div class="col-sm-12">
+                    <br/>
+                    <img src="img/payments.png" width="150"/>
+                     <br/> <br/>
+                </div>
+                <div class="col-sm-6">
+                    <label>Card Number</label>
+                    <input type="text" class="form-control" value="" placeholder="XXXX-XXXX-XXXX-XXXX">
+                </div>
+                <p class="clearfix"></p> <br/>
+                <div class="col-sm-3">
+                    <label>Expiry</label>
+                    <select class="form-control">
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>
+                </div>
+                <div class="col-sm-3">
+                    <label>CVC</label>
+                    <input type="text" class="form-control" value="" placeholder="">
+                </div>
+                <p class="clearfix"></p> 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class="btn pull-right ">Add Card</button>
+                    </div>
+                </div>
+                <br/><br/>
+                
+            </div>
+            
+        </div>
+        
+        
     </div>
+    
+        
+        
 </div>
 
 <!-- End of Mid Section -->

@@ -3699,8 +3699,20 @@ background-color:#53ba9b;
 }
 .pad
 {
-    padding:20px;
+    padding:10px 20px;
     border-top: 1px solid #eee;
+}
+
+.settingsSubsec {
+    border-top:2px solid #cccccc;
+    padding:20px 0 10px;
+}
+.edit-setting {
+    cursor:pointer !important;
+}
+.sw-itch {
+    margin-top:10px;
+    margin-bottom:5px;
 }
 /*material-switch
 ----------------------------------*/
@@ -3716,8 +3728,7 @@ background-color:#53ba9b;
 }
 
 .material-switch > label::before {
-    background: rgb(0, 0, 0);
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background: grey;
     border-radius: 8px;
     content: '';
     height: 16px;
@@ -3741,11 +3752,11 @@ background-color:#53ba9b;
     width: 24px;
 }
 .material-switch > input[type="checkbox"]:checked + label::before {
-    background: inherit;
+    background: #0edc0e;
     opacity: 0.5;
 }
 .material-switch > input[type="checkbox"]:checked + label::after {
-    background: inherit;
+    background: #fff;
     left: 20px;
 }
 /*material-switch End
