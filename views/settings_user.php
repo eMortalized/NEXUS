@@ -93,9 +93,7 @@
 
                 </div>
                 <div class="col-sm-5">
-                    <p>
-                        <input type="email" class="form-control" value="tanvirchahal009@gmail.com" disabled>
-                    </p>
+                    <input type="email" class="form-control" value="tanvirchahal009@gmail.com" disabled>
                 </div>
                 <div class="col-sm-4 pull-right">
                     <a href="#"><i class="fa fa-pencil"></i></a>

@@ -3630,7 +3630,7 @@ background-color:#53ba9b;
 	
 }
 .settings_heading {
-    border-bottom: 2px solid #E5E5E5;
+    
     color: #444;
     font-size: 24px;
     font-weight: normal;
@@ -3640,7 +3640,6 @@ background-color:#53ba9b;
 }
 .settings_subheading {
     font-size:14px;
-	font-weight:bold;
     position:relative;
     top:14px;
 }
@@ -3701,6 +3700,25 @@ background-color:#53ba9b;
 {
     padding:10px 20px;
     border-top: 1px solid #eee;
+}
+.allGroup {
+    padding: 10px 10px 14px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    height: auto;
+    width: 100%;
+    margin-bottom:10px;
+    min-height:120px;
+}
+.allGroup>img
+{
+border-radius:20px;
+}
+.pad2
+{
+    padding:10px 20px;
+   
 }
 
 .settingsSubsec {
@@ -3857,3 +3875,128 @@ background-color:#53ba9b;
 }
 /*material-switch End
 ----------------------------------*/
+.block-btn
+{
+    background-color: #ffd8d8;
+   display: block;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2px;
+	padding-bottom:17px;
+}
+.block-btn::after
+{
+  
+  content: "\26A0";
+  padding-left:15px;
+  color:red;
+  
+  
+
+}
+.border-0
+{
+    border: 0 !important;
+	
+	margin-top:20px;
+	margin-bottom:10px;
+	
+}
+.border-0 .boldtext
+{
+    padding-bottom: 20px;
+    
+}
+.border-0 img
+{
+    border-radius: 50%;
+    
+}
+.viewblock
+{
+   margin-bottom: 20px;
+}
+.blkusr
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.name-txt
+{
+    font-weight: bold;
+    //padding-left: 26px;
+    text-align:justify;
+	padding-bottom: 30px;
+    
+}
+
+.emprofile1
+{
+	
+	background-color:#eee;
+	padding:23px;
+}
+.profilename
+{
+	//margin-left:-36px;
+	font-weight:bold;
+	padding-left:0px;
+	
+	font-size:13px;
+	padding-top:6px;
+	display:inline;
+}
+.gcrcl
+{
+	margin-left: 6px;
+        background-color: #299229;
+        height:8px;
+        width:8px;
+        display:inline-block;
+        border-radius:30px;
+}
+.mainprofile
+{
+    margin-top:10px;
+    background-color:#eeeeee;
+    padding: 20px 20px 0 20px;
+}
+.mainimg
+{
+    border-radius: 100px;
+    height: 40px;
+}
+
+
+.gcrcloffline {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 30px;
+    display: inline;
+}
+
+.btng {
+    background-color: #ffd8d8;
+    display: block;
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 17px;
+	border:none;
+	 border-radius:2px;
+}
+.block-btn:hover
+{
+color:red;
+}
+.movetext
+ {
+  padding-left:17px;
+  
+}

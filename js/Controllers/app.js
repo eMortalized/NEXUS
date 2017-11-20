@@ -149,14 +149,13 @@ app.controller('messageController', ['$scope','$location', function ($scope,$loc
 
 app.controller('settingsController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){
-        return "slide";
+        return "none";
     }
     
     $scope.init = function () {
     }
-    
     angular.element(function () {
-        
+        renderElements();
     });
     $scope.init();
 }]);
