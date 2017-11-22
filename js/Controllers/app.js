@@ -46,6 +46,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         }).when('/media-gallery', {
             templateUrl: 'views/media-gallery.php',
             controller: 'mediagalleryController'
+        }).when('/search', {
+            templateUrl: 'views/search.php',
+            controller: 'searchController'
         }).when('/Story/:id', {
             templateUrl: 'viewBlog.html'
         }).otherwise({
@@ -67,6 +70,7 @@ app.controller('connectionsController', ['$scope','$location', function ($scope,
     });
     $scope.init();
 }]);
+
 
 app.controller('messageController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){
@@ -160,6 +164,18 @@ app.controller('settingsController', ['$scope','$location', function ($scope,$lo
     $scope.init();
 }]);
 
+app.controller('searchController', ['$scope','$location', function ($scope,$location) {
+    $scope.getTheClass = function (){
+        return "none";
+    }
+    
+    $scope.init = function () {
+    }
+    angular.element(function () {
+        renderElements();
+    });
+    $scope.init();
+}]);
 
 app.controller('familytreeController', ['$scope','$location', function ($scope,$location) {
     $scope.getTheClass = function (){

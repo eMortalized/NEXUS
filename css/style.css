@@ -483,6 +483,7 @@ textarea.form-control {
 select.form-control {
     padding:5px 8px;
     height:41.5px;
+	margin-bottom:20px;
 }
 
 .input-group .input-group-addon {
@@ -3969,7 +3970,13 @@ border-radius:20px;
     border-radius: 100px;
     height: 40px;
 }
-
+.mainimgshadow
+{
+    border-radius: 100px;
+    height: 40px;
+	
+    
+}
 
 .gcrcloffline {
     margin-left: 10px;
@@ -3999,4 +4006,77 @@ color:red;
  {
   padding-left:17px;
   
+}
+/*Search main Section
+----------------------------------*/
+
+.mainsearch
+{
+background:white;
+margin-top:65px;
+padding:20px;
+ border:1px solid #cccccc;
+
+}
+.searchtxt
+{
+    border-bottom: 2px solid #cccccc;
+	font-weight: bold;
+	padding-bottom:20px;
+	
+}
+@media only screen and (max-width: 768px) {
+    .andmove {
+		text-align:center;
+		padding-right:160px;
+		position: relative;
+    top: -20px;
+    }
+}
+
+.btn-sample { 
+  color: green; 
+ 
+  background:none;
+  border-color: 1px solid #FFFFFF; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #B5B5B5; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #1BBD94; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample .badge { 
+  color: #1BBD94; 
+ 
 }
